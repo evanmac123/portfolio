@@ -1,64 +1,43 @@
 <div class="home">
-  <!--<div class="home__background">
-    <video poster="" id="bgvid" class="js-bgvid" playsinline muted loop preload autoplay>
-      <source src="/assets/video/home-bg.mp4" type="video/mp4">
+  <!--
+    <video poster="" id="bgvid" class="home__background js-bgvid" playsinline muted preload autoplay>
+      <source src="/assets/video/background-vid2.mp4" type="video/mp4">
     </video>
-  </div>
--->
-<img class="home__background" src="/assets/images/background.jpg">
+  -->
 
+  <img src="/assets/images/background.jpg" class="home__background">
   <div class="body">
-  <div class="section home__title ">
-    <div class="container">
-        <div class="home__main-title js-animate">Creative Design</div><br>
-        <div class="home__main-title js-animate">Immersive Experiences</div>
-        <div class="home__description js-animate">A designer of eligant digital products. <br>
-        UX, Visual Design, Front End Development </div>
+    <div class="section home__title ">
+      <div class="container">
+          <div class="home__main-title js-animate"> {{ title }}Creative Design</div><br>
+          <div class="home__main-title js-animate">Immersive Experiences</div>
+          <div class="home__description js-animate">A designer of eligant digital products. <br>
+          UX, Visual Design, Front End Development </div>
+        </div>
+    </div>
+
+  {{ #home.cards }}
+    <div class="section">
+      <div class="container">
+        <div class="card {{ side }}">
+          <img class="card-img js-animate" src="{{ image }}">
+          <div class="card-info js-animate">
+            <div class="card-role">
+              {{ role }}
+            </div>
+            <div class="card-site js-animate">
+              {{ site }}
+            </div>
+          </div>
+          <div class="card-title js-animate">
+            {{ name }}
+          </div>
+          <div class="card-type js-animate">
+            {{ type }}
+            </div>
+          </div>
       </div>
-  </div>
-
-  <div class="section">
-    <div class="container">
-      <div class="card left">
-        <img class="card-img js-animate" src="/assets/images/cards/studentrabbit.png">
-        <div class="card-info js-animate">
-          <div class="card-role">
-            Project Lead
-          </div>
-          <div class="card-site js-animate">
-            www.studentrabbit.com
-          </div>
-        </div>
-        <div class="card-title js-animate">
-          Student Rabbit
-        </div>
-        <div class="card-type js-animate">
-          Front End Development, Branding, Web Design, UX
-        </div>
-          </div>
     </div>
+    {{/home.cards }}
   </div>
-
-  <div class="section">
-    <div class="container">
-      <div class="card right">
-        <img class="card-img js-animate" src="/assets/images/cards/studentrabbit.png">
-        <div class="card-info js-animate">
-          <div class="card-role">
-            Project Lead
-          </div>
-          <div class="card-site js-animate">
-            www.studentrabbit.com
-          </div>
-        </div>
-        <div class="card-title js-animate">
-          Student Rabbit
-        </div>
-        <div class="card-type js-animate">
-          Front End Development, Branding, Web Design, UX
-        </div>
-          </div>
-    </div>
-  </div>
-</div>
 </div>

@@ -1,8 +1,28 @@
 {
   "home" : {
     "slug" : "home",
-    "title" : "Home"
-  },
+    "title" : "Home",
+    "cards" : [
+      {
+        "name": "Student Rabbit",
+        "slug": "studentrabbit",
+        "image": "/assets/images/cards/studentrabbit.png",
+        "role":"Project Lead",
+        "type":"Front End Development, Branding, Web Design, UX",
+        "site":"www.studentrabbit.com",
+        "side":"right"
+      },
+      {
+        "name": "Bob",
+        "slug": "studentrabbit",
+        "image": "/assets/images/cards/studentrabbit.png",
+        "role":"Project Lead",
+        "type":"Front End Development, Branding, Web Design, UX",
+        "site":"www.studentrabbit.com",
+        "side":"left"
+      }
+  ]
+},
 
   "about" : {
     "slug" : "about",
