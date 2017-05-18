@@ -58,7 +58,7 @@
   .left{
     .card-info {
     text-align: right;
-    left: 4px;
+    left: 1px;
     }
 
     .card-title {
@@ -77,7 +77,7 @@
   .right{
    .card-info {
     text-align: left;
-    right: 4px;
+    right: 1px;
     }
 
     .card-title {
@@ -93,38 +93,65 @@
     }
   }
 
-  .card {
-    width: 100%;
-    z-index: 10;
-    padding: 30px 0;
-  }
+.card {
+  width: 100%;
+  z-index: 10;
+  padding: 30px 0;
+  display:block;
 
-  .card-info {
-    position: absolute;
-    mix-blend-mode: exclusion;
-    bottom: 147px;
-    width: 36%;
-    line-height: 21px;
-  }
+  &:hover {
+    .card-img{
+    }
 
-  .card-title {
-    font-size: 2.3em;
-    width: 38%;
-    bottom: 100px;
-    font-weight: 300;
-    position: absolute;
-    mix-blend-mode: exclusion;
-  }
+    &card-site:after {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
 
-  .card-type {
-    mix-blend-mode: exclusion;
-    bottom: -350px;
-    width: 100%;
-    font-family: 'Cardo', serif;
-  }
+    .card-info{
+    //bottom:157px;
+    }
 
-  .card-img {
-    width: 66%;
+    .card-title{
+  //  bottom: 110px;
+    }
+  }
+}
+
+.card-site:hover{
+  //display: inline-block;
+  //@include underline;
+}
+
+.card-info {
+  position: absolute;
+  mix-blend-mode: exclusion;
+  bottom: 147px;
+  width: 36%;
+  line-height: 21px;
+  transition: bottom .4s $ease-in-quint;
+}
+
+.card-title {
+  font-size: 2.3em;
+  width: 38%;
+  bottom: 100px;
+  font-weight: 300;
+  position: absolute;
+  mix-blend-mode: exclusion;
+  transition: bottom .4s $ease-in-quint;
+}
+
+.card-type {
+  mix-blend-mode: exclusion;
+  bottom: -360px;
+  width: 100%;
+  font-family: 'Cardo', serif;
+}
+
+.card-img {
+  width: 66%;
+
   }
 }
 

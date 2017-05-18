@@ -1,0 +1,16 @@
+<h1>{{name}}</h1>
+
+<div>
+{{#content}}
+  {{#text}}
+    {{{.}}}
+  {{/text}}
+  {{#img}}
+    <img src="{{.}}">
+  {{/img}}
+  {{#video}}
+    <video src="{{.}}" controls></video>
+  {{/video}}
+{{/content}}
+
+</div>

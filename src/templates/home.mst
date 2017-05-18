@@ -17,16 +17,18 @@
     </div>
 
   {{ #home.cards }}
+
     <div class="section">
       <div class="container">
+        <a href="work/{{slug}}">
         <div class="card {{ side }}">
-          <img class="card-img js-animate" src="{{ image }}">
+          <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
           <div class="card-info js-animate">
             <div class="card-role">
               {{ role }}
             </div>
             <div class="card-site js-animate">
-              {{ site }}
+              <a href="{{ site }}"> Final Product</a>
             </div>
           </div>
           <div class="card-title js-animate">
@@ -36,6 +38,7 @@
             {{ type }}
             </div>
           </div>
+          </a>
       </div>
     </div>
     {{/home.cards }}
