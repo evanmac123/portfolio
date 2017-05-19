@@ -1,46 +1,44 @@
 <div class="home">
-  <!--
+    <!--
     <video poster="" id="bgvid" class="home__background js-bgvid" playsinline muted preload autoplay>
       <source src="/assets/video/background-vid2.mp4" type="video/mp4">
     </video>
   -->
-
-  <img src="/assets/images/background.jpg" class="home__background">
-  <div class="body">
-    <div class="section home__title ">
-      <div class="container">
-          <div class="home__main-title js-animate"> {{ title }}Creative Design</div><br>
-          <div class="home__main-title js-animate">Immersive Experiences</div>
-          <div class="home__description js-animate">A designer of eligant digital products. <br>
-          UX, Visual Design, Front End Development </div>
+    <img src="/assets/images/background.jpg" class="home__background">
+    <div class="body">
+        <div class="section home__title ">
+            <div class="container">
+                <div class="home__main-title js-animate"> {{ title }}Creative Design</div><br>
+                <div class="home__main-title js-animate">Immersive Experiences</div>
+                <div class="home__description js-animate">A designer of eligant digital products. <br> UX, Visual Design, Front End Development </div>
+            </div>
         </div>
-    </div>
 
-  {{ #home.cards }}
+        {{ #home.cards }}
 
-    <div class="section">
-      <div class="container">
-        <a href="work/{{slug}}">
-        <div class="card {{ side }}">
-          <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
-          <div class="card-info js-animate">
-            <div class="card-role">
-              {{ role }}
+        <div class="section">
+            <div class="container">
+                <a href="work/{{slug}}">
+                    <div class="card {{ side }}">
+                        <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
+                        <div class="card-info js-animate">
+                            <div class="card-role">
+                                {{ role }}
+                            </div>
+                            <div class="card-site js-animate">
+                                <a href="{{ site }}"> Final Product</a>
+                            </div>
+                        </div>
+                        <div class="card-title js-animate">
+                            {{ name }}
+                        </div>
+                        <div class="card-type js-animate">
+                            {{ type }}
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="card-site js-animate">
-              <a href="{{ site }}"> Final Product</a>
-            </div>
-          </div>
-          <div class="card-title js-animate">
-            {{ name }}
-          </div>
-          <div class="card-type js-animate">
-            {{ type }}
-            </div>
-          </div>
-          </a>
-      </div>
+        </div>
+        {{/home.cards }}
     </div>
-    {{/home.cards }}
-  </div>
 </div>

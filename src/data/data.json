@@ -4,7 +4,7 @@
     "title" : "Home",
     "cards" : [
       {
-        "name": "Student Rabbit",
+        "name": "Student Rabbit:Best of all time",
         "slug": "studentrabbit",
         "image": "studentrabbit.png",
         "role": "Project Lead",
@@ -30,22 +30,74 @@
 },
 
 "work" : {
-  "studentrabbit" : {
-    "slug" : "studentrabbit",
-    "name" : "Student Rabbit",
-    "content": [
-      {
-        "text": "<h2>AHOPE</h2><p>AHOPE (Access, Harm Reduction, Overdose Prevention and Education) is a walk-in needle exchange program for active injection drug users located on Albany Street, in the same facility that is home to PAATHS.</p><p>The program provides integrated HIV, Hepatitis, and Sexually Transmitted Infection (STI) testing, free, legal, and anonymous needle exchange, referrals to HIV, Hepatitis, and STI treatment, overdose prevention education and training, risk reduction supplies to reduce the spread of infection, and risk reduction counseling.</p><p>Services are available at the walk-in center, Monday through Friday, or via mobile van and outreach sites around Boston.</p>"
-      }, {
-        "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yr4Ab7GzbFs\" frameborder=\"0\" allowfullscreen></iframe>"
-      }, {
-        "text": "<h2>PAATHS</h2><p>PAATHS (Providing Access to Addictions Treatment, Hope and Support) is a resource for individuals, families, community partners, and treatment providers who are directly affected by or work to prevent substance abuse disorders.</p><p>The staff at the Albany Street location assess an individual’s treatment needs, describes the types of treatment available, makes recommendations and referrals, facilitates access to different treatment programs, and connects clients to overdose prevention and risk reduction services -- all in collaboration with primary care providers and behavioral staff from emergency departments and primary care settings.</p><p>Individuals may access PAATHS walk-in services at the Albany Street location, on a first-come, first-served basis, and by hotline Monday through Friday.</p>"
+    "studentrabbit" : {
+      "name": "Student Rabbit",
+      "slug": "studentrabbit",
+      "image": "studentrabbit.png",
+      "role": "Project Lead",
+      "highlight":"#78CECF",
+      "type": "Front End Development, Branding, Web Design, UX",
+      "site": "www.studentrabbit.com",
+      "thesis":"How can we make buying and selling textbooks between students safe and simple?",
+      "overview":"In Fall of 2015 I was recruited by Scout, Northeastern’s Student Design Agency to head a team to redesign a Northeastern startup called Student Rabbit. StudentRabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a total redesign for the StudentRabbit brand and website that included brand guidelines, wireframes, high fidelity designs, and front-end development.",
+      "team": [
+        {
+          "role":"Designer",
+          "member":"Evan McEldowney"
+        },
+        {
+          "role":"Designer",
+          "member":"Evan McEldowney"
+        },
+        {
+          "role":"Designer",
+          "member":"Evan McEldowney"
+        },
+        {
+          "role":"Designer",
+          "member":"Evan McEldowney"
+        }
+      ],
+      "content":[
+        { "section":"Research",
+          "section-content": [
+          { "text": {
+              "side":"left",
+              "title":"start1",
+              "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process",
+              "title":"start2o",
+              "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
+
+              }
+          },
+          { "text": {
+              "side":"left",
+              "title":"Hello2",
+              "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
+            }
+          },
+           {
+            "content-image": "check.png"
+            },
+            { "text": {
+                "side":"left",
+                "title":"Hello2",
+                "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
+              }
+            }
+          ]
+        },
+        {"section":"Create",
+        "section-content": [
+
+        ]
       }
     ]
   },
-  "Kleo" : {
-    "slug" : "kleo",
-    "name" : "Kleo"
+
+    "Kleo" : {
+      "slug" : "kleo",
+      "name" : "Kleo"
     }
   }
 }
