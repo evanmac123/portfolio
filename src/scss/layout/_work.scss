@@ -51,19 +51,42 @@
   }
 
   &__show-header{
-    font-weight:700;
-    border-bottom: green;
-    margin:20px,0;
+    font-weight: 700;
+    border-bottom: 1px solid green;
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+
+  &__show-title{
+    font-weight: 400;
+    font-family: $font-sans;
+    color: $black;
+  }
+
+  &__show-description {
+    line-height: 1.35em;
+    font-family:$font-serif;
+  }
+
+  &__image-color{
+    background-color: #69C8C9;
+    text-align:center;
+    font-family: $font-serif;
+    color: $white;
+    width:100%;
+    padding: 30px 0;
+    img{
+      width:100%;
+      margin:10px 0;
+      @include shadow;
+    }
   }
 
   .content{
     line-height: 1.35em;
-    font-family:'Cardo',serif;
+    font-family: $font-serif;
+    color: $dark-grey;
   }
-
-
-
-
 
     .card {
       width: 100%;

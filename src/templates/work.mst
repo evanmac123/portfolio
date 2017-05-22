@@ -43,24 +43,18 @@
                             <div class="work__overview-label">
                                 Team
                             </div>
-                            <div class="row">
-                                {{#team}}
-                                <div class="work__overview-member column one-half">
-                                    <div class="work__overview-name">
-                                        {{ member }}
-                                    </div>
-                                    <div class="work__overview-role">
-                                        {{ role }}
-                                    </div>
-                                </div>
-                                {{/team}}
-                            </div>
+                        {{#team}}
+                            {{#split}}
+                              {{> split_part}}
+                            {{/split}}
+                        {{/team}}
+
                         </div>
                         <div class="work__overview-summary column one-half">
                             <div class="work__overview-label">
                                 Overview
                             </div>
-                            <div class="content ">
+                            <div class="content">
                                 {{ overview }}
                             </div>
                         </div>
@@ -70,39 +64,48 @@
         </div>
 
         <div class="section">
+
+
             {{#content}}
             <div class="work__show-header container">
                 {{section}}
             </div>
             {{#section-content}}
-                  {{#text}}
-                  <div class=" container">
-                    <div class="row">
-                      <div class="one-half column">
-                          <div class="work__overview-label">
-                              {{title}}
-                          </div>
-                          <div>
-                          {{words}}
-                          </div>
-                        </div>
-                      </div>
+
+              {{#text}}
+              <div class="work__show-content container">
+                <div class="row">
+                  <div class="one-half {{side}} column">
+                  {{> text_part}}
                   </div>
-                  {{/text}}
+                </div>
+              </div>
 
-                {{#content-image}}
-                
-                <img src="/assets/images/{{.}}">
-                {{/content-image}}
+              {{/text}}
 
-                 {{#video}}
-                <video src="{{.}}" controls></video>
-                {{/video}}
+              {{#image}}
+                {{> image_part}}
+              {{/image}}
 
+              {{#color}}
+                {{> color_part}}
+              {{/color}}
+
+              {{#split}}
+              <div class="work__show-content container">
+                {{> split_part}}
+              </div>
+              {{/split}}
+
+
+              {{#video}}
+              <div class="work__show-content container">
+                {{> video_part}}
+              </div>
+              {{/video}}
 
             {{/section-content}}
           {{/content}}
         </div>
     </div>
-</div>
 </div>

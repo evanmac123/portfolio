@@ -1,4 +1,71 @@
 {
+
+"work" : {
+      "studentrabbit" : {
+        "name": "Student Rabbit",
+        "slug": "studentrabbit",
+        "image": "studentrabbit.png",
+        "role": "Project Lead",
+        "highlight":"#78CECF",
+        "type": "Front End Development, Branding, Web Design, UX",
+        "site": "www.studentrabbit.com",
+        "thesis":"How can we make buying and selling textbooks between students safe and simple?",
+        "team": [
+          { "split": {
+              "left":{
+                "title":"My name is Kevin",
+                "description":"cats"
+              },
+              "right":{
+                "title":"My name is evan",
+                "description":"cats"
+              }
+            },
+            "split": {
+                "left":{
+                  "title":"My name is Kevin",
+                  "description":"cats"
+                },
+                "right":{
+                  "title":"My name is evan",
+                  "description":"cats"
+                }
+              }
+            }
+        ],
+        "overview":"In Fall of 2015 I was recruited by Scout, Northeastern’s Student Design Agency to head a team to redesign a Northeastern startup called Student Rabbit. StudentRabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a total redesign for the StudentRabbit brand and website that included brand guidelines, wireframes, high fidelity designs, and front-end development.",
+        "content":[
+          { "section":"Research",
+            "section-content": [
+              { "text": {
+                  "side":"offset-by-one-half",
+                  "title":"",
+                  "description": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
+                  }
+              },
+              { "color":{
+                "src":"/assets/images/studentrabbit/sitemap.png",
+                "description": "Site Map of problem areas"
+                }
+              }
+            ]
+          },
+          {"section":"Create",
+            "section-content": [
+              { "image": {
+                "src":"/assets/images/cards/kleo.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Kleo" : {
+      "slug" : "kleo",
+      "name" : "Kleo"
+    }
+  },
+
   "home" : {
     "slug" : "home",
     "title" : "Home",
@@ -27,77 +94,6 @@
 "about" : {
   "slug"  : "about",
   "title" : "About"
-},
+}
 
-"work" : {
-    "studentrabbit" : {
-      "name": "Student Rabbit",
-      "slug": "studentrabbit",
-      "image": "studentrabbit.png",
-      "role": "Project Lead",
-      "highlight":"#78CECF",
-      "type": "Front End Development, Branding, Web Design, UX",
-      "site": "www.studentrabbit.com",
-      "thesis":"How can we make buying and selling textbooks between students safe and simple?",
-      "overview":"In Fall of 2015 I was recruited by Scout, Northeastern’s Student Design Agency to head a team to redesign a Northeastern startup called Student Rabbit. StudentRabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a total redesign for the StudentRabbit brand and website that included brand guidelines, wireframes, high fidelity designs, and front-end development.",
-      "team": [
-        {
-          "role":"Designer",
-          "member":"Evan McEldowney"
-        },
-        {
-          "role":"Designer",
-          "member":"Evan McEldowney"
-        },
-        {
-          "role":"Designer",
-          "member":"Evan McEldowney"
-        },
-        {
-          "role":"Designer",
-          "member":"Evan McEldowney"
-        }
-      ],
-      "content":[
-        { "section":"Research",
-          "section-content": [
-          { "text": {
-              "side":"left",
-              "title":"start1",
-              "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process",
-              "title":"start2o",
-              "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
-
-              }
-          },
-          { "text": {
-              "side":"left",
-              "title":"Hello2",
-              "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
-            }
-          },
-           {
-            "content-image": "check.png"
-            },
-            { "text": {
-                "side":"left",
-                "title":"Hello2",
-                "words": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
-              }
-            }
-          ]
-        },
-        {"section":"Create",
-        "section-content": [
-
-        ]
-      }
-    ]
-  },
-
-    "Kleo" : {
-      "slug" : "kleo",
-      "name" : "Kleo"
-    }
-  }
 }

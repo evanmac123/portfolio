@@ -90,6 +90,10 @@ module.exports = {
       src: src+'templates/**/*.mst',
       dest: build+'templates/'
     },
+    partials: {
+      src: src+'templates/**/*.mst',
+      dest: build+'templates/'
+    },
     htaccess: {
       src: src+'.htaccess',
       dest: build

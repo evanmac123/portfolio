@@ -1,0 +1,22 @@
+<div class="row">
+        <div class="one-half column">
+        {{#left}}
+          {{#src}}
+            {{> image_part}}
+          {{/src}}
+          {{^src}}
+           {{> text_part}}
+          {{/src}}
+        {{/left}}
+        </div>
+    <div class="one-half column">
+      {{#right}}
+        {{#src}}
+          {{> image_part }}
+        {{/src }}
+        {{^src }}
+         {{> text_part}}
+        {{/src}}
+      {{/right}}
+      </div>
+</div>

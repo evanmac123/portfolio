@@ -1,0 +1,7 @@
+<div class="work__show-title">
+  {{ title }}
+  </div>
+
+  <div class="work_show-description content">
+  {{ description }}
+</div>
