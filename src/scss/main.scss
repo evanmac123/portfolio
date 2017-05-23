@@ -25,6 +25,10 @@
   font-size:1.3em;
 }
 
+.card-site{
+  @include underline; 
+}
+
 .section{
   width:100%;
   position: relative;

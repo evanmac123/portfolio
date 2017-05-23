@@ -54,15 +54,15 @@
   .left{
     .card-info {
     text-align: right;
-    left: 1px;
+    left: -4px;
     }
 
     .card-title {
-      left: 70px;
+
       text-align: right;
     }
     .card-type {
-      left: 0;
+
       text-align: right;
     }
     .card-img {
@@ -73,15 +73,15 @@
   .right{
    .card-info {
     text-align: left;
-    right: 1px;
+    right: 4px;
     }
 
     .card-title {
-      right: 70px;
+
       text-align: left;
     }
     .card-type {
-      right: 0;
+
       text-align: left;
     }
     .card-img {
@@ -104,13 +104,7 @@
       transform: scaleX(1);
     }
 
-    .card-info{
-    //bottom:157px;
-    }
 
-    .card-title{
-  //  bottom: 110px;
-    }
   }
 }
 
@@ -123,17 +117,17 @@
   position: absolute;
   mix-blend-mode: exclusion;
   bottom: 147px;
-  width: 36%;
+  width: 33%;
   line-height: 21px;
   transition: bottom .4s $ease-in-quint;
 }
 
 .card-title {
   font-size: 2.3em;
-  width: 38%;
+  width: 100%;
   bottom: 100px;
+  line-height: 1.1em;
   font-weight: 300;
-  position: absolute;
   mix-blend-mode: exclusion;
   transition: bottom .4s $ease-in-quint;
 }

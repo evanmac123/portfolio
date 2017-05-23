@@ -8,13 +8,13 @@
     <div class="body">
         <div class="section home__title ">
             <div class="container">
-                <div class="home__main-title js-animate"> {{ title }}Creative Design</div><br>
+                <div class="home__main-title js-animate">Creative Design</div><br>
                 <div class="home__main-title js-animate">Immersive Experiences</div>
                 <div class="home__description js-animate">A designer of eligant digital products. <br> UX, Visual Design, Front End Development </div>
             </div>
         </div>
 
-        {{ #home.cards }}
+        {{#cards }}
 
         <div class="section">
             <div class="container">
@@ -26,11 +26,11 @@
                                 {{ role }}
                             </div>
                             <div class="card-site js-animate">
-                                <a href="{{ site }}"> Final Product</a>
+                                <a href="{{ site }}"> {{ product }}</a>
                             </div>
-                        </div>
                         <div class="card-title js-animate">
                             {{ name }}
+                        </div>
                         </div>
                         <div class="card-type js-animate">
                             {{ type }}
@@ -39,6 +39,6 @@
                 </a>
             </div>
         </div>
-        {{/home.cards }}
+        {{/cards }}
     </div>
 </div>
