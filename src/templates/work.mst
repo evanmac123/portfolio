@@ -1,5 +1,5 @@
 <div class="work">
-    <div class="work__header">
+    <div class="work__header" style="color:{{highlight}};">
         <div class="section">
             <div class="container">
                 <div class="card left">
@@ -7,8 +7,8 @@
                         <div class="card-role">
                             {{ role }}
                         </div>
-                        <div class="card-site js-animate">
-                            <a href="{{ site }}"> Final Product</a>
+                        <div class="card-site js-animate" >
+                            <a href="{{ site }}" style="color:{{highlight}};"> Final Product</a>
                         </div>
                         <div class="card-title js-animate">
                             {{ name }}
@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="work__overview ">
                     <div class="work__overview-problem row">
-                        <div class="work__overview-label">
+                        <div class="work__overview-label" style="color:{{highlight}};">
                             Problem
                         </div>
                         <div class="work__overview-thesis">
@@ -40,7 +40,7 @@
                     </div>
                     <div class="row">
                         <div class="work__overview-team column one-half">
-                            <div class="work__overview-label">
+                            <div class="work__overview-label" style="color:{{highlight}};">
                                 Team
                             </div>
                         {{#team}}
@@ -51,7 +51,7 @@
 
                         </div>
                         <div class="work__overview-summary column one-half">
-                            <div class="work__overview-label">
+                            <div class="work__overview-label" style="color:{{highlight}};">
                                 Overview
                             </div>
                             <div class="content">
@@ -67,45 +67,62 @@
 
 
             {{#content}}
-            <div class="work__show-header container">
+            <div class="container">
+              <div class="work__show-header" style="border-bottom: 1.5px solid {{highlight}};">
                 {{section}}
+              </div>
             </div>
             {{#section-content}}
 
               {{#text}}
-              <div class="work__show-content container">
-                <div class="row">
-                  <div class="one-half {{side}} column">
+              <div class="container">
+                <div class="row work__show-content ">
+                  <div class="one-half text {{side}} column">
                   {{> text_part}}
                   </div>
                 </div>
               </div>
-
               {{/text}}
 
-              {{#image}}
-                {{> image_part}}
-              {{/image}}
 
               {{#color}}
-                {{> color_part}}
+                <div class="work__image-color" style="background-color:{{highlight}};">
+                  <div class="container">
+                  {{> color_part}}
+                </div>
+              </div>
               {{/color}}
 
+              {{#imagecontain}}
+
+                  {{> imagecontain_part}}
+              {{/imagecontain}}
+
               {{#split}}
-              <div class="work__show-content container">
+                  <div class="container">
                 {{> split_part}}
-              </div>
+                </div>
               {{/split}}
+
+              {{#image}}
+                  {{#src}}
+                {{> image_part}}
+                  {{/src}}
+              {{/image}}
 
 
               {{#video}}
-              <div class="work__show-content container">
+              <div class="work__show-content">
                 {{> video_part}}
               </div>
               {{/video}}
 
             {{/section-content}}
           {{/content}}
+
+          <div class="work__final">
+            <a href="http://{{site}}" style="color:{{highlight}}">{{site}}</a>
+          </div>
         </div>
     </div>
 </div>

@@ -10,7 +10,6 @@ class Work extends Default {
 	constructor(opt) {
 
 		super(opt)
-
 		this.slug = 'work'
     this.route = null
 	}
@@ -21,9 +20,7 @@ class Work extends Default {
 	}
 
 	ready(done) {
-
 		super.ready()
-
 		done()
 	}
 

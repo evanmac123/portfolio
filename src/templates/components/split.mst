@@ -1,14 +1,15 @@
-<div class="row">
-        <div class="one-half column">
-        {{#left}}
-          {{#src}}
-            {{> image_part}}
-          {{/src}}
-          {{^src}}
-           {{> text_part}}
-          {{/src}}
-        {{/left}}
-        </div>
+
+<div class="row work__show-content">
+    <div class="one-half column">
+            {{#left}}
+              {{#src}}
+                {{> image_part}}
+              {{/src}}
+              {{^src}}
+               {{> text_part}}
+              {{/src}}
+            {{/left}}
+    </div>
     <div class="one-half column">
       {{#right}}
         {{#src}}

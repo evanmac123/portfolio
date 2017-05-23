@@ -8,7 +8,7 @@
         "role": "Project Lead",
         "highlight":"#78CECF",
         "type": "Front End Development, Branding, Web Design, UX",
-        "site": "www.studentrabbit.com",
+        "site": "www.studentrabbit.com/",
         "thesis":"How can we make buying and selling textbooks between students safe and simple?",
         "team": [
           { "split": {
@@ -35,27 +35,89 @@
         ],
         "overview":"In Fall of 2015 I was recruited by Scout, Northeastern’s Student Design Agency to head a team to redesign a Northeastern startup called Student Rabbit. StudentRabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a total redesign for the StudentRabbit brand and website that included brand guidelines, wireframes, high fidelity designs, and front-end development.",
         "content":[
-          { "section":"Research",
+          { "section":"1 Research",
             "section-content": [
               { "text": {
-                  "side":"offset-by-one-half",
+                  "side":"",
                   "title":"",
                   "description": "We began our process by doing in depth interviews with our client to understand their brand and the concept of their business. We also did research into their competition to see how we might leverage their solutions so solve problems.We began to understand that the major tasked we were faced with was condensing and simplifying the lengthy buying and selling process"
                   }
               },
               { "color":{
-                "src":"/assets/images/studentrabbit/sitemap.png",
+                "src":"studentrabbit/sitemap.png",
                 "description": "Site Map of problem areas"
                 }
+              },
+              { "text": {
+                  "side":"",
+                  "title":"1.1 User Experience and Testing",
+                  "description": "We mapped out the site and determined all the possible decisions and states that the user could be in. We then tested the site with twenty users to get a good understanding of what the major problem areas were in the site. The interviews led us to focus on providing the user with context on where they were in the buying or selling process and simplifying this process into the streamline version possible. "
+                  }
               }
             ]
           },
-          {"section":"Create",
+          {"section":"2 Create",
             "section-content": [
-              { "image": {
-                "src":"/assets/images/cards/kleo.png"
+              { "text": {
+                  "side":"offset-by-one-half",
+                  "title":"2.1 Wireframes",
+                  "description": "Using simple wireframes we mapped out a new user flow and new functionality to solve the major pain points of the site. We designed a safe system for students to make offers, message to meet up, and finally deliver textbooks in person."
+                  }
+              },
+              { "color":{
+                "src":"studentrabbit/flow.png",
+                "description": "Buying a Book Flow"
+                }
+              },
+              { "color":{
+                "src":"studentrabbit/wireframes.png",
+                "description": "Wireframes of Home and Dashboard"
+                }
+              },
+              { "split":{
+                  "left":{
+                    "title":"2.2 Branding and Iconography",
+                    "description":"To rebrand Student Rabbit we started with some basic exercises with the client to better understand the values of the company. We centered the brand around the adjectives youthful, connective, professional, reactive, and playful and created a logo mark, color palette, and icons that reflected this. "
+                  },
+                  "right":{
+                    "src":"studentrabbit/logo.png"
+                  }
+                }
+              },
+              { "split":{
+                  "left":{
+                    "src":"studentrabbit/explain.png"
+                  },
+                  "right":{
+                    "src":"studentrabbit/icons.png"
+                  }
+                }
+              },
+              { "text": {
+                  "side":"offset-by-one-half",
+                  "title":"2.3 High Fidelity Designs",
+                  "description": "With our brand and flow set we designed the user interface of each page needed on the site. We would use orange and blue to help distinguish the buying and selling processes and custom created icons to give context to actions and explain how the process worked."
+                  }
+              },
+              { "color":{
+                "src":"studentrabbit/highfidelity.png",
+                "description": "Buying a Book Flow"
+                }
               }
+          ]
+        },
+        {"section":"3 Impliment",
+          "section-content": [
+            { "text": {
+                "side":"offset-by-one-half",
+                "title":"2.1 Wireframes",
+                "description": "Using simple wireframes we mapped out a new user flow and new functionality to solve the major pain points of the site. We designed a safe system for students to make offers, message to meet up, and finally deliver textbooks in person."
+                }
+            },
+            {"imagecontain": {
+                "src":"studentrabbit/screen.png"
             }
+          }
           ]
         }
       ]
