@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="card-image">
-                        <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
+                        <img class="card-img js-animate" src="/assets/images/cards/{{ card }}">
                         <div class="card-type js-animate">
                             {{ type }}
                         </div>
@@ -125,4 +125,26 @@
           </div>
         </div>
     </div>
+
+
+    <div class="project-nav row">
+       <a class="project-nav__left js-project-nav-link" data-direction="previous" href="/work/{{ prev.slug }}">
+          <img class="project-nav__img project-nav__img--prev js-previous-project" src="/assets/images/cards/{{ prev.hero }}">
+           <!--  <div class="project-nav__inner">
+           <div class="project-nav__label">Previous</div>
+           <div class="project-nav__title">{{ prev.title }}</div>
+         </div>-->
+       </a>
+
+       <a class="project-nav__right js-project-nav-link" data-direction="next" href="/work/{{ next.slug }}">
+         <img class="project-nav__img project-nav__img--prev js-next-project" src="/assets/images/cards/{{ next.hero }}">
+          <!--
+         <div class="project-nav__inner">
+           <div class="project-nav__label">Next</div>
+           <div class="project-nav__title">{{ next.title }}</div>
+         </div>
+       -->
+       </a>
+   </div>
+
 </div>

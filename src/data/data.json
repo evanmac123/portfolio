@@ -4,24 +4,25 @@
       "studentrabbit" : {
         "name": "Student Rabbit",
         "slug": "studentrabbit",
-        "image": "studentrabbit.png",
+        "card": "studentrabbit.png",
         "role": "Project Lead",
         "highlight":"#78CECF",
         "type": "Front End Development, Branding, Web Design, UX",
-        "site": "www.studentrabbit.com/",
+        "site": "www.studentrabbit.com",
         "thesis":"How can we make buying and selling textbooks between students safe and simple?",
         "team": [
           { "split": {
               "left":{
-                "title":"My name is Kevin",
-                "description":"cats"
+                "title":"My name is BIll",
+                "description":"eees"
               },
               "right":{
-                "title":"My name is evan",
+                "title":"My name is JOen",
                 "description":"cats"
               }
-            },
-            "split": {
+            }
+          },
+            {"split": {
                 "left":{
                   "title":"My name is Kevin",
                   "description":"cats"
@@ -123,10 +124,73 @@
       ]
     },
     "Kleo" : {
-      "slug" : "kleo",
-      "name" : "Kleo"
-    }
+        "name": "Student Rabbit",
+        "slug": "studentrabbit",
+        "card": "studentrabbit.png",
+        "role": "Project Lead",
+        "highlight":"#78CECF",
+        "type": "Front End Development, Branding, Web Design, UX",
+        "site": "www.studentrabbit.com",
+        "thesis":"How can we make buying and selling textbooks between students safe and simple?",
+        "team": [
+          { "split": {
+              "left":{
+                "title":"My name is Kevin",
+                "description":"cats"
+              },
+              "right":{
+                "title":"My name is evan",
+                "description":"cats"
+              }
+            },
+            "split": {
+                "left":{
+                  "title":"My name is Kevin",
+                  "description":"cats"
+                },
+                "right":{
+                  "title":"My name is evan",
+                  "description":"cats"
+                }
+              }
+            }
+        ]
+      },
+      "tinyeye" : {
+          "name": "Student Rabbit",
+          "slug": "studentrabbit",
+          "card": "kleo.png",
+          "role": "Project Lead",
+          "highlight":"#78CECF",
+          "type": "Front End Development, Branding, Web Design, UX",
+          "site": "www.studentrabbit.com",
+          "thesis":"How can we make buying and selling textbooks between students safe and simple?",
+          "team": [
+            { "split": {
+                "left":{
+                  "title":"My name is Kevin",
+                  "description":"cats"
+                },
+                "right":{
+                  "title":"My name is evan",
+                  "description":"cats"
+                }
+              },
+              "split": {
+                  "left":{
+                    "title":"My name is Kevin",
+                    "description":"cats"
+                  },
+                  "right":{
+                    "title":"My name is evan",
+                    "description":"cats"
+                  }
+                }
+              }
+          ]
+        }
   },
+
 
   "home" : {
     "slug" : "home",

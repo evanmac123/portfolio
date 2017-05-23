@@ -153,6 +153,48 @@
       margin:2em 0;
       width:100%;
       text-align:center;
+      font-size:2em;
+    }
+
+    .project-nav{
+      height:500px;
+      &__nav{
+
+      }
+
+      &__right{
+        width:50%;
+        position: absolute;
+        right:-30px;
+      }
+
+      &__left{
+        width:50%;
+        position: absolute;
+        left:-30px;
+      }
+
+      &__inner{
+
+      }
+
+      &__label{
+
+      }
+
+      &__title{
+
+      }
+
+      &__img{
+        width:100%;
+        display:block;
+        @include shadow;
+
+      }
+
+
+
     }
 
 }
