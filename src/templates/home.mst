@@ -1,14 +1,12 @@
 <div class="home">
-    <!--
-    <video poster="" id="bgvid" class="home__background js-bgvid" playsinline muted preload autoplay>
-      <source src="/assets/video/background-vid2.mp4" type="video/mp4">
+
+    <video poster="" src="/assets/video/back2.mp4"  id="bgvid" preload="auto"  class="home__background js-bgvid" playsinline autoplay muted preload>
     </video>
-  -->
-    <img src="/assets/images/background.jpg" class="home__background">
+
     <div class="body">
         <div class="section home__title ">
             <div class="container">
-                <div class="home__main-title js-animate">Creative Design</div><br>
+                <div class="home__main-title js-animate">Creative Digital Design</div><br>
                 <div class="home__main-title js-animate">Immersive Experiences</div>
                 <div class="home__description js-animate">A designer of eligant digital products. <br> UX, Visual Design, Front End Development </div>
             </div>
@@ -26,7 +24,7 @@
                                 {{ role }}
                             </div>
                             <div class="card-site js-animate">
-                                <a href="{{ site }}"> {{ product }}</a>
+                                <a href="{{ site }}" target="_blank"> {{ product }}</a>
                             </div>
                         <div class="card-title js-animate">
                             {{ name }}

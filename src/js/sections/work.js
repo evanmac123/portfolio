@@ -24,6 +24,7 @@ class Work extends Default {
 		done()
 	}
 
+
 	animateIn(req, done) {
 
 		classes.add(config.body, `is-${this.slug}`)
@@ -48,6 +49,11 @@ class Work extends Default {
 
 		tl.to(this.page, 1, { autoAlpha: 0 })
 		tl.restart()
+	}
+
+	resize(width, height) {
+		const attrs = { width: width, height: height }
+		this.ui.iframe.forEach(iframe => iframe && Object.assign(iframe, attrs))
 	}
 
 	destroy(req, done) {

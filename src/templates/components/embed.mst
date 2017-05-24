@@ -1,0 +1,3 @@
+<div class="work__show-color" style="background-color:{{ highlight }};">
+    <iframe width="438" height="930" style="transform: scale(0.7)"  src="{{ src }}" frameBorder='0' seamless='seamless'></iframe>
+</div>

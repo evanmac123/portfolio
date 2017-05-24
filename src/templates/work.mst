@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="card-image">
-                        <img class="card-img js-animate" src="/assets/images/cards/{{ card }}">
+                        <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
                         <div class="card-type js-animate">
                             {{ type }}
                         </div>
@@ -74,6 +74,8 @@
             </div>
             {{#section-content}}
 
+          <div class="work__block">
+
               {{#text}}
               <div class="container">
                 <div class="row work__show-content ">
@@ -86,7 +88,7 @@
 
 
               {{#color}}
-                <div class="work__image-color" style="background-color:{{highlight}};">
+                <div class="work__show-color" style="background-color:{{highlight}};">
                   <div class="container">
                   {{> color_part}}
                 </div>
@@ -94,13 +96,12 @@
               {{/color}}
 
               {{#imagecontain}}
-
                   {{> imagecontain_part}}
               {{/imagecontain}}
 
               {{#split}}
                   <div class="container">
-                {{> split_part}}
+                  {{> split_part}}
                 </div>
               {{/split}}
 
@@ -110,13 +111,15 @@
                   {{/src}}
               {{/image}}
 
+              {{#embed}}
+                {{> embed_part}}
+              {{/embed}}
 
               {{#video}}
-              <div class="work__show-content">
                 {{> video_part}}
-              </div>
               {{/video}}
-
+              
+            </div>
             {{/section-content}}
           {{/content}}
 

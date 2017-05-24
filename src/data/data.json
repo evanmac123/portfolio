@@ -4,7 +4,7 @@
       "studentrabbit" : {
         "name": "Student Rabbit",
         "slug": "studentrabbit",
-        "card": "studentrabbit.png",
+        "image": "studentrabbit.png",
         "role": "Project Lead",
         "highlight":"#78CECF",
         "type": "Front End Development, Branding, Web Design, UX",
@@ -14,23 +14,23 @@
         "team": [
           { "split": {
               "left":{
-                "title":"My name is BIll",
-                "description":"eees"
+                "title":"Evan McEldowney",
+                "description":"Project Lead"
               },
               "right":{
-                "title":"My name is JOen",
-                "description":"cats"
+                "title":"Vendela Larsson",
+                "description":"Designer"
               }
             }
           },
             {"split": {
                 "left":{
-                  "title":"My name is Kevin",
-                  "description":"cats"
+                  "title":"Alex Morris",
+                  "description":"Designer"
                 },
                 "right":{
-                  "title":"My name is evan",
-                  "description":"cats"
+                  "title":"Christina Spleen",
+                  "description":"Develop"
                 }
               }
             }
@@ -125,42 +125,175 @@
       ]
     },
     "Kleo" : {
-        "name": "Student Rabbit",
-        "slug": "studentrabbit",
-        "card": "studentrabbit.png",
-        "role": "Project Lead",
-        "highlight":"#78CECF",
-        "type": "Front End Development, Branding, Web Design, UX",
-        "site": "www.studentrabbit.com",
-        "thesis":"How can we make buying and selling textbooks between students safe and simple?",
-        "team": [
-          { "split": {
+      "name": "Kleo: Accessable Tours",
+      "slug": "kleo",
+      "image": "kleo.png",
+      "role": "User Experience Designer",
+      "type": "Branding, UX, App Design",
+      "product":"Invision Prototype",
+      "site": "https://invis.io/Z59BUUBA4",
+      "thesis":"How can we create a meaningful experience between art and museum visitors?",
+      "highlight":"#6118D4",
+      "team": [
+        { "split": {
+            "left":{
+              "title":"Evan McEldowney",
+              "description":"Project Lead"
+            },
+            "right":{
+              "title":"Alice Young",
+              "description":"Developer"
+            }
+          }
+        },
+          {"split": {
               "left":{
-                "title":"My name is Kevin",
-                "description":"cats"
+                "title":"Beatrice Huang",
+                "description":"Developer"
               },
               "right":{
-                "title":"My name is evan",
-                "description":"cats"
-              }
-            },
-            "split": {
-                "left":{
-                  "title":"My name is Kevin",
-                  "description":"cats"
-                },
-                "right":{
-                  "title":"My name is evan",
-                  "description":"cats"
-                }
+                "title":"Emily O'Brien",
+                "description":"Designer"
               }
             }
+          },
+            {"split": {
+                "left":{
+                  "title":"Amanda Pinsker",
+                  "description":"Designer"
+                },
+                "right":{
+                  "title":"",
+                  "description":""
+                }
+              }
+          }
+      ],
+      "overview":"Museums can be overwhelming and pedagogical, often leading to poor user experiences. Visitors, especially novice visitors, are hard pressed to take meaning from museums, find the specific path they should take, and see how art relates to them. My Northeastern Interaction Senior Capstone team built Kleo to create a memorable and accessible experience that creates interest and conversations between novice visitors and the museum itself. We bridged physical and digital tools to provide a smart phone tour application that allows for customization, contextualization, and easy navigation in a user’s museum experience",
+      "content":[
+        { "section":"1 Research",
+          "section-content": [
+            { "text": {
+                "side":"",
+                "title":"",
+                "description": "We began our efforts by taking a month to dig into past research that had been done on museum design and attendance while conducting in person interviews of visitors and employees at museums. After looking at practices and research from across the field we began to get an understanding of the major problems that museums and visitors were faced with."
+                }
+            },
+            { "imagecontain":{
+              "src":"kleo/research.png"
+              }
+            },
+            {"split": {
+                "left":{
+                  "title":"1.1 Empathy",
+                  "description": "We then created empathy maps to understand and organize some of the findings obtained from our interviews and step into the mind of tourists, museum staff, curators, educators, and students."
+                },
+                "right":{
+                  "src":"kleo/empathy.png"
+                }
+              }
+            },
+            {"split": {
+                "left":{
+                  "src":"kleo/howmightwe.png"
+                },
+                "right":{
+                  "title":"1.2 Framing the Problem",
+                  "description": "We decided to focus on the novice museum goer as our main audience and distilled their maps into specific questions that would be answer by our product.We then brainstormed different ways we could use physical or digital tools to solve these questions for our audience.<br><br><bold>How Might We</bold><ul><li>bridge the gap between physical and digital?</li><li>support different interests of different visitors?</li><li>support flexible decision making?</li><li>create emotional/personal connections? <li>add context to the content?</li></li><li>encourage sharing</li></ul>"
+                }
+              }
+            },
+            {"text":{
+                  "title":"1.3 Partnerships",
+                  "side":"",
+                  "description": "After this we conducted interviews with museum staff and educators to get feedback on our findings and also began to look for a partnership with a museum that would help us execute on some of our ideas. At this point in our process, we were considering many avenues for a final product and deciding whether we wanted to partner with a local museum, use a space at Northeastern, or create a pop-up museum that explored our ideas. We were originally most interested in the Boston Museum of Fine Art due to its proximity, traditional space, large collection, and it was a good example of the problems we identified."
+                }
+              },
+              { "imagecontain":{
+                "src":"kleo/partner.png"
+                }
+              },
+              {"text":{
+                  "title":"1.4 Product",
+                  "side":"offset-by-one-half",
+                  "description": "After talking with the MFA we found that working them would be extremely hard due to the museums current initiatives. Without control over a physical space decided to pursue a mobile application that we would give us more freedom and flexibility in creating the experience we wanted without having to deal with bureaucracy, outdated technology, and inability to iterate fast. Luckily the Harvard Art Museum was willing to partner with us and let us use their API and space to begin to development on a Museum Tour Application that allowed for customization, contextualization, and easy navigation in a user’s museum experience."
+                }
+            }
+          ]
+        },
+        {"section":"2 Create",
+          "section-content": [
+            { "text": {
+                "side":"",
+                "title":"",
+                "description": "Our team began to design the features and functionality of the tour application directly from the research and the exercises we had conducted at the beginning of the project and used our how might we statements to frame each decision."
+                }
+            },
+            { "color":{
+              "src":"kleo/sitemap.png",
+              "description": "Sitemap of App"
+              }
+            },
+            { "color":{
+              "src":"kleo/wireframes.png",
+              "description": "Wireframes the apps major features"
+              }
+            },
+
+            { "text": {
+                "side":"",
+                "title":"2.2 Invision Prototype",
+                "description": "After testing and iterating on our wireframes we finalized our features and built out a fully fleshed out prototype on Invision to test with visitors and to help our developers in creating the application."
+                }
+            },
+            { "embed":{
+              "src":"//invis.io/XF9CGTCG5"
+              }
+            },
+            {"split": {
+                "title":"2.3 Wander Mode",
+                "description": "Wander Mode was my brain child and it came to me after testing the app repeatedly and seeing the amount of time visitors were looking at their phone. I became interested in how we could create the same experience and information without the phone detracting from the art itself."
+                },
+                "right":{
+                  "title":"",
+                  "description": "Using IBeacon technology wander mode gives the user the freedom to move around a museum anyway they want to but gives them context to each gallery they enter and each piece they want to hear more about. When entering into a gallery the user is read the museums room description and immersed in music from the time period. If a user chooses they can walk up to a piece and use voice commands to hear more about a piece or save in their collection. The content is pulled directly from the API and would need minimal curation from the museum itself."
+                }
+            },
+            {"video": {
+                "src":"218838157"
+            }
+          }
         ]
       },
+      {"section":"3 Impliment",
+        "section-content": [
+          {"split": {
+              "left":{
+              "title":"2.3 Development and Awards",
+              "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself. We were able to create location based content that worked real time when moving around the galleries of the Harvard Art Museum."
+              },
+              "right":{
+                "title":"",
+                "description": "Partnering with Harvard Art Museum made our prototype museum specific but the research, design, and experience of our app has the potential to change how visitors and museum administrators view and use digital tools in the future. <br><br>We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities."
+              }
+            }
+          },
+          {"imagecontain":{
+            "src":"kleo/award.png"
+            }
+          },
+          {"video": {
+              "src":"218838292"
+          }
+        }
+        ]
+      }
+    ]
+  },
       "tinyeye" : {
           "name": "Student Rabbit",
           "slug": "studentrabbit",
-          "card": "kleo.png",
+          "image": "kleo.png",
           "role": "Project Lead",
           "highlight":"#78CECF",
           "type": "Front End Development, Branding, Web Design, UX",
@@ -192,8 +325,7 @@
         }
   },
 
-
-  "home" : {
+"home" : {
     "slug" : "home",
     "title" : "Home",
     "cards" : [
@@ -204,7 +336,7 @@
         "role": "Project Lead",
         "type": "Front End Development, Branding, Web Design, UX",
         "product": "www.studentrabbit.com",
-        "site": "https://www.studentrabbit.com",
+        "site": "http://www.studentrabbit.com/#/",
         "side": "right"
       },
       {

@@ -1,1 +1,8 @@
-<video src="{{ src }}" controls></video>
+<iframe
+  class="js-iframe"
+  src="https://player.vimeo.com/video/{{src}}"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen>
+</iframe>

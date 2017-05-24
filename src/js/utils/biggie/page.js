@@ -33,8 +33,8 @@ if (!cache[id]) {
         const next = current === keys.length - 1 ? 0 : current + 1
         const nextProject = works[keys[next]]
         const prevProject = works[keys[prev]]
-        const nextHeroImgSrc = nextProject.card
-        const prevHeroImgSrc = prevProject.card
+        const nextHeroImgSrc = nextProject.image
+        const prevHeroImgSrc = prevProject.image
 
         data['next'] = {
             title: nextProject.title,

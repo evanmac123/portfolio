@@ -3,5 +3,5 @@
   </div>
 
   <div class="work_show-description content">
-  {{ description }}
+  {{{ description }}}
 </div>
