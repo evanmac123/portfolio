@@ -124,7 +124,7 @@
           {{/content}}
 
           <div class="work__final">
-            <a href="http://{{site}}" style="color:{{highlight}}">{{site}}</a>
+            <a href="http://{{site}}" style="color:{{highlight}}">{{product}}</a>
           </div>
         </div>
     </div>

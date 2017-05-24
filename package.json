@@ -25,6 +25,7 @@
     "@lib/draggable": "./src/js/lib/gsap/Draggable",
     "@lib/throw": "./src/js/lib/gsap/ThrowPropsPlugin",
     "@lib/unslider": "./src/js/lib/unslider/unslider"
+
   },
   "dependencies": {
     "@vimeo/player": "^2.0.1",
@@ -43,7 +44,8 @@
     "prefix": "^1.0.0",
     "query-dom-components": "^0.1.0",
     "snif fer": "github:watsondg/sniffer",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.3",
+    "video-scroller":"^1.1.1"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.22.0",
