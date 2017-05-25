@@ -33,22 +33,22 @@
     line-height: 1em;
     z-index: 10;
     color: $white;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: $blend-mode;
   }
 
   &__sub-title {
     font-size: 1.1em;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: $blend-mode;
   }
 
   &__description {
     margin: 24px 0 72px;
-    font-weight: 300;
-    font-size: 1em;
+    font-weight: 700;
+    font-size: 5em;
     opacity: 0;
     letter-spacing: 0.5px;
     font-family: 'Cardo', serif;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: $blend-mode;
   }
 
   .left{
@@ -115,7 +115,7 @@
 
 .card-info {
   position: absolute;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: $blend-mode;
   bottom: 147px;
   width: 33%;
   line-height: 21px;
@@ -128,12 +128,12 @@
   bottom: 100px;
   line-height: 1.1em;
   font-weight: 300;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: $blend-mode;
   transition: bottom .4s $ease-in-quint;
 }
 
 .card-type {
-  mix-blend-mode: exclusion;
+  mix-blend-mode: $blend-mode;
   bottom: -360px;
   width: 100%;
   font-family: 'Cardo', serif;

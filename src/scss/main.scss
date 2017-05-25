@@ -1,7 +1,6 @@
 @import './base/index';
 @import './layout/index';
 @import './module/index';
-@import './state/index';
 @import './grid/skeleton';
 
 .preloader {
@@ -18,12 +17,16 @@
 
 .logo {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 20;
+  left: 20;
   z-index: 2;
   margin: 10px;
-  font-size:1.3em;
+  font-size: 1em;
+  font-family:$font-sans;
+  color: $link-color;
+  font-weight:300;
 }
+
 
 .card-site{
   @include underline;
@@ -32,13 +35,6 @@
 .section{
   width:100%;
   position: relative;
-  // .container{
-  //   max-width: 960px;
-  //   margin-left: auto;
-  //   margin-right: auto;
-  //   padding-left: 1.66667rem;
-  //   padding-right: 1.66667rem;
-  // }
 }
 
 video#bgvid {
@@ -78,42 +74,6 @@ video#bgvid {
   z-index: 5;
   opacity: 1;
 
-  &__controls {
-    opacity: 0;
-    transition: opacity 0.8s $ease-out-quint;
-  }
-
-  a:hover {
-    opacity: 0.3;
-    transition: opacity 0.8s $ease-out-quint;
-    cursor: pointer;
-  }
-
-  &__play {
-    position: absolute;
-    left: 45%;
-    top: 44%;
-    display: none;
-  }
-
-  &__pause {
-    position: absolute;
-    left: 45%;
-    top: 44%;
-  }
-
-  &__mute {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-  }
-
-  &__sound {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-    display: none;
-  }
 
   img {
     width: 60px;
@@ -122,9 +82,4 @@ video#bgvid {
   video {
     @include fullscreen;
   }
-}
-
-.intro:hover .intro__controls {
-  opacity: 0.9;
-  transition: opacity 0.8s $ease-out-quint,;
 }

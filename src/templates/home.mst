@@ -6,9 +6,12 @@
     <div class="body">
         <div class="section home__title ">
             <div class="container">
-                <div class="home__main-title js-animate">Creative Digital Design</div><br>
-                <div class="home__main-title js-animate">Immersive Experiences</div>
-                <div class="home__description js-animate">A designer of eligant digital products. <br> UX, Visual Design, Front End Development </div>
+                <div class="home__main-title js-animate">Evan McEldowney</div><br>
+                <div class="home__description js-animate">
+                  A digital designer of immersive experiences. 
+                 <br> UX, Visual Design, Front End Development
+                 <br> <a> More about me </a>
+                </div>
             </div>
         </div>
 
