@@ -1,0 +1,29 @@
+.nav{
+
+  position: absolute;
+  top: 0px;
+  height:20px;
+  padding:15px 0;
+  width: 100%;
+  z-index: 1;
+  font-size:1em;
+  font-family: $font-sans;
+  font-weight: 300;
+
+  a{
+    color:$dark-grey;
+  }
+
+  &__logo{
+    position: absolute;
+    left: 0px;
+  }
+
+  &__menu{
+    position: absolute;
+    right: 0px;
+    a{
+      margin-left:10px;
+    }
+  }
+}

@@ -5,6 +5,9 @@ import Default from './default'
 import { on, off } from 'dom-event'
 import framework from 'framework'
 import Player from '@vimeo/player'
+import VideoScroller from 'video-scroller'
+import EasingFunctions from 'video-scroller'
+
 
 class Home extends Default {
 
@@ -24,20 +27,31 @@ class Home extends Default {
 
 	ready(done) {
 
-		super.ready()
-		done()
+		 super.ready()
+		 done()
+
+		// var video = document.getElementById("bgvid")
+		// video.addEventListener( "canplaythrough", function() {
+		// video.play()
+		//})
+
+			//new VideoScroller({
+		//	el: document.getElementById('bgvid'),
+			//debug: true,
+		//	invert: true
+	//	})
+
 	}
 
 
 
 	addEvents() {
-
-
-	}
+}
 
 	removeEvents() {
 
 	}
+
 
 
 	animateIn(req, done) {

@@ -29,11 +29,11 @@ module.exports = {
 
   images: {
     build: { // Copies images from `src` to `build`; does not optimize
-      src: src+'**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg|*.mp4)',
+      src: src+'**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg|*.mp4|*.pdf)',
       dest: build
     },
     dist: {
-      src: [dist+'**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg)', '!'+dist+'screenshot.png'], // The source is actually `dist` since we are minifying images in place
+      src: [dist+'**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg|*.mp4|*.pdf)', '!'+dist+'screenshot.png'], // The source is actually `dist` since we are minifying images in place
       imagemin: {
         optimizationLevel: 7,
         progressive: true,
@@ -87,6 +87,10 @@ module.exports = {
       dest: build
     },
     mst: {
+      src: src+'templates/**/*.mst',
+      dest: build+'templates/'
+    },
+    partials: {
       src: src+'templates/**/*.mst',
       dest: build+'templates/'
     },

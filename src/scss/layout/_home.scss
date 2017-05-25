@@ -1,8 +1,4 @@
 .home {
-  text-align: left;
-  width: 100%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
 
   &__background {
     position: fixed;
@@ -37,36 +33,36 @@
     line-height: 1em;
     z-index: 10;
     color: $white;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: $blend-mode;
   }
 
   &__sub-title {
     font-size: 1.1em;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: $blend-mode;
   }
 
   &__description {
     margin: 24px 0 72px;
-    font-weight: 300;
-    font-size: 1em;
+    font-weight: 700;
+    font-size: 5em;
     opacity: 0;
     letter-spacing: 0.5px;
     font-family: 'Cardo', serif;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: $blend-mode;
   }
 
   .left{
     .card-info {
     text-align: right;
-    left: 4px;
+    left: -4px;
     }
 
     .card-title {
-      left: 70px;
+
       text-align: right;
     }
     .card-type {
-      left: 0;
+
       text-align: right;
     }
     .card-img {
@@ -81,11 +77,11 @@
     }
 
     .card-title {
-      right: 70px;
+
       text-align: left;
     }
     .card-type {
-      right: 0;
+
       text-align: left;
     }
     .card-img {
@@ -93,38 +89,59 @@
     }
   }
 
-  .card {
-    width: 100%;
-    z-index: 10;
-    padding: 30px 0;
-  }
+.card {
+  width: 100%;
+  z-index: 10;
+  padding: 30px 0;
+  display:block;
 
-  .card-info {
-    position: absolute;
-    mix-blend-mode: exclusion;
-    bottom: 147px;
-    width: 36%;
-    line-height: 21px;
-  }
+  &:hover {
+    .card-img{
+    }
 
-  .card-title {
-    font-size: 2.3em;
-    width: 38%;
-    bottom: 100px;
-    font-weight: 300;
-    position: absolute;
-    mix-blend-mode: exclusion;
-  }
+    &card-site:after {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
 
-  .card-type {
-    mix-blend-mode: exclusion;
-    bottom: -350px;
-    width: 100%;
-    font-family: 'Cardo', serif;
-  }
 
-  .card-img {
-    width: 66%;
+  }
+}
+
+.card-site:hover{
+  //display: inline-block;
+  //@include underline;
+}
+
+.card-info {
+  position: absolute;
+  mix-blend-mode: $blend-mode;
+  bottom: 147px;
+  width: 33%;
+  line-height: 21px;
+  transition: bottom .4s $ease-in-quint;
+}
+
+.card-title {
+  font-size: 2.3em;
+  width: 100%;
+  bottom: 100px;
+  line-height: 1.1em;
+  font-weight: 300;
+  mix-blend-mode: $blend-mode;
+  transition: bottom .4s $ease-in-quint;
+}
+
+.card-type {
+  mix-blend-mode: $blend-mode;
+  bottom: -360px;
+  width: 100%;
+  font-family: 'Cardo', serif;
+}
+
+.card-img {
+  width: 66%;
+
   }
 }
 

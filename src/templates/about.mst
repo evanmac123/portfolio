@@ -1,0 +1,44 @@
+<div class="about">
+  <div class="about__hold">
+  <div class="container">
+      <div class="row">
+        <div class="one-half column about__me">
+          <div class="about__intro">
+            Hey <br>
+            I’m Evan <br>
+            McEldowney,<br>
+            A UX Designer <br>
+            and Developer
+          </div>
+          <div class="about__freelancing">
+              <div class="about__contact">
+                and <div class="hire">I’m currently freelancing</div> so
+                feel free to<br>contact me @ evanmceldowney@gmail.com
+              </div>
+              <div class="about__icons">
+                <a target="_blank" href="https://github.com/evanmac123/"><img src="/assets/icons/github.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/evanmceldowney/"><img src="/assets/icons/linkedin.png"></a>
+                <a target="_blank" href="https://twitter.com/evanmceldowney"><img src="/assets/icons/twitter.png"></a>
+              </div>
+          </div>
+      </div>
+        <div class="one-half column">
+          <div class="about__bio">
+          I recently graduated from <a target="_blank" href="http://www.northeastern.edu/"> Northeastern University </a>
+          with a degree in Interactive Media and Graphic Design
+          and I have been working in the industry for the past five years.
+          My most recent jobs were with <a target="_blank" href="http://yeti.co">Yeti</a> in San Francisco,
+          <a target="_blank" href="http://www.studiogusto.com/en/#/home/">Studio Gusto</a> in Italy,
+           and <a target="_blank" href="http://www.northeastern.edu/scout/">Scout</a> Northeastern's Student Design Firm.
+          I am intersted in digital design in journalism, interactive documentaries
+          and visual based education but I get a kick out of motion graphics,
+           history puns, and art museums.
+
+          <a href="/assets/doc/resume.pdf" class="resume" target="_blank">If your interested in my resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

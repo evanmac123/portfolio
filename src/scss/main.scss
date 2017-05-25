@@ -1,8 +1,7 @@
 @import './base/index';
 @import './layout/index';
 @import './module/index';
-@import './state/index';
-@import './grid/_manifest';
+@import './grid/skeleton';
 
 .preloader {
   position: fixed;
@@ -16,18 +15,26 @@
   align-items: center;
 }
 
+.logo {
+  position: fixed;
+  top: 20;
+  left: 20;
+  z-index: 2;
+  margin: 10px;
+  font-size: 1em;
+  font-family:$font-sans;
+  color: $link-color;
+  font-weight:300;
+}
+
+
+.card-site{
+  @include underline;
+}
 
 .section{
   width:100%;
   position: relative;
-  @include clearfix;
-  .container{
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1.66667rem;
-    padding-right: 1.66667rem;
-  }
 }
 
 video#bgvid {
@@ -67,42 +74,6 @@ video#bgvid {
   z-index: 5;
   opacity: 1;
 
-  &__controls {
-    opacity: 0;
-    transition: opacity 0.8s $ease-out-quint;
-  }
-
-  a:hover {
-    opacity: 0.3;
-    transition: opacity 0.8s $ease-out-quint;
-    cursor: pointer;
-  }
-
-  &__play {
-    position: absolute;
-    left: 45%;
-    top: 44%;
-    display: none;
-  }
-
-  &__pause {
-    position: absolute;
-    left: 45%;
-    top: 44%;
-  }
-
-  &__mute {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-  }
-
-  &__sound {
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-    display: none;
-  }
 
   img {
     width: 60px;
@@ -110,21 +81,5 @@ video#bgvid {
 
   video {
     @include fullscreen;
-  }
-}
-
-.intro:hover .intro__controls {
-  opacity: 0.9;
-  transition: opacity 0.8s $ease-out-quint,;
-}
-@media screen and (max-device-width: 800px) {
-  html {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-  }
-
-  #bgvid {
-    display: none;
   }
 }

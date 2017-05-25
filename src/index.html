@@ -17,27 +17,32 @@
 		<link rel="stylesheet" href="/style.css">
 	</head>
 	<body>
-		<a class="logo js-link" rel="home" href="/">
-			<div class="logo__main-title js-animate">Evan McEldowney</div><br>
-		</a>
 
-		<!-- menu toggle -->
-		<button class="menu js-menu">
-			<div class="icon icon--burger"><span>ABOUT</span></div>
-		</button>
+
+			<!-- menu toggle -->
+			<div class="nav">
+				<div class="container">
+					<div class="row">
+					<div class="nav__logo">
+						<a  rel="home" href="/">
+								Evan McEldowney
+						</a>
+					</div>
+					<div class="nav__menu">
+						<a href="/">
+								Work
+						</a>
+						<a href="/about">
+								About
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- sections inserted in main -->
 		<main></main>
-
-		<!-- menu overlay -->
-		<div class="menu-overlay js-overlay">
-
-		</div>
-
-		<!-- site navigation -->
-		<footer class="footer">
-			<a class="footer__link js-link" href="/about">About</a>
-		</footer>
 
     <!-- build:js -->
 		<script src="/js/bundle.js"></script>

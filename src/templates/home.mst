@@ -1,43 +1,45 @@
 <div class="home">
-  <!--
-    <video poster="" id="bgvid" class="home__background js-bgvid" playsinline muted preload autoplay>
-      <source src="/assets/video/background-vid2.mp4" type="video/mp4">
+
+    <video poster="" src="/assets/video/back2.mp4"  id="bgvid" preload="auto"  class="home__background js-bgvid" playsinline autoplay muted preload>
     </video>
-  -->
 
-  <img src="/assets/images/background.jpg" class="home__background">
-  <div class="body">
-    <div class="section home__title ">
-      <div class="container">
-          <div class="home__main-title js-animate"> {{ title }}Creative Design</div><br>
-          <div class="home__main-title js-animate">Immersive Experiences</div>
-          <div class="home__description js-animate">A designer of eligant digital products. <br>
-          UX, Visual Design, Front End Development </div>
+    <div class="body">
+        <div class="section home__title ">
+            <div class="container">
+                <div class="home__main-title js-animate">Evan McEldowney</div><br>
+                <div class="home__description js-animate">
+                  A digital designer of immersive experiences. 
+                 <br> UX, Visual Design, Front End Development
+                 <br> <a> More about me </a>
+                </div>
+            </div>
         </div>
-    </div>
 
-  {{ #home.cards }}
-    <div class="section">
-      <div class="container">
-        <div class="card {{ side }}">
-          <img class="card-img js-animate" src="{{ image }}">
-          <div class="card-info js-animate">
-            <div class="card-role">
-              {{ role }}
+        {{#cards }}
+
+        <div class="section">
+            <div class="container">
+                <a href="work/{{slug}}">
+                    <div class="card {{ side }}">
+                        <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
+                        <div class="card-info js-animate">
+                            <div class="card-role">
+                                {{ role }}
+                            </div>
+                            <div class="card-site js-animate">
+                                <a href="{{ site }}" target="_blank"> {{ product }}</a>
+                            </div>
+                        <div class="card-title js-animate">
+                            {{ name }}
+                        </div>
+                        </div>
+                        <div class="card-type js-animate">
+                            {{ type }}
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="card-site js-animate">
-              {{ site }}
-            </div>
-          </div>
-          <div class="card-title js-animate">
-            {{ name }}
-          </div>
-          <div class="card-type js-animate">
-            {{ type }}
-            </div>
-          </div>
-      </div>
+        </div>
+        {{/cards }}
     </div>
-    {{/home.cards }}
-  </div>
 </div>
