@@ -1,0 +1,241 @@
+.grid {
+	position: relative;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	width: 66%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+  margin:0;
+}
+
+.grid figure .card-back {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+figure.effect-roxy {
+	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+}
+
+figure.effect-roxy .card-back {
+  max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50px,0,0);
+	transform: translate3d(-50px,0,0);
+}
+
+figure.effect-roxy figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-20px,0,0);
+	transform: translate3d(-20px,0,0);
+}
+
+figure.effect-roxy figcaption {
+	text-align: left;
+}
+
+figure.effect-roxy p {
+	opacity: 0;
+  text-align:center;
+  margin-top:220px;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+}
+
+figure.effect-roxy:hover .card-back {
+	opacity: 0.7;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-roxy:hover figcaption::before,
+figure.effect-roxy:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hold:hover .card-back {
+	opacity: 0.7;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hold:hover figcaption::before,
+.hold:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hold:hover .card-info {
+	bottom:120px;
+}
+figure.effect-roxy:hover .card-info {
+	bottom:120px;
+}
+
+
+.left {
+    .card-info {
+        text-align: right;
+        left: -12px;
+    }
+
+    .card-title {
+        text-align: right;
+    }
+
+    .card-type {
+        text-align: right;
+    }
+
+    figure , .card-image  {
+        margin-left: 33%;
+    }
+}
+
+.right {
+    .card-info {
+        text-align: left;
+        right: -12px;;
+    }
+
+    .card-title {
+        text-align: left;
+    }
+
+    .card-type {
+        text-align: left;
+    }
+
+    figure , .card-image {
+        margin-right: 33%;
+    }
+}
+
+.card {
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    display: block;
+
+    a{
+      &:after {
+          display: none;
+      }
+    }
+
+    .card-img {
+        width: 66%;
+    }
+
+    .card-info {
+        position: absolute;
+        mix-blend-mode: $blend-mode;
+        bottom: 107px;
+        width: 33%;
+        line-height: 21px;
+        transition: bottom 0.4s;
+    }
+
+    .card-title {
+        font-size: 2.3em;
+        width: 100%;
+        bottom: 100px;
+        line-height: 1.1em;
+        font-weight: 300;
+        mix-blend-mode: $blend-mode;
+        transition: bottom 0.35s;
+    }
+
+    .card-type {
+        mix-blend-mode: $blend-mode;
+        bottom: -360px;
+        width: 100%;
+        font-family: 'Cardo', serif;
+    }
+    .card-logo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+}

@@ -4,7 +4,8 @@
     "studentrabbit" : {
       "name": "Student Rabbit",
       "slug": "studentrabbit",
-      "image": "studentrabbit.png",
+      "image":"studentrabbit.png",
+      "logo": "studentrabbit-logo.png",
       "role": "Project Lead",
       "highlight":"#78CECF",
       "type": "Front End Development, Branding, Web Design, UX",
@@ -128,6 +129,7 @@
     "name": "Kleo: Accessable Tours",
     "slug": "kleo",
     "image": "kleo.png",
+    "logo": "kleo-logo.png",
     "role": "User Experience Designer",
     "type": "Branding, UX, App Design",
     "product":"Check out the Invision Prototype",
@@ -333,9 +335,11 @@
         "name": "Student Rabbit",
         "slug": "studentrabbit",
         "image": "studentrabbit.png",
+        "logo": "studentrabbit-logo.png",
         "role": "Project Lead",
         "type": "Front End Development, Branding, Web Design, UX",
         "product": "www.studentrabbit.com",
+        "description":"Ecommerce: Buying and Selling Textbooks",
         "site": "http://www.studentrabbit.com/#/",
         "side": "right"
       },
@@ -343,9 +347,11 @@
         "name": "Kleo: Accessable Tours",
         "slug": "kleo",
         "image": "kleo.png",
+        "logo": "kleo-logo.png",
         "role": "User Experience Designer",
         "type": "Branding, UX, App Design",
         "product":"Invision Prototype",
+        "description":"Accessable Museum Tours",
         "site": "https://invis.io/Z59BUUBA4",
         "side": "left"
       }

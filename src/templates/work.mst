@@ -1,4 +1,4 @@
-<div class="work">
+<div class="work" id="top">
     <div class="work__header" style="color:{{highlight}};">
         <div class="section">
             <div class="container">
@@ -14,11 +14,17 @@
                             {{ name }}
                         </div>
                     </div>
-                    <div class="card-image">
-                        <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
-                        <div class="card-type js-animate">
-                            {{ type }}
-                        </div>
+                    <div class="grid">
+                        <figure class="">
+                            <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
+                            <figcaption>
+                                <img class="card-logo" src="/assets/images/cards/{{logo}}">
+                                <p> {{description}}</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card-type js-animate">
+                        {{ type }}
                     </div>
                 </div>
             </div>
@@ -118,7 +124,7 @@
               {{#video}}
                 {{> video_part}}
               {{/video}}
-              
+
             </div>
             {{/section-content}}
           {{/content}}
@@ -138,6 +144,8 @@
            <div class="project-nav__title">{{ prev.title }}</div>
          </div>-->
        </a>
+
+
 
        <a class="project-nav__right js-project-nav-link" data-direction="next" href="/work/{{ next.slug }}">
          <img class="project-nav__img project-nav__img--prev js-next-project" src="/assets/images/cards/{{ next.hero }}">

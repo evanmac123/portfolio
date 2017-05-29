@@ -59,93 +59,9 @@
 
         a {}
     }
+  }
 
-    .left {
-        .card-info {
-            text-align: right;
-            left: -4px;
-        }
 
-        .card-title {
-            text-align: right;
-        }
-
-        .card-type {
-            text-align: right;
-        }
-
-        .card-img {
-            margin-left: 33%;
-        }
-    }
-
-    .right {
-        .card-info {
-            text-align: left;
-            right: 4px;
-        }
-
-        .card-title {
-            text-align: left;
-        }
-
-        .card-type {
-            text-align: left;
-        }
-
-        .card-img {
-            margin-right: 33%;
-        }
-    }
-
-    .card {
-        width: 100%;
-        z-index: 10;
-        padding: 30px 0;
-        display: block;
-
-        a{
-          &:after {
-              display: none;
-          }
-        }
-
-        .card-img {
-            width: 66%;
-        }
-
-        .card-site:hover {
-            //display: inline-block;
-            //@include underline;
-        }
-
-        .card-info {
-            position: absolute;
-            mix-blend-mode: $blend-mode;
-            bottom: 147px;
-            width: 33%;
-            line-height: 21px;
-            transition: bottom 0.4s $ease-in-quint;
-        }
-
-        .card-title {
-            font-size: 2.3em;
-            width: 100%;
-            bottom: 100px;
-            line-height: 1.1em;
-            font-weight: 300;
-            mix-blend-mode: $blend-mode;
-            transition: bottom 0.4s $ease-in-quint;
-        }
-
-        .card-type {
-            mix-blend-mode: $blend-mode;
-            bottom: -360px;
-            width: 100%;
-            font-family: 'Cardo', serif;
-        }
-    }
-}
 @media (max-width: 720px) {
     .home {
         .section {

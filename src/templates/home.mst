@@ -1,13 +1,15 @@
-<div class="home">
+<div class="home" id="#top">
 
-    <video poster="" src="/assets/video/back2.mp4" id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
+    <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
+      <source src="/assets/video/back2.ogv" type="video/ogv">
+      <source src="/assets/video/back2.mp4" type="video/mp4">
     </video>
     <!--<img src="/assets/images/background-example.jpg" class="home__background">-->
     <div class="body">
         <div class="section home__title ">
             <div class="container">
                 <div class="home__main-title js-animate">
-                    A digital designer of immersive experiences.
+                    A designer of digital experiences.
                 </div>
                 <div class="home__description js-animate">
                     UX, Visual Design, Front End Development
@@ -22,25 +24,34 @@
 
         <div class="section">
             <div class="container">
-                    <div class="card {{ side }}">
-                        <a href="work/{{slug}}">
-                          <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
-                        </a>
+                <div class="card {{ side }}">
+                        <div class="grid js-animate">
+
+                            <figure class="effect-roxy">
+                                <a href="work/{{slug}}#top" >
+                                  <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
+                                <figcaption>
+                                    <img class="card-logo" src="/assets/images/cards/{{logo}}">
+                                    <p> {{description}}</p>
+                                </figcaption>
+                                </a>
+                            </figure>
+                        </div>
                         <div class="card-info js-animate">
                             <div class="">
                                 {{ role }}
                             </div>
                             <div class="card-site js-animate">
-                                <a href="{{ site }}" target="_blank"> {{ product }}</a>
+                               {{ product }}
                             </div>
                             <div class="card-title js-animate">
                                 {{ name }}
                             </div>
                         </div>
-                        <div class="card-type js-animate">
-                            {{ type }}
-                        </div>
+                    <div class="card-type js-animate">
+                        {{ type }}
                     </div>
+                </div>
             </div>
         </div>
         {{/cards }}

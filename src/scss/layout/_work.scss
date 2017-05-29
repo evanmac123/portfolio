@@ -46,23 +46,8 @@
         }
     }
 
-    .card-image {
-        width: 66%;
-        float: left;
-
-        img {
-            width: 100%;
-            @include shadow;
-        }
-
-
-        .card-type {
-            text-align: right;
-            mix-blend-mode: $blend-mode;
-            width: 100%;
-            font-family: 'Cardo', serif;
-            margin-top: 10px;
-        }
+    .figure{
+      cursor: default;
     }
 
     &__content {
@@ -109,7 +94,7 @@
         border-bottom: 1px solid green;
         margin: 20px 0;
         font-size: 1.2em;
-        margin: 1em 0 0;
+        margin: 3em 0 0;
         padding-bottom: 3px;
     }
 
