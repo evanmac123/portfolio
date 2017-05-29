@@ -1,16 +1,19 @@
 <div class="home">
 
-    <video poster="" src="/assets/video/back2.mp4"  id="bgvid" preload="auto"  class="home__background js-bgvid" playsinline autoplay muted preload>
+    <video poster="" src="/assets/video/back2.mp4" id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
     </video>
-
+    <!--<img src="/assets/images/background-example.jpg" class="home__background">-->
     <div class="body">
         <div class="section home__title ">
             <div class="container">
-                <div class="home__main-title js-animate">Evan McEldowney</div><br>
+                <div class="home__main-title js-animate">
+                    A digital designer of immersive experiences.
+                </div>
                 <div class="home__description js-animate">
-                  A digital designer of immersive experiences. 
-                 <br> UX, Visual Design, Front End Development
-                 <br> <a> More about me </a>
+                    UX, Visual Design, Front End Development
+                </div>
+                <div class="home__about-me">
+                    <!--<a> More about me </a>-->
                 </div>
             </div>
         </div>
@@ -19,25 +22,25 @@
 
         <div class="section">
             <div class="container">
-                <a href="work/{{slug}}">
                     <div class="card {{ side }}">
-                        <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
+                        <a href="work/{{slug}}">
+                          <img class="card-img js-animate" src="/assets/images/cards/{{ image }}">
+                        </a>
                         <div class="card-info js-animate">
-                            <div class="card-role">
+                            <div class="">
                                 {{ role }}
                             </div>
                             <div class="card-site js-animate">
                                 <a href="{{ site }}" target="_blank"> {{ product }}</a>
                             </div>
-                        <div class="card-title js-animate">
-                            {{ name }}
-                        </div>
+                            <div class="card-title js-animate">
+                                {{ name }}
+                            </div>
                         </div>
                         <div class="card-type js-animate">
                             {{ type }}
                         </div>
                     </div>
-                </a>
             </div>
         </div>
         {{/cards }}
