@@ -1,6 +1,4 @@
-  <div class="container">
     {{#src}}
       {{> image_part}}
     {{/src}}
     <div class=""> {{ description }} </div>
-</div>

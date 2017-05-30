@@ -11,7 +11,7 @@
                             <a href="{{ site }}" style="color:{{highlight}};"> Final Product</a>
                         </div>
                         <div class="card-title js-animate">
-                            {{ name }}
+                            {{ description }}
                         </div>
                     </div>
                     <div class="grid">
@@ -19,7 +19,7 @@
                             <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
                             <figcaption>
                                 <img class="card-logo" src="/assets/images/cards/{{logo}}">
-                                <p> {{description}}</p>
+
                             </figcaption>
                         </figure>
                     </div>
@@ -137,25 +137,25 @@
 
 
     <div class="project-nav row">
-       <a class="project-nav__left js-project-nav-link" data-direction="previous" href="/work/{{ prev.slug }}">
-          <img class="project-nav__img project-nav__img--prev js-previous-project" src="/assets/images/cards/{{ prev.hero }}">
-           <!--  <div class="project-nav__inner">
-           <div class="project-nav__label">Previous</div>
-           <div class="project-nav__title">{{ prev.title }}</div>
-         </div>-->
-       </a>
 
+          <figure class="effect-roxy bottom-nav-left">
+              <a class=" js-project-nav-link " data-direction="previous" href="/work/{{ prev.slug }}" >
+                <img class=" card-back project-nav__img project-nav__img--prev js-previous-project" src="/assets/images/cards/{{ prev.hero }}">
+            <figcaption>
+                  <img class="card-logo" src="/assets/images/cards/{{prev.logo}}">
+                  <p> {{prev.description}}</p>
+              </figcaption>
+              </a>
+          </figure >
 
-
-       <a class="project-nav__right js-project-nav-link" data-direction="next" href="/work/{{ next.slug }}">
-         <img class="project-nav__img project-nav__img--prev js-next-project" src="/assets/images/cards/{{ next.hero }}">
-          <!--
-         <div class="project-nav__inner">
-           <div class="project-nav__label">Next</div>
-           <div class="project-nav__title">{{ next.title }}</div>
-         </div>
-       -->
-       </a>
-   </div>
+          <figure  class="effect-roxy bottom-nav-right">
+              <a class=" js-project-nav-link " data-direction="next" href="/work/{{ next.slug }}" >
+                <img class=" card-back project-nav__img project-nav__img--prev js-next-project" src="/assets/images/cards/{{ next.hero }}">
+            <figcaption>
+                  <img class="card-logo" src="/assets/images/cards/{{next.logo}}">
+                  <p> {{next.description}}</p>
+              </figcaption>
+              </a>
+          </figure >
 
 </div>

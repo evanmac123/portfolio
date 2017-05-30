@@ -54,9 +54,13 @@ class Work extends Default {
 	resize(width, height) {
 		const attrs = { width: width, height: height }
 		if(this.ui.iframe){
-				this.ui.iframe.forEach(iframe => iframe && Object.assign(iframe, attrs))
+			if(this.ui.iframe.length > 1 ){
+					this.ui.iframe.forEach(iframe => iframe && Object.assign(iframe, attrs))
+			}
+			else{
+					this.ui.iframe && Object.assign(this.ui.iframe, attrs)
+			}
 		}
-
 	}
 
 	destroy(req, done) {

@@ -35,17 +35,25 @@ if (!cache[id]) {
         const prevProject = works[keys[prev]]
         const nextHeroImgSrc = nextProject.image
         const prevHeroImgSrc = prevProject.image
+        const nextDescription = nextProject.description
+        const prevDescription = prevProject.description
+        const nextLogo = nextProject.logo
+        const prevLogo = prevProject.logo
 
         data['next'] = {
             title: nextProject.title,
             slug: nextProject.slug,
-            hero: nextHeroImgSrc
+            hero: nextHeroImgSrc,
+            logo: nextLogo,
+            description: nextDescription
         }
 
         data['prev'] = {
             title: prevProject.name,
             slug: prevProject.slug,
-            hero: prevHeroImgSrc
+            hero: prevHeroImgSrc,
+            logo: prevLogo,
+            description: prevDescription
         }
 
         Promise.all(

@@ -139,33 +139,18 @@
     }
 
     .project-nav{
-      height:500px;
-      &__nav{
 
-      }
-
-      &__right{
-        width:50%;
+        .bottom-nav-left{
+        width: 50%;
+        margin: 0;
         position: absolute;
-        right:-30px;
+        left: 0;
       }
-
-      &__left{
-        width:50%;
+        .bottom-nav-right{
+        width: 50%;
+        margin: 0;
         position: absolute;
-        left:-30px;
-      }
-
-      &__inner{
-
-      }
-
-      &__label{
-
-      }
-
-      &__title{
-
+        right: 0;
       }
 
       &__img{
