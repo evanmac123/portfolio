@@ -224,3 +224,20 @@ figure.effect-roxy:hover .card-info {
         font-family: 'Cardo', serif;
     }
 }
+
+
+
+@media (max-width: 900px) {
+	.card-info,
+	.card-title,
+	.card-type {
+			position: relative;
+			text-align: left;
+			display: none;
+	}
+ body .section .card figure{
+		width:100%;
+		margin-right:0;
+		margin-left:0;
+	}
+}

@@ -1,22 +1,63 @@
 // Media Queries
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
 // Note: The best way to structure the use of media queries is to create the queries
 // near the relevant code. For example, if you wanted to change the styles for buttons
 // on small devices, paste the mobile query code up in the buttons section and style it
 // there.
-
 // Larger than mobile
 @media (#{$bp-larger-than-mobile}) {}
-
 // Larger than phablet (also point when grid becomes active)
 @media (#{$bp-larger-than-phablet}) {}
-
 // Larger than tablet
 @media (#{$bp-larger-than-tablet}) {}
-
 // Larger than desktop
 @media (#{$bp-larger-than-desktop}) {}
-
 // Larger than Desktop HD
 @media (#{$bp-larger-than-desktophd}) {}
+
+@media (max-width: 900px) {
+    .home {
+        &__main-title {
+            font-size: 3.0em;
+            width: 80%;
+        }
+    }
+
+    figure p{
+      display: none;
+    }
+
+
+    .about{
+      padding: 60px 0;
+      font-size:1.1em;
+      height:auto;
+    }
+    .about__intro {
+    font-size: 2.3em;
+    }
+
+    .card-info,
+    .card-title,
+    .card-type {
+        position: relative;
+        text-align: left;
+        display: none;
+    }
+
+    body{
+      .section .card figure {
+          width: 100%;
+          margin-right: 0;
+          margin-left: 0;
+      }
+
+      .container{
+        width:95%;
+      }
+
+      .work__final{
+        font-size: 1.2em;
+      }
+  }
+}

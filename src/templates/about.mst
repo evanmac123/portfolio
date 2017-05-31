@@ -4,16 +4,15 @@
       <div class="row">
         <div class="one-half column about__me">
           <div class="about__intro">
-            Hey <br>
-            I’m Evan <br>
-            McEldowney,<br>
-            A UX Designer <br>
-            and Developer
+            <div>Evan
+            McEldowney</div>
+            <div>UX Designer
+            and Developer</div>
           </div>
           <div class="about__freelancing">
               <div class="about__contact">
-                and <div class="hire">I’m currently freelancing</div> so
-                feel free to<br>contact me at evanmceldowney@gmail.com
+                <div class="hire">I’m currently freelancing</div> so
+                feel free to contact me at evanmceldowney@gmail.com
               </div>
               <div class="about__icons">
                 <a target="_blank" href="https://github.com/evanmac123/"><img src="/assets/icons/github.png"></a>

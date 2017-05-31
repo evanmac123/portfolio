@@ -32,7 +32,7 @@
         letter-spacing: 0.5px;
         font-family: 'Cardo', serif;
         mix-blend-mode: $blend-mode;
-        width:60%;
+        width: 60%;
     }
 
     &__sub-title {
@@ -46,7 +46,7 @@
         letter-spacing: 0.5px;
         font-family: 'Cardo', serif;
         mix-blend-mode: $blend-mode;
-        margin-top:10px;
+        margin-top: 10px;
     }
 
     &__about-me {
@@ -58,29 +58,5 @@
         }
 
         a {}
-    }
-  }
-
-
-@media (max-width: 720px) {
-    .home {
-        .section {
-            &__main-title {
-                font-size: 3.0em;
-            }
-
-            .card-info,
-            .card-title,
-            .card-type {
-                position: relative;
-                text-align: left;
-                display: none;
-            }
-
-            .card-img {
-                margin: 0;
-                width: 100%;
-            }
-        }
     }
 }
