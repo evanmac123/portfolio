@@ -4,15 +4,15 @@
             <div class="container">
                 <div class="card left">
                     <div class="card-info ">
-                        <div class="card-role js-animate">
+                        <div class="card-role">
                             {{ role }}
                         </div>
-                          <a href="{{ site }}" style="color:{{highlight}};" class="js-animate" target="_blank"> {{product}}</a>
-                        <div class="card-title js-animate">
+                          <a href="{{ site }}" style="color:{{highlight}};" class="" target="_blank"> {{product}}</a>
+                        <div class="card-title">
                             {{ description }}
                         </div>
                     </div>
-                    <div class="grid js-animate">
+                    <div class="grid">
                         <figure>
                             <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
                             <figcaption>
@@ -21,7 +21,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="card-type js-animate">
+                    <div class="card-type">
                         {{ type }}
                     </div>
                 </div>
@@ -32,7 +32,7 @@
     <div class="work__content">
         <div class="section">
             <div class="container">
-                <div class="work__overview  js-animate">
+                <div class="work__overview ">
                     <div class="work__overview-problem row">
                         <div class="work__overview-label" style="color:{{highlight}};">
                             Problem
@@ -66,18 +66,18 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section ">
 
 
             {{#content}}
             <div class="container">
-              <div class="work__show-header js-animate" style="border-bottom: 1.5px solid {{highlight}};">
+              <div class="work__show-header" style="border-bottom: 1.5px solid {{highlight}};">
                 {{section}}
               </div>
             </div>
             {{#section-content}}
 
-          <div class="work__block js-animate">
+          <div class="work__block">
 
               {{#text}}
               <div class="container">
@@ -131,7 +131,7 @@
           {{/content}}
 
           <div class="work__final">
-            <a href="http://{{site}}" style="color:{{highlight}}">{{product}}</a>
+            <a href="{{site}}" target="_blank" style="color:{{highlight}}">{{product}}</a>
           </div>
         </div>
     </div>

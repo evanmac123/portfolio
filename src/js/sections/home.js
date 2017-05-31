@@ -55,7 +55,6 @@ class Home extends Default {
 
 
 	animateIn(req, done) {
-
 		const tl = new TimelineMax({ paused: true, onComplete: done })
 
 		classes.add(config.body, `is-${this.slug}`)
@@ -92,7 +91,7 @@ class Home extends Default {
 	}
 
 	destroy(req, done) {
-
+		document.documentElement.scrollTop = document.body.scrollTop = 0
 		super.destroy()
 		this.removeEvents()
 		this.ui = null

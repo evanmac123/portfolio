@@ -1,17 +1,17 @@
 <div class="home" id="#top">
 
-    <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
+  <!--  <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
       <source src="/assets/video/back2.ogv" type="video/ogv">
       <source src="/assets/video/back2.mp4" type="video/mp4">
-    </video>
-    <!--<img src="/assets/images/background-example.jpg" class="home__background">-->
+    </video>-->
+    <img src="/assets/images/background.jpg" class="home__background">
     <div class="body">
         <div class="section home__title ">
             <div class="container">
-                <div class="home__main-title js-animate">
+                <div class="home__main-title">
                     A designer of digital experiences.
                 </div>
-                <div class="home__description js-animate">
+                <div class="home__description">
                     UX, Visual Design, Front End Development
                 </div>
                 <div class="home__about-me">
@@ -25,7 +25,7 @@
         <div class="section">
             <div class="container">
                 <div class="card {{ side }}">
-                        <div class="grid js-animate">
+                        <div class="grid">
 
                             <figure class="effect-roxy">
                                 <a href="work/{{slug}}" >
@@ -37,18 +37,18 @@
                                 </a>
                             </figure>
                         </div>
-                        <div class="card-info js-animate">
+                        <div class="card-info">
                             <div class="">
                                 {{ role }}
                             </div>
-                            <div class="card-site js-animate">
+                            <div class="card-site">
                                {{ product }}
                             </div>
-                            <div class="card-title js-animate">
+                            <div class="card-title">
                                 {{ name }}
                             </div>
                         </div>
-                    <div class="card-type js-animate">
+                    <div class="card-type">
                         {{ type }}
                     </div>
                 </div>

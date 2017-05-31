@@ -13,7 +13,7 @@
 	cursor: pointer;
   margin:0;
 	@include shadow;
-	display: grid;
+	display: block;
 }
 
  figure .card-back {
@@ -211,7 +211,7 @@ figure.effect-roxy:hover .card-info {
         width: 100%;
         bottom: 100px;
         line-height: 1.1em;
-        font-weight: 300;
+        font-weight: 400;
         mix-blend-mode: $blend-mode;
         transition: bottom 0.35s;
 				margin-top: 6px;

@@ -26,7 +26,6 @@ class Work extends Default {
 
 
 	animateIn(req, done) {
-
 		classes.add(config.body, `is-${this.slug}`)
 
 		const tl = new TimelineMax({ paused: true, onComplete: done })
@@ -68,7 +67,7 @@ class Work extends Default {
 	}
 
 	destroy(req, done) {
-
+		document.documentElement.scrollTop = document.body.scrollTop = 0
 		super.destroy()
 
 		this.page.parentNode.removeChild(this.page)

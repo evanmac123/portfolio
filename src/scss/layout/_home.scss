@@ -28,11 +28,11 @@
 
     &__main-title {
         font-weight: 700;
-        font-size: 6em;
-        opacity: 0;
+        font-size: 7em;
         letter-spacing: 0.5px;
         font-family: 'Cardo', serif;
         mix-blend-mode: $blend-mode;
+        width:60%;
     }
 
     &__sub-title {
@@ -42,11 +42,11 @@
 
     &__description {
         font-weight: 700;
-        font-size: 2em;
-        opacity: 0;
+        font-size: 1.4em;
         letter-spacing: 0.5px;
         font-family: 'Cardo', serif;
         mix-blend-mode: $blend-mode;
+        margin-top:10px;
     }
 
     &__about-me {
