@@ -13,6 +13,7 @@
 	cursor: pointer;
   margin:0;
 	@include shadow;
+	display: grid;
 }
 
  figure .card-back {
@@ -71,6 +72,7 @@
  figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
+
 }
 
 figure.effect-roxy {
@@ -109,8 +111,11 @@ figure.effect-roxy figcaption {
 
 figure.effect-roxy p {
 	opacity: 0;
-  text-align:center;
-  margin-top:220px;
+	text-align: center;
+	width: 80%;
+	position: absolute;
+	margin-left: 10%;
+	bottom: 100px;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-10px,0,0);
@@ -130,22 +135,6 @@ figure.effect-roxy:hover p {
 	transform: translate3d(0,0,0);
 }
 
-.hold:hover .card-back {
-	opacity: 0.7;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-.hold:hover figcaption::before,
-.hold:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-.hold:hover .card-info {
-	bottom:120px;
-}
 figure.effect-roxy:hover .card-info {
 	bottom:120px;
 }
@@ -154,6 +143,7 @@ figure.effect-roxy:hover .card-info {
   position: absolute;
   top: 50%;
   left: 50%;
+	width:100%;
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -202,12 +192,6 @@ figure.effect-roxy:hover .card-info {
     padding: 30px 0;
     display: block;
 
-    a{
-      &:after {
-          display: none;
-      }
-    }
-
     .card-img {
         width: 66%;
     }
@@ -219,6 +203,7 @@ figure.effect-roxy:hover .card-info {
         width: 33%;
         line-height: 21px;
         transition: bottom 0.4s;
+				z-index: 10;
     }
 
     .card-title {
@@ -229,11 +214,12 @@ figure.effect-roxy:hover .card-info {
         font-weight: 300;
         mix-blend-mode: $blend-mode;
         transition: bottom 0.35s;
+				margin-top: 6px;
     }
 
     .card-type {
         mix-blend-mode: $blend-mode;
-        margin-top: 6px;
+          margin-top: 6px;
         width: 100%;
         font-family: 'Cardo', serif;
     }

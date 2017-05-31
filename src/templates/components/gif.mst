@@ -1,0 +1,5 @@
+
+<div class="container">
+  <video src="/assets/video/{{src}}" loop autoplay style="width:100%;">
+  </video>
+</div>

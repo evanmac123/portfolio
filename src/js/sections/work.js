@@ -30,14 +30,18 @@ class Work extends Default {
 		classes.add(config.body, `is-${this.slug}`)
 
 		const tl = new TimelineMax({ paused: true, onComplete: done })
+		tl.set(this.page, { autoAlpha: 1, y:-500})
 
-		tl.set([this.ui.content, this.ui.card], {
-			y: 10,
-			autoAlpha: 0
-		})
-		tl.set(this.page, { scale: 1.1 })
+		tl.to(this.page, 3, { y: 0 })
+		tl.staggerFromTo(this.ui.animate, 2, {
+			autoAlpha: 0,
+			y: 10
+		}, {
+			autoAlpha: 1,
+			y: 0
+		}, 0.4)
 
-		tl.to(this.page, 2, { scale: 1, autoAlpha: 1 })
+
 		tl.restart()
 	}
 

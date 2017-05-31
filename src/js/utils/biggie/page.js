@@ -24,7 +24,7 @@ if (!cache[id]) {
 
     if (req.params.id) {
 
-        const parts = ['image', 'color', 'imagecontain', 'split', 'text', 'video', "embed"]
+        const parts = ['image', 'color', 'imagecontain', 'split', 'gif', 'text', 'video', "embed"]
         const templates = ['work', ...parts.map(part => `components/${part}`)]
         const urls = templates.map(tmpl => `${config.BASE}templates/${tmpl}.mst`)
         const keys = Object.keys(works)

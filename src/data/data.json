@@ -144,7 +144,7 @@
             "logo": "kleo-logo.png",
             "role": "User Experience Designer",
             "type": "Branding, UX, App Design",
-            "product": "Check out the Invision Prototype",
+            "product": "Invision Prototype",
             "site": "https://invis.io/Z59BUUBA4",
             "thesis": "How can we create a meaningful experience between art and museum visitors?",
             "highlight": "#6118D4",
@@ -470,6 +470,139 @@
                     }]
                 }
             ]
+        },
+        "recovery-road": {
+            "name": "Revovery Road",
+            "slug": "recovery-road",
+            "image": "recovery.png",
+            "logo": "recovery-logo.png",
+            "role": "Producer and Lead Dev",
+            "type": "Production, Design, Development",
+            "product": "Interactive Documentary",
+            "description": "Exploring Boston's Heroin Crisis",
+            "site": "www.evanmceldowney.com/recoveryroad",
+            "highlight": "#D3A713",
+            "thesis": "How do we help to destigmatize heroin addiction?",
+            "team": [{
+                    "split": {
+                        "left": {
+                            "title": "Evan McEldowney",
+                            "description": "Producer and Lead Dev"
+                        },
+                        "right": {
+                            "title": "Mike Wagenheim",
+                            "description": "Dev"
+                        }
+                    }
+                },
+                {
+                    "split": {
+                        "left": {
+                            "title": "Jenn Heitz",
+                            "description": "Designer"
+                        },
+                        "right": {
+                            "title": "Suma Hussien",
+                            "description": "Designer and Videographer"
+                        }
+                    }
+                }
+            ],
+            "overview": "Recovery Road is an interactive documentary made through Northeastern University’s Storylab focused on telling the story of active and recovering heroin addicts on Boston's Methadone mile to destigmatize heroin addiction and those who suffer from it. Using personal interviews, 360 video, and illustrated storylines we hope to change the perception of addiction from a moral failure to a disease that affects the mind.",
+            "content": [{
+                    "section": "1 Research",
+                    "section-content": [{
+                            "text": {
+                                "side": "",
+                                "title": "",
+                                "description": "The opioid epidemic in the United States is currently worse than it has ever been. Massachusetts has one of the highest rates of overdose deaths in the country, with nearly 2,000 people dying from overdose in 2016 alone. The epidemic can easily be observed at what is commonly called Boston’s “Methadone Mile” — what we prefer to call “Recovery Road.” This refuge and haven for those with substance use disorder, at the edge of Boston’s South End, Roxbury, and Dorchester neighborhoods, is a walking distance from Northeastern University. Because of this we decided to create a project to help family, friends, and the public understand the struggle of those suffering through addiction."
+                            }
+                        },
+                        {
+                            "imagecontain": {
+                                "src": "recovery/photos.png"
+                            }
+                        },
+                        {
+                            "text": {
+                                "side": "offset-by-one-half",
+                                "title": "1.1 Interviews",
+                                "description": "Our team of designers, developers, and journalists conducted interviews with police officers, medical professionals, social workers, and outreach programs. After our team had trouble finding real stories of addiction on Methadone Mile. I began to attending NA meetings, conducting interviews on Mass Ave, and meeting with community volunteers to help expand our network. I eventually met Paul who became the center storyline of the prototype and who would help me understand what addiction looked like."
+                            }
+                        },
+                        {
+                            "video": {
+                                "src": "215324021"
+                            }
+                        },
+                        {
+                            "text": {
+                                "side": "offset-by-one-half",
+                                "title": "1.2 User Journey",
+                                "description": "The site is organized for the user to explore one story at a time through interactive maps, documentary clips, and 360 videos. The user is then directed to the resources we gathered throughout the project or to Join the Movement by lending their voice to share the project."
+                            }
+                        },
+                        {
+                            "color": {
+                                "src": "recovery/sitemap.png",
+                                "description": "UI for the 2D interface"
+                            }
+                        }
+                    ]
+                  },
+                {
+                    "section": "2 Create",
+                    "section-content": [
+                        {
+                            "text": {
+                                "side": "offset-by-one-half",
+                                "title": "2.1 Design and Development",
+                                "description": "I was the lead developer on the project and also had my hand in a good amount of the UI development and outreach. The designs would be based around a chalky illustration style by Jenn Hertz. I would use a javascript animation framework called Biggie to put together a functional prototype of the project."
+                            }
+                        },
+                        {
+                          "gif": {
+                              "src": "recovery/storylab0.mp4"
+                            }
+                          },
+                          {
+                          "gif": {
+                              "src": "recovery/storylab1.mp4"
+                            }
+                          },
+                          {
+                          "gif": {
+                              "src": "recovery/storylab2.mp4"
+                            }
+                          },
+                          {
+                          "gif": {
+                              "src": "recovery/storylab3.mp4"
+                            }
+                          },
+                          {
+                          "gif": {
+                              "src": "recovery/storylab4.mp4"
+                            }
+                          },
+                          {
+                          "gif": {
+                              "src": "recovery/storylab5.mp4"
+                            }
+                          }
+                    ]
+                  },
+                  {
+                    "section": "3 Impliment",
+                    "section-content": [{
+                        "text": {
+                            "title": "The Future of Recovery Road",
+                            "side": "",
+                            "description": "The project currently features a fully functional web prototype that goes through the path of one addict in recovery but we are in the process of collecting and implementing more in the coming weeks. We are currently looking for partners that share our goals and will help with the production, funding and distribution of the project."
+                        }
+                    }]
+                }
+            ]
         }
     },
 
@@ -510,6 +643,18 @@
                 "product": "Iphone and Android App",
                 "description": "A Virtual Reality hidden object game",
                 "site": "https://invis.io/Z59BUUBA4",
+                "side": "right"
+            },
+            {
+                "name": "Revovery Road",
+                "slug": "recovery-road",
+                "image": "recovery.png",
+                "logo": "recovery-logo.png",
+                "role": "Development Lead and Outreach",
+                "type": "Journalism, Design, Development",
+                "product": "Interactive Documentary",
+                "description": "A Interactive Documentary on Boston's Heroin Crisis",
+                "site": "www.evanmceldowney.com/recoveryroad",
                 "side": "left"
             }
         ]

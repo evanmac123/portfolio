@@ -28,7 +28,7 @@
                         <div class="grid js-animate">
 
                             <figure class="effect-roxy">
-                                <a href="work/{{slug}}#top" >
+                                <a href="work/{{slug}}" >
                                   <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
                                 <figcaption>
                                     <img class="card-logo" src="/assets/images/cards/{{logo}}">
