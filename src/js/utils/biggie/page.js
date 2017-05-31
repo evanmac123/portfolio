@@ -69,20 +69,20 @@ if (!cache[id]) {
             done()
         })
     }
-     else {
+    else {
         fetch(`${config.BASE}templates/${id}.mst`).then(res => res.text()).then(tmpl => {
             const rendered = Mustache.render(tmpl, data)
             page.innerHTML = rendered
             cache[id] = rendered
             done()
         })
+      }
     }
+  else {
+      requestAnimationFrame(_ => {
+          page.innerHTML = cache[id]
+          done()
+      })
   }
-    else {
-        requestAnimationFrame(_ => {
-            page.innerHTML = cache[id]
-            done()
-        })
-    }
 return page
 }
