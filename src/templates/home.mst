@@ -4,7 +4,7 @@
       <source src="/assets/video/back2.ogv" type="video/ogv">
       <source src="/assets/video/back2.mp4" type="video/mp4">
     </video>-->
-    <img src="/assets/images/background.jpg" class="home__background">
+    <img width="100%" src="/assets/images/background.jpg" class="home__background">
     <div class="body">
         <div class="section home__title ">
             <div class="container">
@@ -57,3 +57,8 @@
         {{/cards }}
     </div>
 </div>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__copy">Copyright 2017 Made with love in Boston, Mass. </div>
+  </div>
+</footer>

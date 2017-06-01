@@ -15,9 +15,9 @@
                 feel free to contact me at evanmceldowney@gmail.com
               </div>
               <div class="about__icons">
-                <a target="_blank" href="https://github.com/evanmac123/"><img src="/assets/icons/github.png"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/evanmceldowney/"><img src="/assets/icons/linkedin.png"></a>
-                <a target="_blank" href="https://twitter.com/evanmceldowney"><img src="/assets/icons/twitter.png"></a>
+                <a target="_blank" class="no-underline" href="https://github.com/evanmac123/"><img src="/assets/icons/github.png"></a>
+                <a target="_blank" class="no-underline" href="https://www.linkedin.com/in/evanmceldowney/"><img src="/assets/icons/linkedin.png"></a>
+                <a target="_blank" class="no-underline" href="https://twitter.com/evanmceldowney"><img src="/assets/icons/twitter.png"></a>
               </div>
           </div>
       </div>

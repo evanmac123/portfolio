@@ -1,5 +1,4 @@
 {
-
     "work": {
         "studentrabbit": {
             "description": "Fixing Buying and Selling Textbooks",
@@ -37,7 +36,7 @@
                     }
                 }
             ],
-            "overview": "In Fall of 2015 I was recruited by<a href='www.northeastern.edu/scout'> Scout</a>, Northeastern University’s Student Design Agency to head a team to redesign a startup called Student Rabbit. Student Rabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a complete redesign for the Student Rabbit brand, user experience and web application.",
+            "overview": "In Fall of 2015 I was recruited by<a target='_blank' href='http://www.northeastern.edu/scout'> Scout</a>, Northeastern University’s Student Design Agency to head a team to redesign a startup called Student Rabbit. Student Rabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a complete redesign for the Student Rabbit brand, user experience and web application.",
             "content": [{
                     "section": "1 Research",
                     "section-content": [{
@@ -256,19 +255,18 @@
                 },
                 {
                     "section": "2 Create",
-                    "section-content": [
-                      {
-                          "split": {
-                              "left": {
-                                "title": "2.1 Designing Features",
-                                "description": "Our team began to design the features and functionality of the application directly from the research and the exercises we had conducted at the beginning of the project and used our How Might We statements to frame each decision in the context of our audience."
-                              },
-                              "right": {
-                                  "title": "",
-                                  "description": "<ul><li>Time Flexible Tours</li><li>Feature, Mood, Color and User Generated Tours</li><li>Timeline of activity at Museum</li><li>Turn by turn photo navigation<li>Visual and audio context</li></li><li>Distraction Free Wander Mode</li></ul>"
-                              }
-                          }
-                      },
+                    "section-content": [{
+                            "split": {
+                                "left": {
+                                    "title": "2.1 Designing Features",
+                                    "description": "Our team began to design the features and functionality of the application directly from the research and the exercises we had conducted at the beginning of the project and used our How Might We statements to frame each decision in the context of our audience."
+                                },
+                                "right": {
+                                    "title": "",
+                                    "description": "<ul><li>Time Flexible Tours</li><li>Feature, Mood, Color and User Generated Tours</li><li>Timeline of activity at Museum</li><li>Turn by turn photo navigation<li>Visual and audio context</li></li><li>Distraction Free Wander Mode</li></ul>"
+                                }
+                            }
+                        },
                         {
                             "color": {
                                 "src": "kleo/sitemap.png",
@@ -281,7 +279,6 @@
                                 "description": "Wireframes the apps major features"
                             }
                         },
-
                         {
                             "text": {
                                 "side": "",
@@ -303,36 +300,35 @@
                                 "right": {
                                     "title": "",
                                     "description": "Using IBeacon technology wander mode gives the user the chance to move around a museum freely but gives them audio context to each gallery they enter and each piece they want to hear more about. When entering into a gallery the user is read the museums room description and immersed in music from the time period. If a user chooses they can walk up to a piece and use voice commands to hear more about a piece or save in their collection. The content is pulled directly from the API and would need minimal curation from the museum itself."
+                                }
                             }
-                        }
-                      },
+                        },
                         {
                             "video": {
                                 "src": "218838157"
                             }
                         }
-
                     ]
                 },
                 {
                     "section": "3 Implementation",
                     "section-content": [{
                             "text": {
-                                    "title": "3.1 Testing the App in the Museum",
-                                    "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself."
-                           }
+                                "title": "3.1 Testing the App in the Museum",
+                                "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself."
+                            }
                         },
                         {
-                          "split": {
-                              "left": {
-                                  "src":"kleo/award.png"
-                              },
-                              "right": {
-                                  "title": "3.2 Awards and Future",
-                                  "description": "We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities. Please contact directly with questions about the project!"
-                              }
-                          }
-                      },
+                            "split": {
+                                "left": {
+                                    "src": "kleo/award.png"
+                                },
+                                "right": {
+                                    "title": "3.2 Awards and Future",
+                                    "description": "We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities. Please contact directly with questions about the project!"
+                                }
+                            }
+                        },
                         {
                             "video": {
                                 "src": "218838292"
@@ -350,6 +346,7 @@
             "highlight": "#F06F36",
             "type": "Front End Development, Branding, Web Design, UX",
             "site": "http://tinyeyeapp.com",
+            "product": "Mobile VR App",
             "thesis": "How do we design accessible and immersive experiences in Virtual Reality?",
             "team": [{
                     "split": {
@@ -482,12 +479,18 @@
                 {
                     "section": "3 Implementation",
                     "section-content": [{
-                        "text": {
-                            "title": "Live on the App Store",
-                            "side": "",
-                            "description": "After a code binge by our developer Rudy we launched on the app store in the middle of May and pushed out marketing material and a promotional website to different publications.  I learned more than I could imagine from the project and it gave me a deep dive into the challenges of designing in VR, the new medium of 360 video and images, and the realities of app development in Unity. "
+                            "text": {
+                                "title": "Live on the App Store",
+                                "side": "",
+                                "description": "After a code binge by our developer Rudy we launched on the app store in the middle of May and pushed out marketing material and a promotional website to different publications.  I learned more than I could imagine from the project and it gave me a deep dive into the challenges of designing in VR, the new medium of 360 video and images, and the realities of app development in Unity. "
+                            }
+                        },
+                        {
+                            "video": {
+                                "src": "219754890"
+                            }
                         }
-                    }]
+                    ]
                 }
             ]
         },
