@@ -1,10 +1,10 @@
 <div class="home" id="#top">
 
-  <!--  <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
+  <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
       <source src="/assets/video/back2.ogv" type="video/ogv">
       <source src="/assets/video/back2.mp4" type="video/mp4">
-    </video>-->
-    <img width="100%" src="/assets/images/background.jpg" class="home__background">
+    </video>
+  <!--  <img width="100%" src="/assets/images/background.jpg" class="home__background">-->
     <div class="body">
         <div class="section home__title ">
             <div class="container">
