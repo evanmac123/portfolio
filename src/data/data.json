@@ -503,7 +503,7 @@
             "type": "Production, Design, Development",
             "product": "Interactive Documentary",
             "description": "Exploring Boston's Heroin Crisis",
-            "site": "www.evanmceldowney.com/recoveryroad",
+            "site": "https://174.138.71.44/",
             "highlight": "#D3A713",
             "thesis": "How do we help to destigmatize heroin addiction?",
             "team": [{
@@ -521,7 +521,7 @@
                 {
                     "split": {
                         "left": {
-                            "title": "Jenn Heitz",
+                            "title": "Jennifer Heintz",
                             "description": "Designer"
                         },
                         "right": {
@@ -579,7 +579,7 @@
                             "text": {
                                 "side": "offset-by-one-half",
                                 "title": "2.1 Design and Development",
-                                "description": "I was the lead developer on the project but I also ended up designing the user interface of the site along with finding sources for interviews. The designs and illustrations were done by Jenn Hertz and the videography would be done by Suma Hussien. Mike Wagenhiem and I would use a JavaScript animation framework called Biggie based off of Bigwheel to put together a functional prototype of the project."
+                                "description": "I was the lead developer on the project but I also ended up designing the user interface of the site along with finding sources for interviews. The designs and illustrations were done by Jennifer Heintz and the videography would be done by Suma Hussien. Mike Wagenheim and I would use a JavaScript animation framework called Biggie based off of Bigwheel to put together a functional prototype of the project."
                             }
                         },
                         {
@@ -631,18 +631,19 @@
     "home": {
         "slug": "home",
         "title": "Home",
-        "cards": [{
-                "name": "Student Rabbit",
-                "slug": "studentrabbit",
-                "image": "studentrabbit.png",
-                "logo": "studentrabbit-logo.png",
-                "role": "Project Lead",
-                "type": "Front End Development, Branding, Web Design, UX",
-                "product": "www.studentrabbit.com",
-                "description": "Fixing Buying and Selling Textbooks",
-                "site": "http://www.studentrabbit.com/#/",
-                "side": "right"
-            },
+        "cards": [
+          {
+              "name": "Revovery Road",
+              "slug": "recovery-road",
+              "image": "recovery.png",
+              "logo": "recovery-logo.png",
+              "role": "Development Lead and Outreach",
+              "type": "Journalism, Design, Development",
+              "product": "Interactive Documentary",
+              "description": "A Interactive Documentary on Boston's Heroin Crisis",
+              "site": "https://www.evanmceldowney.com/recoveryroad",
+              "side": "left"
+           },
             {
                 "name": "Kleo",
                 "slug": "kleo",
@@ -653,7 +654,7 @@
                 "product": "Invision Prototype",
                 "description": "Accessible Museum Tours",
                 "site": "https://invis.io/Z59BUUBA4",
-                "side": "left"
+                "side": "right"
             },
             {
                 "name": "Tiny Eye",
@@ -665,19 +666,19 @@
                 "product": "Iphone and Android App",
                 "description": "A Virtual Reality hidden object game",
                 "site": "https://invis.io/Z59BUUBA4",
-                "side": "right"
+                "side": "left"
             },
             {
-                "name": "Revovery Road",
-                "slug": "recovery-road",
-                "image": "recovery.png",
-                "logo": "recovery-logo.png",
-                "role": "Development Lead and Outreach",
-                "type": "Journalism, Design, Development",
-                "product": "Interactive Documentary",
-                "description": "A Interactive Documentary on Boston's Heroin Crisis",
-                "site": "https://www.evanmceldowney.com/recoveryroad",
-                "side": "left"
+                  "name": "Student Rabbit",
+                  "slug": "studentrabbit",
+                  "image": "studentrabbit.png",
+                  "logo": "studentrabbit-logo.png",
+                  "role": "Project Lead",
+                  "type": "Front End Development, Branding, Web Design, UX",
+                  "product": "www.studentrabbit.com",
+                  "description": "Fixing Buying and Selling Textbooks",
+                  "site": "http://www.studentrabbit.com/#/",
+                  "side": "right"
             }
         ]
     },
