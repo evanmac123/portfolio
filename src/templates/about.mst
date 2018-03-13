@@ -1,40 +1,30 @@
 <div class="about">
   <div class="about__hold">
-  <div class="container">
+    <div class="container">
       <div class="row">
         <div class="one-half column about__me">
           <div class="about__intro">
-            <div>Evan
-            McEldowney</div>
-            <div>UX Designer
-            and Developer</div>
+            <div>Evan McEldowney
+            </div>
+            <div class="about__sub-title">UX Designer and Developer</div>
           </div>
           <div class="about__freelancing">
-              <div class="about__contact">
-                <div class="hire">I’m currently freelancing</div> so
-                feel free to contact me at evanmceldowney@gmail.com
-              </div>
-              <div class="about__icons">
-                <a target="_blank" class="no-underline" href="https://github.com/evanmac123/"><img src="/assets/icons/github.png"></a>
-                <a target="_blank" class="no-underline" href="https://www.linkedin.com/in/evanmceldowney/"><img src="/assets/icons/linkedin.png"></a>
-                <a target="_blank" class="no-underline" href="https://twitter.com/evanmceldowney"><img src="/assets/icons/twitter.png"></a>
-              </div>
+            <span class="about__contact">
+                <span class="hire">I’m currently freelancing</span> so feel free to contact me at evanmceldowney@gmail.com
+                </span>
+            </span>
+            <div class="about__icons">
+              <a target="_blank" class="no-underline" href="https://github.com/evanmac123/"><img src="/assets/icons/github.png"></a>
+              <a target="_blank" class="no-underline" href="https://www.linkedin.com/in/evanmceldowney/"><img src="/assets/icons/linkedin.png"></a>
+              <a target="_blank" class="no-underline" href="https://twitter.com/evanmceldowney"><img src="/assets/icons/twitter.png"></a>
+            </div>
           </div>
-      </div>
+        </div>
         <div class="one-half column">
-          <div class="about__bio">
-          I recently graduated from <a target="_blank" href="http://www.northeastern.edu/"> Northeastern University Magna Cum Laude  </a>
-          with a degree in Interactive Media and Graphic Design
-          and I have been working in the industry for the past five years.
-          My most recent jobs were with <a target="_blank" href="http://yeti.co">Yeti</a> in San Francisco,
-          <a target="_blank" href="http://www.studiogusto.com/en/#/home/">Studio Gusto</a> in Italy,
-           and <a target="_blank" href="http://www.northeastern.edu/scout/">Scout</a> Northeastern's Student Design Firm.
-          I am interested in digital design in journalism, interactive documentaries
-          and visual based education but I get a kick out of motion graphics,
-           history puns, and art museums.
-
-          <a href="/assets/doc/resume.pdf" class="resume" target="_blank">Resume of past positions</a>
-          </div>
+          <span class="about__bio">I recently graduated from <a target="_blank" href="http://www.northeastern.edu/"> Northeastern University</a> with a degree in Interactive Media and Graphic Design and I have been working in the industry for the past five years. My most recent jobs were with <a target="_blank" href="http://yeti.co">Yeti</a> in San Francisco, <a target="_blank" href="http://www.studiogusto.com/en/#/home/">Studio Gusto</a> in Italy, and <a target="_blank" href="http://www.northeastern.edu/scout/">Scout</a> Northeastern's Student Design Firm. I am interested in digital design in journalism, interactive documentaries and visual based education systems but I also love exploring motion graphics, history puns, and art museums.
+            <br>
+            <a href="/assets/doc/resume.pdf" class="resume" target="_blank">Resume of past positions</a>
+          </span>
         </div>
       </div>
     </div>

@@ -12,18 +12,26 @@
 
     &__me {
         font-weight: 300;
+        border: $blue 1px solid;
+        padding: 20px;
+    }
+
+    &__sub-title{
+      font-size:.4em;
     }
 
     &__intro {
         font-size: 2.8em;
-        margin-bottom: 10px;
-        line-height: 1.1em;
+        margin-bottom: 40px;
+
     }
+
+
 
     &__freelancing {
         font-size: 1em;
         color: $dark-grey;
-        line-height: 1.2em;
+        line-height: 1.8em;
 
         .hire {
             font-weight: 700;
@@ -45,7 +53,7 @@
     &__bio {
         margin-top: 60px;
         font-family: $font-serif;
-        line-height: 1.3em;
+        line-height: 1.8em;
 
         .resume {
             margin-top: 5px;
