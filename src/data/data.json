@@ -36,7 +36,7 @@
                     }
                 }
             ],
-            "overview": "In Fall of 2015 I was recruited by<a target='_blank' href='http://www.northeastern.edu/scout'> Scout</a>, Northeastern University’s Student Design Agency to lead a team that was going to redesign and rebrand a startup called Student Rabbit. Student Rabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a complete redesign for the Student Rabbit brand, user experience and web application.",
+            "overview": "In Fall of 2015 I was recruited by Scout, Northeastern University’s Student Design Agency to lead a team that was going to redesign and rebrand a startup called Student Rabbit. Student Rabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a complete redesign for the Student Rabbit brand, user experience and web application.",
             "content": [{
                     "section": "1 Research",
                     "section-content": [{
@@ -410,7 +410,7 @@
                         },
                         {
                             "image": {
-                                "src": "tinyeye/concept.png"
+                                "src": "tinyeye/concept.jpg"
                             }
                         }
                     ]
@@ -458,7 +458,7 @@
                         },
                         {
                             "image": {
-                                "src": "tinyeye/settingup.png"
+                                "src": "tinyeye/settingup.jpg"
                             }
                         },
                         {
@@ -503,7 +503,6 @@
             "type": "Production, Design, Development",
             "product": "Interactive Documentary",
             "description": "Exploring Boston's Heroin Crisis",
-            "site": "https://174.138.71.44/",
             "highlight": "#D3A713",
             "thesis": "How do we help to destigmatize heroin addiction?",
             "team": [{
@@ -543,7 +542,7 @@
                         },
                         {
                             "imagecontain": {
-                                "src": "recovery/photos.png"
+                                "src": "recovery/photos.jpg"
                             }
                         },
                         {
