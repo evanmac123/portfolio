@@ -495,7 +495,7 @@
             ]
         },
         "recovery-road": {
-            "name": "Revovery Road",
+            "name": "Recovery Road",
             "slug": "recovery-road",
             "image": "recovery.png",
             "logo": "recovery-logo.png",
@@ -632,7 +632,7 @@
         "title": "Home",
         "cards": [
           {
-              "name": "Revovery Road",
+              "name": "Recovery Road",
               "slug": "recovery-road",
               "image": "recovery.png",
               "logo": "recovery-logo.png",

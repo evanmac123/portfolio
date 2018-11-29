@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.0.1",
+    "acorn": "^6.0.4",
+    "aos": "^3.0.0-beta.6",
     "bigwheel": "3.0.0",
     "bw-router": "^2.0.6",
     "bw-viewmediator": "2.1.0",
@@ -43,25 +45,25 @@
     "prefix": "^1.0.0",
     "query-dom-components": "^0.1.0",
     "sniffer": "github:watsondg/sniffer",
-    "whatwg-fetch": "^2.0.3",
-    "video-scroller": "^1.1.1"
+    "video-scroller": "^1.1.1",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.22.0",
     "babelify": "^7.3.0",
-    "browser-sync": "^2.14.3",
+    "browser-sync": "^2.26.3",
     "browserify": "^14.0.0",
     "connect-history-api-fallback": "^1.3.0",
     "del": "^2.2.2",
     "eslint": "^3.14.1",
     "eslint-config-starry": "^2.0.1",
     "eslint-plugin-starry": "^2.0.1",
-    "gulp": "^3.9.1",
+    "gulp": "^3.9.0",
     "gulp-changed": "^1.3.2",
     "gulp-cssnano": "^2.1.2",
     "gulp-eslint": "^3.0.1",
     "gulp-html-replace": "^1.6.2",
-    "gulp-imagemin": "^3.0.3",
+    "gulp-imagemin": "^5.0.3",
     "gulp-load-plugins": "^1.2.4",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
@@ -69,10 +71,10 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "normalize.css": "^4.2.0",
-    "require-dir": "^0.3.0",
+    "require-dir": "^0.3.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.9.0"
+    "watchify": "^3.11.0"
   },
   "browserify": {
     "transform": [

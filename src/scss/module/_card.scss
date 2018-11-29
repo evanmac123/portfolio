@@ -203,6 +203,7 @@ figure.effect-roxy:hover .card-info {
         line-height: 21px;
         transition: bottom 0.4s;
 				z-index: 10;
+				mix-blend-mode: $blend-mode;
     }
 
     .card-title {
@@ -210,15 +211,17 @@ figure.effect-roxy:hover .card-info {
         width: 100%;
         bottom: 100px;
         line-height: 1.1em;
-        font-weight: 400;
+        font-weight: 600;
         transition: bottom 0.35s;
 				margin-top: 6px;
+				mix-blend-mode: $blend-mode;
     }
 
     .card-type {
         margin-top: 6px;
         width: 100%;
         font-family: 'Cardo', serif;
+				mix-blend-mode: $blend-mode;
     }
 }
 

@@ -8,14 +8,13 @@
     <div class="body">
         <div class="section home__title ">
             <div class="container">
-                <div class="home__main-title">
+                <div class="home__main-title" data-aos="fade-in">
                     A designer of digital experiences.
                 </div>
-                <div class="home__description">
+                <div class="home__description" >
                     UX, Visual Design, Front End Development
                 </div>
-                <div class="home__about-me">
-                    <!--<a> More about me </a>-->
+                <div class="home__about-me" >
                 </div>
             </div>
         </div>
@@ -24,7 +23,7 @@
 
         <div class="section">
             <div class="container">
-                <div class="card {{ side }}">
+                <div class="card {{ side }}" data-aos="fade-in">
                         <div class="grid">
 
                             <figure class="effect-roxy">

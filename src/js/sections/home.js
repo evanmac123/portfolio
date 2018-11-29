@@ -29,24 +29,12 @@ class Home extends Default {
 
 		 super.ready()
 		 done()
-
-		// var video = document.getElementById("bgvid")
-		// video.addEventListener( "canplaythrough", function() {
-		// video.play()
-		//})
-
-			//new VideoScroller({
-		//	el: document.getElementById('bgvid'),
-			//debug: true,
-		//	invert: true
-	//	})
-
 	}
 
 
 
 	addEvents() {
-}
+	}
 
 	removeEvents() {
 
