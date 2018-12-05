@@ -1,6 +1,15 @@
 .home {
+      width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    top: 0;
+
+    section{
+      float:left;
+    }
     &__background {
-        position: fixed;
+        position: absolute;
         min-width: 100%;
         min-height: 100%;
         width: auto;
@@ -11,13 +20,28 @@
     }
 
     .body {
+        width: 100%;
+        height: 100%;
+        display: block;
         position: relative;
-        color: $blend-color;
+        bottom: 0;
+        top: 0;
+
         font-weight: 300;
+        color: #5a00ff;
     }
 
     &__title {
-        margin: 119px 0;
+        height:100%;
+        bottom:0;
+        top:0;
+        position:relative;
+        width:100%;
+        margin: 100px 0;
+    }
+
+    .cards{
+      bottom:0;
     }
 
     &__body {
@@ -33,11 +57,13 @@
         font-family: 'Cardo', serif;
         mix-blend-mode: $blend-mode;
         width: 60%;
+        color: $blend-color;
     }
 
     &__sub-title {
         font-size: 1.1em;
         mix-blend-mode: $blend-mode;
+        color: $blend-color;
     }
 
     &__description {
@@ -46,6 +72,7 @@
         letter-spacing: 0.5px;
         font-family: 'Cardo', serif;
         mix-blend-mode: $blend-mode;
+        color: $blend-color;
         margin-top: 10px;
     }
 
@@ -58,6 +85,21 @@
         }
     }
     @media (max-width: 960px) {
-      
+      video{
+        display:none;
+      }
+      .home__main-title{
+        color: $blue;
+        mix-blend-mode: unset;
+        font-size:3.5em;
+      }
+      .home__sub-title {
+        color: $blue;
+        mix-blend-mode: unset;
+      }
+      .home__description{
+        color: $blue;
+        mix-blend-mode: unset;
+      }
     }
 }

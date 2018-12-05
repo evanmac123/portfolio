@@ -1,12 +1,11 @@
 <div class="home" id="#top">
-
-  <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
-      <source src="/assets/video/back2.ogv" type="video/ogv">
-      <source src="/assets/video/back2.mp4" type="video/mp4">
-    </video>
   <!--  <img width="100%" src="/assets/images/background.jpg" class="home__background">-->
     <div class="body">
-        <div class="section home__title ">
+        <div class="home__title">
+          <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
+              <source src="/assets/video/back2.ogv" type="video/ogv">
+              <source src="/assets/video/back2.mp4" type="video/mp4">
+            </video>
             <div class="container">
                 <div class="home__main-title" data-aos="fade-in">
                     A designer of digital experiences.
@@ -19,6 +18,7 @@
             </div>
         </div>
 
+        <div class="cards">
         {{#cards }}
 
         <div class="section">
@@ -54,10 +54,6 @@
             </div>
         </div>
         {{/cards }}
+      </div>
     </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__copy">Copyright 2017 Made with love in Boston, Mass. </div>
-  </div>
-</footer>

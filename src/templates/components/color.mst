@@ -1,4 +1,4 @@
     {{#src}}
       {{> image_part}}
     {{/src}}
-    <div class=""> {{ description }} </div>
+    <div class="description"> {{ description }} </div>

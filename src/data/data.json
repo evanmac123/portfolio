@@ -1,690 +1,788 @@
 {
-    "work": {
-        "studentrabbit": {
-            "description": "Fixing Buying and Selling Textbooks",
-            "slug": "studentrabbit",
-            "image": "studentrabbit.png",
-            "logo": "studentrabbit-logo.png",
-            "role": "Project Lead",
-            "highlight": "#78CECF",
-            "type": "Front End Development, Branding, Web Design, UX",
-            "product": "www.studentrabbit.com",
-            "site": "http://www.studentrabbit.com/#/",
-            "thesis": "How can we make buying and selling textbooks between students safe and simple?",
-            "team": [{
-                    "split": {
-                        "left": {
-                            "title": "Evan McEldowney",
-                            "description": "Project Lead"
-                        },
-                        "right": {
-                            "title": "Vendela Larsson",
-                            "description": "Designer"
-                        }
-                    }
-                },
-                {
-                    "split": {
-                        "left": {
-                            "title": "Alex Morris",
-                            "description": "Designer"
-                        },
-                        "right": {
-                            "title": "Christina Spleen",
-                            "description": "Developer"
-                        }
-                    }
-                }
-            ],
-            "overview": "In Fall of 2015 I was recruited by Scout, Northeastern University’s Student Design Agency to lead a team that was going to redesign and rebrand a startup called Student Rabbit. Student Rabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a complete redesign for the Student Rabbit brand, user experience and web application.",
-            "content": [{
-                    "section": "1 Research",
-                    "section-content": [{
-                            "text": {
-                                "side": "",
-                                "title": "1.1 Understanding the Problem",
-                                "description": "We began the project by doing in-depth interviews with our client to understand their brand and the concept behind the business. We found the problem with creating a marketplace between consumers is the number of steps to complete the transaction and the wait time needed for people to negotiate. The major task that we were faced with was condensing and simplifying the lengthy buying and selling process."
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "studentrabbit/sitemap.png",
-                                "description": "Site Map of problem areas"
-                            }
-                        },
-                        {
-                            "text": {
-                                "side": "",
-                                "title": "1.2 User Journey and Testing",
-                                "description": "We decided to test the site with fifteen users to get a better understanding of the major pain points of the site and created a site map highlighting them. The interviews and map led us to focus on simplifying the user journey, providing contextual clues of where they were in the site and creating a more fluid user buying experience."
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "2 Create",
-                    "section-content": [{
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "2.1 Wireframing",
-                                "description": "Using simple wireframes, we mapped out a new user flow and new functionality to solve the major pain points of the site. We added a centralized dashboard, streamlined messaging system, and cut down the buying and selling process. We also educated our users on the how the system safely allowed students to make offers, message to meet up, and finally hand deliver the books."
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "studentrabbit/flow.png",
-                                "description": "Buying a Book Flow"
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "studentrabbit/wireframes.png",
-                                "description": "Wireframes of Home and Dashboard"
-                            }
-                        },
-                        {
-                            "split": {
-                                "left": {
-                                    "title": "2.2 Branding and Iconography",
-                                    "description": "To rebrand Student Rabbit we started with some basic exercises with the client to better understand the values of the company. We focused the brand around the pillars of youthful, connective, professional, reactive, and playful and then iterated on a logo mark, color palette, and icons that reflected this."
-                                },
-                                "right": {
-                                    "src": "studentrabbit/logo.png"
-                                }
-                            }
-                        },
-                        {
-                            "split": {
-                                "left": {
-                                    "src": "studentrabbit/explain.png"
-                                },
-                                "right": {
-                                    "src": "studentrabbit/icons.png"
-                                }
-                            }
-                        },
-                        {
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "2.3 High Fidelity Designs",
-                                "description": "With our brand and flow set we designed the finalized user interface of each page. We would use orange and blue to help distinguish the buying and selling processes and custom created icons to give context to actions and explain how the process worked."
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "studentrabbit/highfidelity.png",
-                                "description": "Buying a Book Flow"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "3 Implementation",
-                    "section-content": [{
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "3.1 Coded Prototype",
-                                "description": "After finishing with high fidelity design my team and I created a complete mobile first prototype of the site out of HTML, SASS, and JavaScript that was then handed to a developer to implement full stack integration. The site went live in Spring of 2016."
-                            }
-                        },
-                        {
-                            "imagecontain": {
-                                "src": "studentrabbit/screen.png"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        "kleo": {
-            "description": "Accessible Museum Tours",
-            "slug": "kleo",
-            "image": "kleo.png",
-            "logo": "kleo-logo.png",
-            "role": "User Experience Designer",
-            "type": "Branding, UX, App Design",
-            "product": "Invision Prototype",
-            "site": "https://invis.io/Z59BUUBA4",
-            "thesis": "How can we create a meaningful experience between art and museum visitors?",
-            "highlight": "#6118D4",
-            "team": [{
-                    "split": {
-                        "left": {
-                            "title": "Evan McEldowney",
-                            "description": "Project Lead"
-                        },
-                        "right": {
-                            "title": "Alice Young",
-                            "description": "Developer"
-                        }
-                    }
-                },
-                {
-                    "split": {
-                        "left": {
-                            "title": "Beatrice Huang",
-                            "description": "Developer"
-                        },
-                        "right": {
-                            "title": "Emily O'Brien",
-                            "description": "Designer"
-                        }
-                    }
-                },
-                {
-                    "split": {
-                        "left": {
-                            "title": "Amanda Pinsker",
-                            "description": "Designer"
-                        },
-                        "right": {
-                            "title": "",
-                            "description": ""
-                        }
-                    }
-                }
-            ],
-            "overview": "My Northeastern Interaction Senior Capstone team built Kleo to create a memorable and accessible experience that creates interest and conversations between novice visitors and the museum itself. We bridged physical and digital tools to provide a smart phone tour application that allows for customization, contextualization, and easy navigation in a user’s museum experience.",
-            "content": [{
-                    "section": "1 Research",
-                    "section-content": [{
-                            "text": {
-                                "side": "",
-                                "title": "1.1 Interviews and Academic Research",
-                                "description": "We began our efforts by taking a month to dig into past research that had been done on museum design  and attendance while also conducting in person interviews of visitors and employees at museums. After looking at practices and research the some of the major issues with traditional museum visitor experiences became clearer to us. Our major goals for the project became creating context for visitors,  simplifying wayfinding, and making the art in the museum accessible."
-                            }
-                        },
-                        {
-                            "imagecontain": {
-                                "src": "kleo/research.png"
-                            }
-                        },
-                        {
-                            "split": {
-                                "left": {
-                                    "title": "1.2 Looking with Empathy",
-                                    "description": "We then created empathy maps to understand and organize some of the findings obtained from our interviews and step into the mind of tourists, museum staff, curators, educators, and students who visited the museum."
-                                },
-                                "right": {
-                                    "src": "kleo/empathy.png"
-                                }
-                            }
-                        },
-                        {
-                            "split": {
-                                "left": {
-                                    "src": "kleo/brainstorming.png"
-                                },
-                                "right": {
-                                    "title": "1.3 Framing the Problem",
-                                    "description": "We decided to focus on the novice museum goer as our main audience and distilled their maps into specific questions that would be answer by the features of our product. We then brainstormed different ways we could use physical or digital tools to solve these questions for our audience."
-                                }
-                            }
-                        },
-                        {
-                            "split": {
-                                "right": {
-                                    "src": "kleo/howmightwe.png"
-                                },
-                                "left": {
-                                    "title": "1.4 How Might We",
-                                    "description": "<ul><li>bridge the gap between physical and digital?</li><li>support different interests of different visitors?</li><li>support flexible decision making?</li><li>create emotional/personal connections?<li>add context to the content?</li></li><li>encourage sharing</li></ul>"
-                                }
-                            }
-                        },
-                        {
-                            "text": {
-                                "title": "1.5 Finding a Partnership",
-                                "side": "",
-                                "description": "We had meetings with the MFA, ICA, Harvard Art Museum, Design Museum Boston, PEM, and Northeastern's Gallery 360. At this point in our process, we were considering many formats for a product that could be a solution to these problems. We were originally interested in the Boston Museum of Fine Art due to its proximity, large collection, and initiative for accessibility but after talking with the MFA we found that working them would be not be viable due to their current initiatives and the museum’s long production timeline."
-                            }
-                        },
-                        {
-                            "imagecontain": {
-                                "src": "kleo/partner.png"
-                            }
-                        },
-                        {
-                            "text": {
-                                "title": "1.6 Harvard Art Museum + Mobile Tour App",
-                                "side": "offset-by-one-half",
-                                "description": "Without control over a physical space we decided to pursue a mobile application. An application gave us flexibility in creating an experience we wanted that could be introduced flexibly in more than one museum. We were selected by Harvard Art Museum as a partner and they granted us access to their API and a museums space to test our application. With this partnership we decided to create a museum tour application that allowed for customization, contextualization, and easy navigation in a user’s museum experience."
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "2 Create",
-                    "section-content": [{
-                            "split": {
-                                "left": {
-                                    "title": "2.1 Designing Features",
-                                    "description": "Our team began to design the features and functionality of the application directly from the research and the exercises we had conducted at the beginning of the project and used our How Might We statements to frame each decision in the context of our audience."
-                                },
-                                "right": {
-                                    "title": "",
-                                    "description": "<ul><li>Time Flexible Tours</li><li>Feature, Mood, Color and User Generated Tours</li><li>Timeline of activity at Museum</li><li>Turn by turn photo navigation<li>Visual and audio context</li></li><li>Distraction Free Wander Mode</li></ul>"
-                                }
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "kleo/sitemap.png",
-                                "description": "Sitemap of App"
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "kleo/wireframes.png",
-                                "description": "Wireframes the apps major features"
-                            }
-                        },
-                        {
-                            "text": {
-                                "side": "",
-                                "title": "2.2 Creating a Invision Prototype",
-                                "description": "After testing and iterating on our wireframes we finalized our features and built out a fully fleshed out prototype on Invision to test with visitors and to help our developers in creating the application."
-                            }
-                        },
-                        {
-                            "embed": {
-                                "src": "//invis.io/XF9CGTCG5"
-                            }
-                        },
-                        {
-                            "split": {
-                                "left": {
-                                    "title": "2.3 Wander Mode",
-                                    "description": "Wander Mode was my brain child and it came to me after testing the app repeatedly and seeing the amount of time visitors were looking at their phone. I became interested in how we could create the same experience and information without the phone detracting from the art itself."
-                                },
-                                "right": {
-                                    "title": "",
-                                    "description": "Using IBeacon technology Wander  Mode gives the user the chance to move around a museum freely while giving them audio context to each gallery they enter and each piece they want to hear more about. When entering into a gallery the user is read the museums room description and immersed in music from the time period. If a user chooses they can walk up to a piece and use voice commands to hear more about a piece or save in their collection. The content is pulled directly from the API and would need minimal curation from the museum itself."
-                                }
-                            }
-                        },
-                        {
-                            "video": {
-                                "src": "218838157"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "3 Implementation",
-                    "section-content": [{
-                            "text": {
-                                "title": "3.1 Testing the App in the Museum",
-                                "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself."
-                            }
-                        },
-                        {
-                            "split": {
-                                "left": {
-                                    "src": "kleo/award.png"
-                                },
-                                "right": {
-                                    "title": "3.2 Awards and Future",
-                                    "description": "We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities. Please contact directly with questions about the project!"
-                                }
-                            }
-                        },
-                        {
-                            "video": {
-                                "src": "218838292"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        "tinyeye": {
-            "description": "A virtual reality hidden object game",
-            "image": "tinyeye.png",
-            "slug": "tinyeye",
-            "logo": "tinyeye-logo.png",
-            "highlight": "#F06F36",
-            "type": "Front End Development, Branding, Web Design, UX",
-            "site": "http://tinyeyeapp.com",
-            "product": "Mobile VR App",
-            "thesis": "How do we design accessible and immersive experiences in Virtual Reality?",
-            "team": [{
-                    "split": {
-                        "left": {
-                            "title": "Evan McEldowney",
-                            "description": "Lead Designer"
-                        },
-                        "right": {
-                            "title": "Geoff House",
-                            "description": "Project Manager"
-                        }
-                    }
-                },
-                {
-                    "split": {
-                        "left": {
-                            "title": "Ruddy Mutter",
-                            "description": "Developer"
-                        },
-                        "right": {
-                            "title": "Mike Godlewski",
-                            "description": "Designer"
-                        }
-                    }
-                }
-            ],
-            "overview": "In the Spring of 2016 I worked at a mobile app development company called Yeti in sweet and beautiful San Francisco. Yeti was interested in exploring the realm of Virtual Reality but didn’t have experience in the field and wanted to understand the basics of design and development in VR. They tasked me on making a VR game inspired off of the classic “ISpy” game from the 90’s with a developer who wanted to learn Unity.",
-            "content": [{
-                    "section": "1 Research",
-                    "section-content": [{
-                            "text": {
-                                "side": "",
-                                "title": "",
-                                "description": "I started looking into the current state of VR phone applications on the market and the primary value they offered. In 2016 the market was pretty barren with the majority of content being based around 360 video or thriller experiences. One of the best resources I found was the Design for Google Cardboard app and site developed by Google. Their walkthroughs and my own research taught me how to design for motion sickness, rendering 2D in 3d spaces, user control, and entering and exiting UI patterns."
-                            }
-                        },
-                        {
-                            "image": {
-                                "src": "tinyeye/research.png"
-                            }
-                        },
-                        {
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "1.1 Prototyping and Designing in VR",
-                                "description": "I began prototyping different versions of what our version of ISpy could look like by creating basic interfaces on top of the 360 photos. I found that prototyping in VR was difficult because of the lack of translation from 2d to 3d. To remedy this, I used VR Framer.js plugin to develop live clickable prototypes in 360 that I could hand off to my developer. These prototypes helped me understand scene transitions, menu location, motion interaction in VR that would become important in the final app itself. "
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "tinyeye/prototypes.png",
-                                "description": "Early Designs of VR interfaces"
-                            }
-                        },
-                        {
-                            "text": {
-                                "title": "1.2 Creating Immersive Content",
-                                "side": "offset-by-one-half",
-                                "description": "After my research into the field it became clear to me quickly that content was king in VR and that we had to create immersive environments to keep engagement. We started to develop in Unity but found that progress was slow because of our developer’s lack of experience. We bought a basic Ricoh 360 camera and I began to look around San Francisco for content. The depth of field of the camera and lack of stable environment in the real world led us to create our own worlds of toys and found objects just like in the books."
-                            }
-                        },
-                        {
-                            "image": {
-                                "src": "tinyeye/concept.jpg"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "2 Create",
-                    "section-content": [{
-                            "split": {
-                                "left": {
-                                    "title": "2.1 Testing the Concept",
-                                    "description": "I worked with the developer to create a basic prototype of the game in Unity that used simplified wireframes to understand game mechanics and UI functionality. "
-                                },
-                                "right": {
-                                    "src": "tinyeye/snowtown.png"
-                                }
-                            }
-                        },
-                        {
-                            "video": {
-                                "src": "219439365"
-                            }
-                        },
-                        {
-                            "split": {
-                                "right": {
-                                    "title": "2.2 Branding a New ISpy",
-                                    "description": "With the concept tested I built out a brand, logo, and UI set could be used across the app. Geoff and Mike, the creative director and the senior designer at Yeti helped me with refining these into a cohesive system that worked and reinforced the playful nature of the app."
-                                },
-                                "left": {
-                                    "src": "tinyeye/brand.png"
-                                }
-                            }
-                        },
-                        {
-                            "image": {
-                                "src": "tinyeye/brandexercises.png"
-                            }
-                        },
-                        {
-                            "text": {
-                                "title": "2.3 Understanding 360 Degree Environments",
-                                "side": "",
-                                "description": "To flesh out the content Geoff, Mike and I took 3 days and a huge amount of left over toys and let our inner kids go crazy. We built 9 complete worlds with 10 hidden objects in each world. The biggest takeaway from this phase of the project were the challenges was learning to deal with the difficulties of directing and shooting with a 360 camera because of the lack of control and directionality."
-                            }
-                        },
-                        {
-                            "image": {
-                                "src": "tinyeye/settingup.jpg"
-                            }
-                        },
-                        {
-                            "text": {
-                                "title": "2.4 Designing for the App Store",
-                                "side": "offset-by-one-half",
-                                "description": "After showing it to my CEO he was interested in launching it on the app store but to do this we would need polish the UI and move menus out of VR so we could introduce a pay to play system for sets of levels. We scrapped a good amount of the original in VR design and restarted in 2D with branding I had done earlier. We added icons for all the hidden objects and added sound to each environment to increase the immersive nature of the app."
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "tinyeye/ui.png",
-                                "description": "UI for the 2D interface"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "3 Implementation",
-                    "section-content": [{
-                            "text": {
-                                "title": "Live on the App Store",
-                                "side": "",
-                                "description": "After a code binge by our developer Rudy we launched on the app store in the middle of May and pushed out marketing material and a promotional website to different publications.  I learned more than I could imagine from the project and it gave me a deep dive into the challenges of designing in VR, the new medium of 360 video and images, and the realities of app development in Unity. "
-                            }
-                        },
-                        {
-                            "video": {
-                                "src": "219754890"
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        "recovery-road": {
-            "name": "Recovery Road",
-            "slug": "recovery-road",
-            "image": "recovery.png",
-            "logo": "recovery-logo.png",
-            "role": "Producer and Lead Dev",
-            "type": "Production, Design, Development",
-            "product": "Interactive Documentary",
-            "description": "Exploring Boston's Heroin Crisis",
-            "highlight": "#D3A713",
-            "thesis": "How do we help to destigmatize heroin addiction?",
-            "team": [{
-                    "split": {
-                        "left": {
-                            "title": "Evan McEldowney",
-                            "description": "Producer and Lead Dev"
-                        },
-                        "right": {
-                            "title": "Mike Wagenheim",
-                            "description": "Dev"
-                        }
-                    }
-                },
-                {
-                    "split": {
-                        "left": {
-                            "title": "Jennifer Heintz",
-                            "description": "Designer"
-                        },
-                        "right": {
-                            "title": "Suma Hussien",
-                            "description": "Designer and Videographer"
-                        }
-                    }
-                }
-            ],
-            "overview": "Recovery Road is an interactive documentary made through Northeastern University’s Storylab focused on telling the story of active and recovering heroin addicts on Boston's Methadone mile to destigmatize heroin addiction and those who suffer from it. Using personal interviews, 360 video, and illustrated storylines we hope to change the perception of addiction from a moral failure to a disease that affects the mind.",
-            "content": [{
-                    "section": "1 Research",
-                    "section-content": [{
-                            "text": {
-                                "side": "",
-                                "title": "",
-                                "description": "The opioid epidemic in the United States is currently worse than it has ever been. Massachusetts has one of the highest rates of overdose deaths in the country, with nearly 2,000 people dying from overdoses in 2016 alone. The epidemic can easily be observed at what is commonly called Boston’s “Methadone Mile” — what we prefer to call “Recovery Road.” This refuge and haven for those with substance use disorder, at the edge of Boston’s South End, Roxbury, and Dorchester neighborhoods, is a walking distance from Northeastern University. Because of this we decided to create a project to help family, friends, and the public understand the struggle of those suffering through addiction."
-                            }
-                        },
-                        {
-                            "imagecontain": {
-                                "src": "recovery/photos.jpg"
-                            }
-                        },
-                        {
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "1.1 Finding Interviews",
-                                "description": "Our team of designer, developers, and journalists conducted interviews with police officers, medical professionals, social workers, and outreach programs. After our team had trouble finding real stories of addiction on Methadone Mile, I began to attending NA meetings, conducting interviews on Mass Ave, and meeting with community volunteers to help expand our network. I eventually met Paul who became the center storyline of the prototype and helped me understand what real addiction looked and felt like. "
-                            }
-                        },
-                        {
-                            "video": {
-                                "src": "215324021"
-                            }
-                        },
-                        {
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "1.2 User Journey",
-                                "description": "The site is organized for the user to explore one story at a time through interactive maps, documentary clips, and 360 videos. The user is then directed to the resources we gathered throughout the project or to Join the Movement by lending their voice to share the project."
-                            }
-                        },
-                        {
-                            "color": {
-                                "src": "recovery/sitemap.png",
-                                "description": "UI for the 2D interface"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "2 Create",
-                    "section-content": [{
-                            "text": {
-                                "side": "offset-by-one-half",
-                                "title": "2.1 Design and Development",
-                                "description": "I was the lead developer on the project but I also ended up designing the user interface of the site along with finding sources for interviews. The designs and illustrations were done by Jennifer Heintz and the videography would be done by Suma Hussien. Mike Wagenheim and I would use a JavaScript animation framework called Biggie based off of Bigwheel to put together a functional prototype of the project."
-                            }
-                        },
-                        {
-                            "gif": {
-                                "src": "recovery/storylab0.mp4"
-                            }
-                        },
-                        {
-                            "gif": {
-                                "src": "recovery/storylab1.mp4"
-                            }
-                        },
-                        {
-                            "gif": {
-                                "src": "recovery/storylab2.mp4"
-                            }
-                        },
-                        {
-                            "gif": {
-                                "src": "recovery/storylab3.mp4"
-                            }
-                        },
-                        {
-                            "gif": {
-                                "src": "recovery/storylab4.mp4"
-                            }
-                        },
-                        {
-                            "gif": {
-                                "src": "recovery/storylab5.mp4"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "section": "3 Implementation",
-                    "section-content": [{
-                        "text": {
-                            "title": "The Future of Recovery Road",
-                            "side": "",
-                            "description": "The project currently features a fully functional web prototype that goes through the path of one addict in recovery but we are in the process of collecting and implementing more in the coming weeks. We are currently looking for partners that share our goals and will help with the production, funding and distribution of the project. If you are interested, please reach out to me directly."
-                        }
-                    }]
-                }
-            ]
+  "work": {
+    "storagecraft": {
+      "description": "Redefining Storage Solutions",
+      "slug": "storagecraft",
+      "image": "storagecraft.png",
+      "logo": "storagecraft-logo.png",
+      "role": "Project Lead",
+      "highlight": "#1A568F",
+      "type": "UX, Branding, Web Design, Front End Development",
+      "product": "www.storagecraft.com",
+      "site": "https://www.storagecraft.com/",
+      "thesis": "How can we redefine StorageCraft's brand with the launch of their new products?",
+      "team": [{
+        "split": {
+          "left": {
+            "title": "Project Lead",
+            "description": "Evan McEldowney"
+          },
+          "right": {
+            "title": "Development Company",
+            "description": "Elevated Third"
+          }
         }
-    },
-
-    "home": {
-        "slug": "home",
-        "title": "Home",
-        "cards": [
-          {
-              "name": "Recovery Road",
-              "slug": "recovery-road",
-              "image": "recovery.png",
-              "logo": "recovery-logo.png",
-              "role": "Development Lead and Outreach",
-              "type": "Journalism, Design, Development",
-              "product": "Interactive Documentary",
-              "description": "A Interactive Documentary on Boston's Heroin Crisis",
-              "site": "https://www.evanmceldowney.com/recoveryroad",
-              "side": "left"
-           },
-            {
-                "name": "Kleo",
-                "slug": "kleo",
-                "image": "kleo.png",
-                "logo": "kleo-logo.png",
-                "role": "User Experience Designer",
-                "type": "Branding, UX, App Design",
-                "product": "Invision Prototype",
-                "description": "Accessible Museum Tours",
-                "site": "https://invis.io/Z59BUUBA4",
-                "side": "right"
+      }],
+      "overview": "While working for Elevated Third I was presented with the task of launching StorageCraft's three new signature products through a redesign of their website. These platform products would redefine their business and marketing strategy for the future. StorageCraft was positioned in the market as the legacy player and were looking to make a splash. They were hoping to present themselves as a new more youthful and technologically savvy company and recruited me to help them do this through a new brand and marketing strategy on their website.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "1.1 Understanding the Problem",
+                "description": "I met with the client and dived in understanding their reasons for wanting to change. They felt they were stuck as the old man of the storage solution industry and wanted to to modernize. They felt their website didn't accurately reflect the power and innovation of their new platform products. They were looking for a fresh face for their business and new ways to show it."
+              }
             },
             {
-                "name": "Tiny Eye",
-                "slug": "tinyeye",
-                "image": "tinyeye.png",
-                "logo": "tinyeye-logo.png",
-                "role": "Project Lead",
-                "type": "Branding, UX, App Design",
-                "product": "Iphone and Android App",
-                "description": "A Virtual Reality hidden object game",
-                "site": "https://invis.io/Z59BUUBA4",
-                "side": "left"
-            },
-            {
-                  "name": "Student Rabbit",
-                  "slug": "studentrabbit",
-                  "image": "studentrabbit.png",
-                  "logo": "studentrabbit-logo.png",
-                  "role": "Project Lead",
-                  "type": "Front End Development, Branding, Web Design, UX",
-                  "product": "www.studentrabbit.com",
-                  "description": "Fixing Buying and Selling Textbooks",
-                  "site": "http://www.studentrabbit.com/#/",
-                  "side": "right"
+              "color": {
+                "src": "storagecraft/old-site.png",
+                "description": "Website Before the Redesign"
+              }
             }
-        ]
+          ]
+        },
+        {
+          "section": "2 Wires",
+          "section-content": [{
+            "text": {
+              "side": "",
+              "title": "2.2 Components",
+              "description": "I produced each page within that structure with an empathy map that outlined the type of content I wanted to feature as the user moved down the page. This would move the potential B2B customer through the page and subsequent site to the major conversion point we were hoping to target. I then built out these maps by designing five or six essential components blocks such as product headers, featured content, simple callouts that could be used across the site."
+            }
+           },
+           {
+            "imagecontain": {
+              "src": "storagecraft/content-blocks.jpg"
+            }
+           },
+           {
+            "text": {
+              "side": "offset-by-one-half",
+              "title": "2.1 Structure",
+              "description": "I laid out a new structure for the site based around highlighting the new platform products, creating a more efficient flow to essential pages for repeat customers, and providing a better explanation of what the products did and how they had helped other companies."
+             }
+            },
+           {
+            "color": {
+              "src": "storagecraft/stc-wireframes.png",
+              "description": "Wireframes of the Home, Solution, and Product Pages"
+            }
+          }]
+        },
+        {
+          "section": "3 Implimentation",
+          "section-content": [{
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "3.0 High Fidelity",
+                "description": "After the wires were approved I fleshed out the designs with a brand that combined the history and brand of StorageCraft with a fresh and light air for the launch of its new products. I succeeded in exciting the client by prototyping and directing new interactions and animations to refresh their brand."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "storagecraft/high-fidelity.jpg"
+              }
+            }
+          ]
+        }
+      ]
     },
-
-    "about": {
-        "slug": "about",
-        "title": "About"
+    "studentrabbit": {
+      "description": "Fixing Buying and Selling Textbooks",
+      "slug": "studentrabbit",
+      "image": "studentrabbit.png",
+      "logo": "studentrabbit-logo.png",
+      "role": "Project Lead",
+      "highlight": "#78CECF",
+      "type": "Front End Development, Branding, Web Design, UX",
+      "product": "www.studentrabbit.com",
+      "site": "http://www.studentrabbit.com/#/",
+      "thesis": "How can we make buying and selling textbooks between students safe and simple?",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Project Lead"
+            },
+            "right": {
+              "title": "Vendela Larsson",
+              "description": "Designer"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Alex Morris",
+              "description": "Designer"
+            },
+            "right": {
+              "title": "Christina Spleen",
+              "description": "Developer"
+            }
+          }
+        }
+      ],
+      "overview": "In Fall of 2015 I was recruited by Scout, Northeastern University’s Student Design Agency to lead a team that was going to redesign and rebrand a startup called Student Rabbit. Student Rabbit is a student-to-student marketplace that aims to change the way that students buy and sell textbooks. Our team worked on a complete redesign for the Student Rabbit brand, user experience and web application.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "1.1 Understanding the Problem",
+                "description": "We began the project by doing in-depth interviews with our client to understand their brand and the concept behind the business. We found the problem with creating a marketplace between consumers is the number of steps to complete the transaction and the wait time needed for people to negotiate. The major task that we were faced with was condensing and simplifying the lengthy buying and selling process."
+              }
+            },
+            {
+              "color": {
+                "src": "studentrabbit/sitemap.png",
+                "description": "Site Map of problem areas"
+              }
+            },
+            {
+              "text": {
+                "side": "",
+                "title": "1.2 User Journey and Testing",
+                "description": "We decided to test the site with fifteen users to get a better understanding of the major pain points of the site and created a site map highlighting them. The interviews and map led us to focus on simplifying the user journey, providing contextual clues of where they were in the site and creating a more fluid user buying experience."
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "2.1 Wireframing",
+                "description": "Using simple wireframes, we mapped out a new user flow and new functionality to solve the major pain points of the site. We added a centralized dashboard, streamlined messaging system, and cut down the buying and selling process. We also educated our users on the how the system safely allowed students to make offers, message to meet up, and finally hand deliver the books."
+              }
+            },
+            {
+              "color": {
+                "src": "studentrabbit/flow.png",
+                "description": "Buying a Book Flow"
+              }
+            },
+            {
+              "color": {
+                "src": "studentrabbit/wireframes.png",
+                "description": "Wireframes of Home and Dashboard"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "2.2 Branding and Iconography",
+                  "description": "To rebrand Student Rabbit we started with some basic exercises with the client to better understand the values of the company. We focused the brand around the pillars of youthful, connective, professional, reactive, and playful and then iterated on a logo mark, color palette, and icons that reflected this."
+                },
+                "right": {
+                  "src": "studentrabbit/logo.png"
+                }
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "src": "studentrabbit/explain.png"
+                },
+                "right": {
+                  "src": "studentrabbit/icons.png"
+                }
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "2.3 High Fidelity Designs",
+                "description": "With our brand and flow set we designed the finalized user interface of each page. We would use orange and blue to help distinguish the buying and selling processes and custom created icons to give context to actions and explain how the process worked."
+              }
+            },
+            {
+              "color": {
+                "src": "studentrabbit/highfidelity.png",
+                "description": "Buying a Book Flow"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "3.1 Coded Prototype",
+                "description": "After finishing with high fidelity design my team and I created a complete mobile first prototype of the site out of HTML, SASS, and JavaScript that was then handed to a developer to implement full stack integration. The site went live in Spring of 2016."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "studentrabbit/screen.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "kleo": {
+      "description": "Accessible Museum Tours",
+      "slug": "kleo",
+      "image": "kleo.png",
+      "logo": "kleo-logo.png",
+      "role": "User Experience Designer",
+      "type": "Branding, UX, App Design",
+      "product": "Invision Prototype",
+      "site": "https://invis.io/Z59BUUBA4",
+      "thesis": "How can we create a meaningful experience between art and museum visitors?",
+      "highlight": "#6118D4",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Project Lead"
+            },
+            "right": {
+              "title": "Alice Young",
+              "description": "Developer"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Beatrice Huang",
+              "description": "Developer"
+            },
+            "right": {
+              "title": "Emily O'Brien",
+              "description": "Designer"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Amanda Pinsker",
+              "description": "Designer"
+            },
+            "right": {
+              "title": "",
+              "description": ""
+            }
+          }
+        }
+      ],
+      "overview": "My Northeastern Interaction Senior Capstone team built Kleo to create a memorable and accessible experience that creates interest and conversations between novice visitors and the museum itself. We bridged physical and digital tools to provide a smart phone tour application that allows for customization, contextualization, and easy navigation in a user’s museum experience.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "1.1 Interviews and Academic Research",
+                "description": "We began our efforts by taking a month to dig into past research that had been done on museum design  and attendance while also conducting in person interviews of visitors and employees at museums. After looking at practices and research the some of the major issues with traditional museum visitor experiences became clearer to us. Our major goals for the project became creating context for visitors,  simplifying wayfinding, and making the art in the museum accessible."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "kleo/research.png"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "1.2 Looking with Empathy",
+                  "description": "We then created empathy maps to understand and organize some of the findings obtained from our interviews and step into the mind of tourists, museum staff, curators, educators, and students who visited the museum."
+                },
+                "right": {
+                  "src": "kleo/empathy.png"
+                }
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "src": "kleo/brainstorming.png"
+                },
+                "right": {
+                  "title": "1.3 Framing the Problem",
+                  "description": "We decided to focus on the novice museum goer as our main audience and distilled their maps into specific questions that would be answer by the features of our product. We then brainstormed different ways we could use physical or digital tools to solve these questions for our audience."
+                }
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "src": "kleo/howmightwe.png"
+                },
+                "left": {
+                  "title": "1.4 How Might We",
+                  "description": "<ul><li>bridge the gap between physical and digital?</li><li>support different interests of different visitors?</li><li>support flexible decision making?</li><li>create emotional/personal connections?<li>add context to the content?</li></li><li>encourage sharing</li></ul>"
+                }
+              }
+            },
+            {
+              "text": {
+                "title": "1.5 Finding a Partnership",
+                "side": "",
+                "description": "We had meetings with the MFA, ICA, Harvard Art Museum, Design Museum Boston, PEM, and Northeastern's Gallery 360. At this point in our process, we were considering many formats for a product that could be a solution to these problems. We were originally interested in the Boston Museum of Fine Art due to its proximity, large collection, and initiative for accessibility but after talking with the MFA we found that working them would be not be viable due to their current initiatives and the museum’s long production timeline."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "kleo/partner.png"
+              }
+            },
+            {
+              "text": {
+                "title": "1.6 Harvard Art Museum + Mobile Tour App",
+                "side": "offset-by-one-half",
+                "description": "Without control over a physical space we decided to pursue a mobile application. An application gave us flexibility in creating an experience we wanted that could be introduced flexibly in more than one museum. We were selected by Harvard Art Museum as a partner and they granted us access to their API and a museums space to test our application. With this partnership we decided to create a museum tour application that allowed for customization, contextualization, and easy navigation in a user’s museum experience."
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "split": {
+                "left": {
+                  "title": "2.1 Designing Features",
+                  "description": "Our team began to design the features and functionality of the application directly from the research and the exercises we had conducted at the beginning of the project and used our How Might We statements to frame each decision in the context of our audience."
+                },
+                "right": {
+                  "title": "",
+                  "description": "<ul><li>Time Flexible Tours</li><li>Feature, Mood, Color and User Generated Tours</li><li>Timeline of activity at Museum</li><li>Turn by turn photo navigation<li>Visual and audio context</li></li><li>Distraction Free Wander Mode</li></ul>"
+                }
+              }
+            },
+            {
+              "color": {
+                "src": "kleo/sitemap.png",
+                "description": "Sitemap of App"
+              }
+            },
+            {
+              "color": {
+                "src": "kleo/wireframes.png",
+                "description": "Wireframes the apps major features"
+              }
+            },
+            {
+              "text": {
+                "side": "",
+                "title": "2.2 Creating a Invision Prototype",
+                "description": "After testing and iterating on our wireframes we finalized our features and built out a fully fleshed out prototype on Invision to test with visitors and to help our developers in creating the application."
+              }
+            },
+            {
+              "embed": {
+                "src": "//invis.io/XF9CGTCG5"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "2.3 Wander Mode",
+                  "description": "Wander Mode was my brain child and it came to me after testing the app repeatedly and seeing the amount of time visitors were looking at their phone. I became interested in how we could create the same experience and information without the phone detracting from the art itself."
+                },
+                "right": {
+                  "title": "",
+                  "description": "Using IBeacon technology Wander  Mode gives the user the chance to move around a museum freely while giving them audio context to each gallery they enter and each piece they want to hear more about. When entering into a gallery the user is read the museums room description and immersed in music from the time period. If a user chooses they can walk up to a piece and use voice commands to hear more about a piece or save in their collection. The content is pulled directly from the API and would need minimal curation from the museum itself."
+                }
+              }
+            },
+            {
+              "video": {
+                "src": "218838157"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+              "text": {
+                "title": "3.1 Testing the App in the Museum",
+                "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself."
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "src": "kleo/award.png"
+                },
+                "right": {
+                  "title": "3.2 Awards and Future",
+                  "description": "We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities. Please contact directly with questions about the project!"
+                }
+              }
+            },
+            {
+              "video": {
+                "src": "218838292"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "tinyeye": {
+      "description": "A virtual reality hidden object game",
+      "image": "tinyeye.png",
+      "slug": "tinyeye",
+      "logo": "tinyeye-logo.png",
+      "highlight": "#F06F36",
+      "type": "Front End Development, Branding, Web Design, UX",
+      "site": "http://tinyeyeapp.com",
+      "product": "Mobile VR App",
+      "thesis": "How do we design accessible and immersive experiences in Virtual Reality?",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Lead Designer"
+            },
+            "right": {
+              "title": "Geoff House",
+              "description": "Project Manager"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Ruddy Mutter",
+              "description": "Developer"
+            },
+            "right": {
+              "title": "Mike Godlewski",
+              "description": "Designer"
+            }
+          }
+        }
+      ],
+      "overview": "In the Spring of 2016 I worked at a mobile app development company called Yeti in sweet and beautiful San Francisco. Yeti was interested in exploring the realm of Virtual Reality but didn’t have experience in the field and wanted to understand the basics of design and development in VR. They tasked me on making a VR game inspired off of the classic “ISpy” game from the 90’s with a developer who wanted to learn Unity.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "",
+                "description": "I started looking into the current state of VR phone applications on the market and the primary value they offered. In 2016 the market was pretty barren with the majority of content being based around 360 video or thriller experiences. One of the best resources I found was the Design for Google Cardboard app and site developed by Google. Their walkthroughs and my own research taught me how to design for motion sickness, rendering 2D in 3d spaces, user control, and entering and exiting UI patterns."
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/research.png"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "1.1 Prototyping and Designing in VR",
+                "description": "I began prototyping different versions of what our version of ISpy could look like by creating basic interfaces on top of the 360 photos. I found that prototyping in VR was difficult because of the lack of translation from 2d to 3d. To remedy this, I used VR Framer.js plugin to develop live clickable prototypes in 360 that I could hand off to my developer. These prototypes helped me understand scene transitions, menu location, motion interaction in VR that would become important in the final app itself. "
+              }
+            },
+            {
+              "color": {
+                "src": "tinyeye/prototypes.png",
+                "description": "Early Designs of VR interfaces"
+              }
+            },
+            {
+              "text": {
+                "title": "1.2 Creating Immersive Content",
+                "side": "offset-by-one-half",
+                "description": "After my research into the field it became clear to me quickly that content was king in VR and that we had to create immersive environments to keep engagement. We started to develop in Unity but found that progress was slow because of our developer’s lack of experience. We bought a basic Ricoh 360 camera and I began to look around San Francisco for content. The depth of field of the camera and lack of stable environment in the real world led us to create our own worlds of toys and found objects just like in the books."
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/concept.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "split": {
+                "left": {
+                  "title": "2.1 Testing the Concept",
+                  "description": "I worked with the developer to create a basic prototype of the game in Unity that used simplified wireframes to understand game mechanics and UI functionality. "
+                },
+                "right": {
+                  "src": "tinyeye/snowtown.png"
+                }
+              }
+            },
+            {
+              "video": {
+                "src": "219439365"
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "2.2 Branding a New ISpy",
+                  "description": "With the concept tested I built out a brand, logo, and UI set could be used across the app. Geoff and Mike, the creative director and the senior designer at Yeti helped me with refining these into a cohesive system that worked and reinforced the playful nature of the app."
+                },
+                "left": {
+                  "src": "tinyeye/brand.png"
+                }
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/brandexercises.png"
+              }
+            },
+            {
+              "text": {
+                "title": "2.3 Understanding 360 Degree Environments",
+                "side": "",
+                "description": "To flesh out the content Geoff, Mike and I took 3 days and a huge amount of left over toys and let our inner kids go crazy. We built 9 complete worlds with 10 hidden objects in each world. The biggest takeaway from this phase of the project were the challenges was learning to deal with the difficulties of directing and shooting with a 360 camera because of the lack of control and directionality."
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/settingup.jpg"
+              }
+            },
+            {
+              "text": {
+                "title": "2.4 Designing for the App Store",
+                "side": "offset-by-one-half",
+                "description": "After showing it to my CEO he was interested in launching it on the app store but to do this we would need polish the UI and move menus out of VR so we could introduce a pay to play system for sets of levels. We scrapped a good amount of the original in VR design and restarted in 2D with branding I had done earlier. We added icons for all the hidden objects and added sound to each environment to increase the immersive nature of the app."
+              }
+            },
+            {
+              "color": {
+                "src": "tinyeye/ui.png",
+                "description": "UI for the 2D interface"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+              "text": {
+                "title": "Live on the App Store",
+                "side": "",
+                "description": "After a code binge by our developer Rudy we launched on the app store in the middle of May and pushed out marketing material and a promotional website to different publications.  I learned more than I could imagine from the project and it gave me a deep dive into the challenges of designing in VR, the new medium of 360 video and images, and the realities of app development in Unity. "
+              }
+            },
+            {
+              "video": {
+                "src": "219754890"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "recovery-road": {
+      "name": "Recovery Road",
+      "slug": "recovery-road",
+      "image": "recovery.png",
+      "logo": "recovery-logo.png",
+      "role": "Producer and Lead Dev",
+      "type": "Production, Design, Development",
+      "product": "Interactive Documentary",
+      "description": "Exploring Boston's Heroin Crisis",
+      "highlight": "#D3A713",
+      "thesis": "How do we help to destigmatize heroin addiction?",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Producer and Lead Dev"
+            },
+            "right": {
+              "title": "Mike Wagenheim",
+              "description": "Dev"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Jennifer Heintz",
+              "description": "Designer"
+            },
+            "right": {
+              "title": "Suma Hussien",
+              "description": "Designer and Videographer"
+            }
+          }
+        }
+      ],
+      "overview": "Recovery Road is an interactive documentary made through Northeastern University’s Storylab focused on telling the story of active and recovering heroin addicts on Boston's Methadone mile to destigmatize heroin addiction and those who suffer from it. Using personal interviews, 360 video, and illustrated storylines we hope to change the perception of addiction from a moral failure to a disease that affects the mind.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "",
+                "description": "The opioid epidemic in the United States is currently worse than it has ever been. Massachusetts has one of the highest rates of overdose deaths in the country, with nearly 2,000 people dying from overdoses in 2016 alone. The epidemic can easily be observed at what is commonly called Boston’s “Methadone Mile” — what we prefer to call “Recovery Road.” This refuge and haven for those with substance use disorder, at the edge of Boston’s South End, Roxbury, and Dorchester neighborhoods, is a walking distance from Northeastern University. Because of this we decided to create a project to help family, friends, and the public understand the struggle of those suffering through addiction."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "recovery/photos.jpg"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "1.1 Finding Interviews",
+                "description": "Our team of designer, developers, and journalists conducted interviews with police officers, medical professionals, social workers, and outreach programs. After our team had trouble finding real stories of addiction on Methadone Mile, I began to attending NA meetings, conducting interviews on Mass Ave, and meeting with community volunteers to help expand our network. I eventually met Paul who became the center storyline of the prototype and helped me understand what real addiction looked and felt like. "
+              }
+            },
+            {
+              "video": {
+                "src": "215324021"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "1.2 User Journey",
+                "description": "The site is organized for the user to explore one story at a time through interactive maps, documentary clips, and 360 videos. The user is then directed to the resources we gathered throughout the project or to Join the Movement by lending their voice to share the project."
+              }
+            },
+            {
+              "color": {
+                "src": "recovery/sitemap.png",
+                "description": "UI for the 2D interface"
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "2.1 Design and Development",
+                "description": "I was the lead developer on the project but I also ended up designing the user interface of the site along with finding sources for interviews. The designs and illustrations were done by Jennifer Heintz and the videography would be done by Suma Hussien. Mike Wagenheim and I would use a JavaScript animation framework called Biggie based off of Bigwheel to put together a functional prototype of the project."
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab0.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab1.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab2.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab3.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab4.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab5.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+            "text": {
+              "title": "The Future of Recovery Road",
+              "side": "",
+              "description": "The project currently features a fully functional web prototype that goes through the path of one addict in recovery but we are in the process of collecting and implementing more in the coming weeks. We are currently looking for partners that share our goals and will help with the production, funding and distribution of the project. If you are interested, please reach out to me directly."
+            }
+          }]
+        }
+      ]
     }
+  },
+
+  "home": {
+    "slug": "home",
+    "title": "Home",
+    "cards": [{
+        "name": "StorageCraft",
+        "slug": "storagecraft",
+        "image": "storagecraft.png",
+        "logo": "storagecraft-logo.png",
+        "role": "User Experience/Visual Designer",
+        "type": "Branding, UX, Web Design, Front-End Development",
+        "product": "Website",
+        "description": "Redefining Storage Solutions:",
+        "site": "https://invis.io/Z59BUUBA4",
+        "side": "left"
+      },
+      {
+        "name": "Recovery Road",
+        "slug": "recovery-road",
+        "image": "recovery.png",
+        "logo": "recovery-logo.png",
+        "role": "Development Lead and Outreach",
+        "type": "Journalism, Design, Development",
+        "product": "Interactive Documentary",
+        "description": "A Interactive Documentary on Boston's Heroin Crisis",
+        "site": "https://www.evanmceldowney.com/recoveryroad",
+        "side": "right"
+      },
+      {
+        "name": "Kleo",
+        "slug": "kleo",
+        "image": "kleo.png",
+        "logo": "kleo-logo.png",
+        "role": "User Experience Designer",
+        "type": "Branding, UX, App Design",
+        "product": "Invision Prototype",
+        "description": "Accessible Museum Tours",
+        "site": "https://invis.io/Z59BUUBA4",
+        "side": "left"
+      },
+      {
+        "name": "Tiny Eye",
+        "slug": "tinyeye",
+        "image": "tinyeye.png",
+        "logo": "tinyeye-logo.png",
+        "role": "Project Lead",
+        "type": "Branding, UX, App Design",
+        "product": "Iphone and Android App",
+        "description": "A Virtual Reality hidden object game",
+        "site": "https://invis.io/Z59BUUBA4",
+        "side": "right"
+      },
+      {
+        "name": "Student Rabbit",
+        "slug": "studentrabbit",
+        "image": "studentrabbit.png",
+        "logo": "studentrabbit-logo.png",
+        "role": "Project Lead",
+        "type": "Front End Development, Branding, Web Design, UX",
+        "product": "www.studentrabbit.com",
+        "description": "Fixing Buying and Selling Textbooks",
+        "site": "http://www.studentrabbit.com/#/",
+        "side": "left"
+      }
+    ]
+  },
+
+  "about": {
+    "slug": "about",
+    "title": "About"
+  }
 
 }

@@ -31,6 +31,7 @@
         width: 100%;
         margin-top: 30px;
         color: $dark-grey;
+        letter-spacing: .02em;
 
         img {
             width: 100%;
@@ -95,16 +96,21 @@
         padding: 20px 0;
         max-height: 2000px;
         overflow: hidden;
-        //@include inner-shadow;
+        margin: 3em 0;
+        @include inner-shadow;
         img {
             width: 100%;
             margin: 10px 0;
         }
     }
+    .description{
+      margin: 2em 0 1em 0;
+    }
     .content {
         line-height: 1.35em;
         font-family: $font-serif;
         color: $dark-grey;
+        margin-top: .7em;
     }
     &__final{
       margin:3em 0;
