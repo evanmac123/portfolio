@@ -3,27 +3,26 @@
 	list-style: none;
 	text-align: center;
 }
-
 /* Common style */
- figure {
+figure {
 	position: relative;
 	overflow: hidden;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
-  margin:0;
+	margin: 0;
 	@include shadow;
 	display: block;
 }
 
- figure .card-back {
+figure .card-back {
 	position: relative;
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
 }
 
- figure figcaption {
+figure figcaption {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
@@ -31,23 +30,22 @@
 	backface-visibility: hidden;
 }
 
- figure figcaption::before,
- figure figcaption::after {
+figure figcaption::after,
+figure figcaption::before {
 	pointer-events: none;
 }
 
- figure figcaption,
- figure figcaption > a {
+figure figcaption,
+figure figcaption > a {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 }
-
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
- figure figcaption > a {
+figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
@@ -55,24 +53,23 @@
 	opacity: 0;
 }
 
- figure h2 {
+figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
 
- figure h2 span {
+figure h2 span {
 	font-weight: 800;
 }
 
- figure h2,
- figure p {
+figure h2,
+figure p {
 	margin: 0;
 }
 
- figure p {
+figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
-
 }
 
 figure.effect-roxy {
@@ -81,7 +78,7 @@ figure.effect-roxy {
 }
 
 figure.effect-roxy .card-back {
-  max-width: none;
+	max-width: none;
 	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -119,6 +116,7 @@ figure.effect-roxy p {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-10px,0,0);
 	transform: translate3d(-10px,0,0);
+	font-weight: 500;
 }
 
 figure.effect-roxy:hover .card-back {
@@ -135,106 +133,105 @@ figure.effect-roxy:hover p {
 }
 
 figure.effect-roxy:hover .card-info {
-	bottom:120px;
+	bottom: 120px;
 }
 
-.card-logo{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-	width:100%;
-  transform: translateX(-50%) translateY(-50%);
+.card-logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%) translateY(-50%);
 }
-
 
 .left {
-    .card-info {
-        text-align: right;
-        left: -12px;
-    }
+	.card-info {
+		text-align: right;
+		left: -12px;
+	}
 
-    .card-title {
-        text-align: right;
-    }
+	.card-title {
+		text-align: right;
+	}
 
-    .card-type {
-        text-align: right;
-    }
+	.card-type {
+		text-align: right;
+	}
 
-    figure , .card-image  {
-        margin-left: 33%;
-    }
+	.card-image,
+	figure {
+		margin-left: 33%;
+	}
 }
 
 .right {
-    .card-info {
-        text-align: left;
-        right: -12px;;
-    }
+	.card-info {
+		text-align: left;
+		right: -12px;
+	}
 
-    .card-title {
-        text-align: left;
-    }
+	.card-title {
+		text-align: left;
+	}
 
-    .card-type {
-        text-align: left;
-    }
+	.card-type {
+		text-align: left;
+	}
 
-    figure , .card-image {
-        margin-right: 33%;
-    }
+	.card-image,
+	figure {
+		margin-right: 33%;
+	}
 }
 
 .card {
-    width: 100%;
-		height: 100%;
-    z-index: 10;
-    padding: 30px 0;
-    display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	padding: 30px 0;
+	display: block;
 
-    .card-img {
-        width: 66%;
-    }
+	.card-img {
+		width: 66%;
+	}
 
-    .card-info {
-        position: absolute;
-        bottom: 107px;
-        width: 33%;
-        line-height: 21px;
-        transition: bottom 0.4s;
-				z-index: 10;
-    }
+	.card-info {
+		position: absolute;
+		bottom: 107px;
+		width: 33%;
+		line-height: 21px;
+		transition: bottom 0.4s;
+		z-index: 10;
+	}
 
-    .card-title {
-        font-size: 2.3em;
-        width: 100%;
-        bottom: 100px;
-        line-height: 1.1em;
-        font-weight: 600;
-        transition: bottom 0.35s;
-				margin-top: 6px;
-    }
+	.card-title {
+		font-size: 2.3em;
+		width: 100%;
+		bottom: 100px;
+		line-height: 1.1em;
+		font-weight: 600;
+		transition: bottom 0.35s;
+		margin-top: 6px;
+	}
 
-    .card-type {
-        margin-top: 6px;
-        width: 100%;
-        font-family: 'Cardo', serif;
-    }
+	.card-type {
+		margin-top: 6px;
+		width: 100%;
+		font-family: 'Cardo', serif;
+	}
 }
-
-
-
 @media (max-width: 900px) {
 	.card-info,
 	.card-title,
 	.card-type {
-			position: relative;
-			text-align: left;
-			display: none;
+		position: relative;
+		text-align: left;
+		display: none;
 	}
- body .section .card figure{
-		width:100%;
-		margin-right:0;
-		margin-left:0;
+
+	body .section .card figure {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
 	}
 }

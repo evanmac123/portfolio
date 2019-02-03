@@ -22,53 +22,52 @@
   z-index: 2;
   margin: 10px;
   font-size: 1em;
-  font-family:$font-sans;
+  font-family: $font-sans;
   color: $link-color;
-  font-weight:300;
+  font-weight: 300;
 }
 
-.section{
-  width:100%;
+.section {
+  width: 100%;
   position: relative;
 }
 
 video#bgvid {
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #f1f3f7;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f1f3f7;
 }
 
 .vrview {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
-    &__toggle {
-        position: absolute;
-        bottom: 60px;
-        right: 20px;
-    }
+  &__toggle {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+  }
 }
 
-  .hidden{
-    display: none;
-    opacity: 0;
-  }
+.hidden {
+  display: none;
+  opacity: 0;
+}
 
 .fullscreen-video {
   @include fullscreen;
   z-index: 5;
   opacity: 1;
-
 
   img {
     width: 60px;
@@ -77,4 +76,33 @@ video#bgvid {
   video {
     @include fullscreen;
   }
+}
+
+footer{
+  margin: 6em auto auto 0;
+  background-color: #5a00ff;
+  text-align: center;
+  padding: 40px 0;
+  width: 100%;
+  float: left;
+  color:white;
+
+  .award{
+    display: flex;
+    justify-content: space-between;
+    .col{
+      flex: 1;
+      width: 32%;
+      font-weight:bold;
+
+      img{
+        width: 60%;
+        margin: 15px 20%;
+      }
+    }
+  }
+  .copyright{
+    width: 100%;
+  }
+
 }

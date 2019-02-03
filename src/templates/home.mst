@@ -1,59 +1,98 @@
 <div class="home" id="#top">
   <!--  <img width="100%" src="/assets/images/background.jpg" class="home__background">-->
-    <div class="body">
-        <div class="home__title">
-          <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
-              <source src="/assets/video/back2.ogv" type="video/ogv">
-              <source src="/assets/video/back2.mp4" type="video/mp4">
-            </video>
-            <div class="container">
-                <div class="home__main-title" data-aos="fade-in">
-                    A designer of digital experiences.
-                </div>
-                <div class="home__description" >
-                    UX, Visual Design, Front End Development
-                </div>
-                <div class="home__about-me" >
-                </div>
-            </div>
+  <div class="body">
+    <div class="home__title">
+      <video poster=""  id="bgvid" preload="auto" class="home__background js-bgvid" playsinline autoplay muted preload>
+        <source src="/assets/video/back2.ogv" type="video/ogv">
+        <source src="/assets/video/back2.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        <div class="home__main-title" data-aos="fade-in">
+          A designer of digital experiences.
         </div>
-
-        <div class="cards">
-        {{#cards }}
-
-        <div class="section">
-            <div class="container">
-                <div class="card {{ side }}" data-aos="fade-in">
-                        <div class="grid">
-
-                            <figure class="effect-roxy">
-                                <a href="work/{{slug}}" >
-                                  <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
-                                <figcaption>
-                                    <img class="card-logo" src="/assets/images/cards/{{logo}}">
-                                    <p> {{description}}</p>
-                                </figcaption>
-                                </a>
-                            </figure>
-                        </div>
-                        <div class="card-info">
-                            <div class="">
-                                {{ role }}
-                            </div>
-                            <div class="card-site">
-                               {{ product }}
-                            </div>
-                            <div class="card-title">
-                                {{ name }}
-                            </div>
-                        </div>
-                    <div class="card-type">
-                        {{ type }}
-                    </div>
-                </div>
-            </div>
+        <div class="home__description">
+          UX, Visual Design, Front End Development
         </div>
-        {{/cards }}
+        <div class="home__about-me">
+        </div>
       </div>
     </div>
+
+    <div class="cards">
+      {{#cards }}
+        <div class="section">
+          <div class="container">
+            <div class="card {{ side }}" data-aos="fade-in">
+              <div class="grid">
+                <figure class="effect-roxy">
+                  <a href="work/{{slug}}" >
+                    <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
+                    <figcaption>
+                      <img class="card-logo" src="/assets/images/cards/{{logo}}">
+                      <p> {{description}}</p>
+                    </figcaption>
+                  </a>
+                </figure>
+              </div>
+              <div class="card-info">
+                <div class="">
+                  {{ role }}
+                </div>
+                <div class="card-site">
+                  {{ product }}
+                </div>
+                <div class="card-title">
+                  {{ name }}
+                </div>
+              </div>
+              <div class="card-type">
+                {{ type }}
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/cards }}
+        <div class="section sub-card-content">
+          <div class="container">
+          <div class="other-work">
+          </div>
+          <div class="sub-card-grid">
+            {{#sub_cards }}
+            <div class="sub-card " data-aos="fade-in">
+                <figure class="effect-roxy">
+                  <a href="work/{{slug}}" >
+                    <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
+                    <figcaption>
+                      <img class="card-logo" src="/assets/images/cards/{{logo}}">
+                      <p> {{description}}</p>
+                    </figcaption>
+                  </a>
+                </figure>
+              </div>
+          {{/sub_cards }}
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
 </div>
+<footer>
+  <div class="award container">
+    <div class="col">
+      2017 1st Place
+      <img src="/assets/images/awards/award-white.png">
+    </div>
+      <div class="col">
+        2017 1st Place
+        <img src="/assets/images/awards/ideahack.png">
+      </div>
+        <div class="col">
+          2018 1st Place
+          <img src="/assets/images/awards/startup_weekend.png">
+      </div>
+        </div>
+        <div class="copyright">
+          &copy; Evan McEldowney. All rights reserved.
+        </div>
+</footer>

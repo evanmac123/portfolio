@@ -44,33 +44,34 @@
         {
           "section": "2 Wires",
           "section-content": [{
-            "text": {
-              "side": "",
-              "title": "2.2 Components",
-              "description": "I produced each page within that structure with an empathy map that outlined the type of content I wanted to feature as the user moved down the page. This would move the potential B2B customer through the page and subsequent site to the major conversion point we were hoping to target. I then built out these maps by designing five or six essential components blocks such as product headers, featured content, simple callouts that could be used across the site."
-            }
-           },
-           {
-            "imagecontain": {
-              "src": "storagecraft/content-blocks.jpg"
-            }
-           },
-           {
-            "text": {
-              "side": "offset-by-one-half",
-              "title": "2.1 Structure",
-              "description": "I laid out a new structure for the site based around highlighting the new platform products, creating a more efficient flow to essential pages for repeat customers, and providing a better explanation of what the products did and how they had helped other companies."
-             }
+              "text": {
+                "side": "",
+                "title": "2.2 Components",
+                "description": "I produced each page within that structure with an empathy map that outlined the type of content I wanted to feature as the user moved down the page. This would move the potential B2B customer through the page and subsequent site to the major conversion point we were hoping to target. I then built out these maps by designing five or six essential components blocks such as product headers, featured content, simple callouts that could be used across the site."
+              }
             },
-           {
-            "color": {
-              "src": "storagecraft/stc-wireframes.png",
-              "description": "Wireframes of the Home, Solution, and Product Pages"
+            {
+              "imagecontain": {
+                "src": "storagecraft/content-blocks.jpg"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "2.1 Structure",
+                "description": "I laid out a new structure for the site based around highlighting the new platform products, creating a more efficient flow to essential pages for repeat customers, and providing a better explanation of what the products did and how they had helped other companies."
+              }
+            },
+            {
+              "color": {
+                "src": "storagecraft/stc-wireframes.png",
+                "description": "Wireframes of the Home, Solution, and Product Pages"
+              }
             }
-          }]
+          ]
         },
         {
-          "section": "3 Implimentation",
+          "section": "3 Implementation",
           "section-content": [{
               "text": {
                 "side": "offset-by-one-half",
@@ -92,7 +93,7 @@
       "slug": "studentrabbit",
       "image": "studentrabbit.png",
       "logo": "studentrabbit-logo.png",
-      "role": "Project Lead",
+      "role": "Product Lead",
       "highlight": "#78CECF",
       "type": "Front End Development, Branding, Web Design, UX",
       "product": "www.studentrabbit.com",
@@ -102,7 +103,7 @@
           "split": {
             "left": {
               "title": "Evan McEldowney",
-              "description": "Project Lead"
+              "description": "Product Lead"
             },
             "right": {
               "title": "Vendela Larsson",
@@ -229,7 +230,7 @@
       "image": "kleo.png",
       "logo": "kleo-logo.png",
       "role": "User Experience Designer",
-      "type": "Branding, UX, App Design",
+      "type": "Branding, Product Design, App Design",
       "product": "Invision Prototype",
       "site": "https://invis.io/Z59BUUBA4",
       "thesis": "How can we create a meaningful experience between art and museum visitors?",
@@ -238,7 +239,7 @@
           "split": {
             "left": {
               "title": "Evan McEldowney",
-              "description": "Project Lead"
+              "description": "Product Designer"
             },
             "right": {
               "title": "Alice Young",
@@ -254,7 +255,7 @@
             },
             "right": {
               "title": "Emily O'Brien",
-              "description": "Designer"
+              "description": "Product Designer"
             }
           }
         },
@@ -262,7 +263,7 @@
           "split": {
             "left": {
               "title": "Amanda Pinsker",
-              "description": "Designer"
+              "description": "Product Designer"
             },
             "right": {
               "title": "",
@@ -439,7 +440,7 @@
           "split": {
             "left": {
               "title": "Evan McEldowney",
-              "description": "Lead Designer"
+              "description": "Product Designer"
             },
             "right": {
               "title": "Geoff House",
@@ -455,7 +456,7 @@
             },
             "right": {
               "title": "Mike Godlewski",
-              "description": "Designer"
+              "description": "Product Designer"
             }
           }
         }
@@ -718,24 +719,12 @@
     "slug": "home",
     "title": "Home",
     "cards": [{
-        "name": "StorageCraft",
-        "slug": "storagecraft",
-        "image": "storagecraft.png",
-        "logo": "storagecraft-logo.png",
-        "role": "User Experience/Visual Designer",
-        "type": "Branding, UX, Web Design, Front-End Development",
-        "product": "Website",
-        "description": "Redefining Storage Solutions:",
-        "site": "https://invis.io/Z59BUUBA4",
-        "side": "left"
-      },
-      {
         "name": "Recovery Road",
         "slug": "recovery-road",
         "image": "recovery.png",
         "logo": "recovery-logo.png",
         "role": "Development Lead and Outreach",
-        "type": "Journalism, Design, Development",
+        "type": "Journalism, Product Design, Creative Development",
         "product": "Interactive Documentary",
         "description": "A Interactive Documentary on Boston's Heroin Crisis",
         "site": "https://www.evanmceldowney.com/recoveryroad",
@@ -747,39 +736,51 @@
         "image": "kleo.png",
         "logo": "kleo-logo.png",
         "role": "User Experience Designer",
-        "type": "Branding, UX, App Design",
+        "type": "Branding, Product Design, User Experience",
         "product": "Invision Prototype",
         "description": "Accessible Museum Tours",
         "site": "https://invis.io/Z59BUUBA4",
         "side": "left"
+      }
+    ],
+    "sub_cards": [{
+        "name": "StorageCraft",
+        "slug": "storagecraft",
+        "image": "storagecraft.png",
+        "logo": "storagecraft-logo.png",
+        "role": "User Experience/Visual Designer",
+        "type": "Branding, UX, Web Design, Front-End Development",
+        "product": "Website",
+        "description": "Redefining Storage Solutions:",
+        "site": "https://invis.io/Z59BUUBA4",
+        "side": "right"
       },
       {
         "name": "Tiny Eye",
         "slug": "tinyeye",
         "image": "tinyeye.png",
         "logo": "tinyeye-logo.png",
-        "role": "Project Lead",
-        "type": "Branding, UX, App Design",
-        "product": "Iphone and Android App",
+        "role": "Product Lead",
+        "type": "Branding, Product Design, User Experience",
+        "product": "IPhone and Android App",
         "description": "A Virtual Reality hidden object game",
         "site": "https://invis.io/Z59BUUBA4",
-        "side": "right"
+        "side": "left"
       },
       {
         "name": "Student Rabbit",
         "slug": "studentrabbit",
         "image": "studentrabbit.png",
         "logo": "studentrabbit-logo.png",
-        "role": "Project Lead",
-        "type": "Front End Development, Branding, Web Design, UX",
+        "role": "Product Lead",
+        "type": "Front End Development, Branding, Product Design",
         "product": "www.studentrabbit.com",
         "description": "Fixing Buying and Selling Textbooks",
         "site": "http://www.studentrabbit.com/#/",
-        "side": "left"
+        "side": "right"
       }
     ]
   },
-
   "about": {
     "slug": "about",
     "title": "About"
