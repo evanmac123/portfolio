@@ -31,12 +31,11 @@
   }
 
   &__title {
-    height: 100%;
     bottom: 0;
     top: 0;
     position: relative;
     width: 100%;
-    margin: 100px 0;
+    margin: 46px 0 120px 0;
   }
 
   .cards {
@@ -46,9 +45,10 @@
   .sub-card-grid{
     display: flex;
     justify-content: space-between;
-    margin-top: 2em;
+    margin: 2em 0;
+    float: left;
     .sub-card{
-      width: 32%;
+      width: 24%;
       figure.effect-roxy p {
           bottom: 40px;
       }
@@ -69,6 +69,7 @@
     mix-blend-mode: $blend-mode;
     width: 60%;
     color: $blend-color;
+    padding-top: 60px;
   }
 
   &__sub-title {
@@ -98,6 +99,11 @@
   @media (max-width: 960px) {
     video {
       display: none;
+    }
+
+    .home__title{
+      margin: 46px 0 120px 0;
+      height: auto;
     }
 
     .home__main-title {

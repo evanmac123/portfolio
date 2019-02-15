@@ -34,7 +34,7 @@
                   </a>
                 </figure>
               </div>
-              <div class="card-info">
+              <div class="card-info" style="color:{{highlight}};">
                 <div class="">
                   {{ role }}
                 </div>
@@ -45,7 +45,7 @@
                   {{ name }}
                 </div>
               </div>
-              <div class="card-type">
+              <div class="card-type" style="color:{{highlight}};">
                 {{ type }}
               </div>
             </div>
@@ -75,24 +75,24 @@
         </div>
 
     </div>
+    <footer>
+      <div class="award container">
+        <div class="col">
+          2017 1st Place
+          <img src="/assets/images/awards/award-white.png">
+        </div>
+          <div class="col">
+            2017 1st Place
+            <img src="/assets/images/awards/ideahack.png">
+          </div>
+            <div class="col">
+              2018 1st Place
+              <img src="/assets/images/awards/startup_weekend.png">
+          </div>
+            </div>
+            <div class="copyright">
+              &copy; Evan McEldowney. All rights reserved.
+            </div>
+    </footer>
   </div>
 </div>
-<footer>
-  <div class="award container">
-    <div class="col">
-      2017 1st Place
-      <img src="/assets/images/awards/award-white.png">
-    </div>
-      <div class="col">
-        2017 1st Place
-        <img src="/assets/images/awards/ideahack.png">
-      </div>
-        <div class="col">
-          2018 1st Place
-          <img src="/assets/images/awards/startup_weekend.png">
-      </div>
-        </div>
-        <div class="copyright">
-          &copy; Evan McEldowney. All rights reserved.
-        </div>
-</footer>
