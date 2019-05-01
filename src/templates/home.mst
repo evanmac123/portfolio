@@ -34,7 +34,7 @@
                   </a>
                 </figure>
               </div>
-              <div class="card-info" style="color:{{highlight}};">
+              <div style="color:{{highlight}};" class="card-info extra">
                 <div class="">
                   {{ role }}
                 </div>

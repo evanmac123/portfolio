@@ -779,7 +779,7 @@
           "section-content": [{
               "split": {
                 "left": {
-                  "title": "" ,
+                  "title": "",
                   "description": "To reconcile this I created new line illustrations that referenced previous brand elements such as hot air balloons and clouds that could be used more flexibly across the site. They ended up being great tools for concept explanation and micro-interactions."
                 },
                 "right": {
@@ -790,81 +790,86 @@
             {
               "split": {
                 "right": {
-                  "title": "2.2 Brand Palette",
+                  "title": "2.1 Brand Palette",
                   "description": "Airbo's color palette was based around a central light blue and included a few more tones and accent colors. Out of these I strategically picked two blues to use across the site and created two gradient patterns out of the other colors to create a sense of movement and calm. Because their product was based around HR I wanted to transition Airbo from being something outgoing and cute to something soothing and engaging. That way their users and clients could trust the experience and reliability of the product."
                 },
                 "left": {
                   "src": "airbo/color_palette.jpg"
                 }
-             }
-          },
+              }
+            },
             {
               "split": {
                 "left": {
-                  "title": "2.3 Waves",
+                  "title": "2.2 Waves",
                   "description": "After learning Airbo was created in Venice, CA and the founder loved to surf I decided to introduce a branded wave pattern that would reflect the companies passion and roots. This element would also help transition sections, introduce products, and play with space in interesting ways."
                 },
                 "right": {
                   "src": "airbo/curve2.jpg"
                 }
-             }
-          }
+              }
+            }
           ]
         },
         {
           "section": "3 Design",
           "section-content": [{
-            "text": {
-              "title": "Wireframes",
-              "side": "",
-              "description": "For the design of the website, I wanted something fresh and light using the new brand elements that would help explain their product easily. Employee benefits communication is not exactly the hottest concept in town but I wanted to shake up their market and introduce some new elements of web design that would put them far in front of their competitors."
-            }
-          },
-          {
-            "split": {
-              "right": {
-                "title": "2.3 Wireframes",
-                "description": "I sketched and wireframes a basic concept of the site and went through revision rounds with the founder to really nail down how to talk about his product correctly. He was hesitant that people visiting the site wouldn't get the interactive gamification that Airbo brings to its users and requested I make animations to show the accessibility and sense of accomplishment that Airbo brings."
-              },
-              "left": {
-                "src": "airbo/wireframes.jpg"
+              "text": {
+                "title": "3.1 Outline",
+                "side": "",
+                "description": "For the design of the website, I wanted something fresh and light using the new brand elements that would help explain their product easily. Employee benefits communication is not exactly the hottest concept in town but I wanted to shake up their market and introduce some new elements of web design that would put them far in front of their competitors."
               }
-           }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "3.2 Wireframes",
+                  "description": "I sketched and wireframes a basic concept of the site and went through revision rounds with the founder to really nail down how to talk about his product correctly. He was hesitant that people visiting the site wouldn't get the interactive gamification that Airbo brings to its users and requested I make animations to show the accessibility and sense of accomplishment that Airbo brings."
+                },
+                "left": {
+                  "src": "airbo/wireframes.jpg"
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "airbo/homepage.jpg"
+              }
+            },
+            {
+              "color": {
+                "src": "airbo/demo.jpg",
+                "description": "Demo Page"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "airbo/broker.jpg"
+              }
+            },
+            {
+              "text": {
+                "title": "3.3 Animations",
+                "side": "",
+                "description": "To explain the product I first abstracted the concept of Airbo's tile system into simplified playful cards. I then animated them to show the process of how Airbo's users answer and learn information and implemented that into a looping HTML video that would seamlessly play on the homepage. I also added CSS animations to the balloon and cloud illustrations to give the website a sense of motion and joy."
+              }
+            },
+            {
+              "gif": {
+                "src": "airbo/screen.mp4"
+              }
+            }
+          ]
         },
         {
-          "imagecontain": {
-            "src": "airbo/homepage.jpg"
-          }
-        },
-        {
-          "color": {
-            "src": "airbo/demo.jpg",
-            "description": "Demo Page"
-          }
-        },
-        {
-          "imagecontain": {
-            "src": "airbo/broker.jpg"
-          }
-        },
-        {
-          "text": {
-            "title": "Animations",
-            "side": "",
-            "description": "To explain the product I first abstracted the concept of Airbo's tile system into simplified playful cards. I then animated them to show the process of how Airbo's users answer and learn information and implemented that into a looping HTML video that would seamlessly play on the homepage. I also added CSS animations to the balloon and cloud illustrations to give the website a sense of motion and joy."}
-        },
-        {
-          "gif": {
-            "src": "airbo/screen.mp4"
-          }
-        },
-        {
-          "text": {
-            "title": "Development",
-            "side": "",
-            "description": "The marketing pages were each created in two-week sprints where the first week would be the design and the second week would be the development. The site was deployed on Rails and I had to do a good amount of poking around to understand where and how the partials and architecture worked. Using HTML, Javascript, and SASS I was able to streamline the development and create a fully responsive site marketing in eight total weeks."}
-        }
-        ]
+          "section": "4 Development",
+          "section-content": [{
+            "text": {
+              "title": "4.1 Sprints and Rails",
+              "side": "",
+              "description": "The marketing pages were each created in two-week sprints where the first week would be the design and the second week would be the development. The site was deployed on Rails and I had to do a good amount of poking around to understand where and how the partials and architecture worked. Using HTML, Javascript, and SASS I was able to streamline the development and create a fully responsive site marketing in eight total weeks."
+            }
+          }]
         }
       ]
     }
@@ -913,44 +918,44 @@
         "side": "right"
       },
       {
-          "name": "StorageCraft",
-          "slug": "storagecraft",
-          "image": "storagecraft.png",
-          "logo": "storagecraft-logo.png",
-          "highlight": "#1A568F",
-          "role": "User Experience/Visual Designer",
-          "type": "Branding, UX, Web Design, Front-End Development",
-          "product": "Brand and Marketing Website",
-          "description": "Redefining Storage Solutions",
-          "site": "https://invis.io/Z59BUUBA4",
-          "side": "left"
-        },
-        {
-          "name": "Tiny Eye",
-          "slug": "tinyeye",
-          "image": "tinyeye.png",
-          "logo": "tinyeye-logo.png",
-          "highlight": "#1A568F",
-          "role": "Product Lead",
-          "type": "Branding, Product Design, User Experience",
-          "product": "IPhone and Android App",
-          "description": "A Virtual Reality hidden object game",
-          "site": "https://invis.io/Z59BUUBA4",
-          "side": "right"
-        },
-        {
-          "name": "Student Rabbit",
-          "slug": "studentrabbit",
-          "image": "studentrabbit.png",
-          "logo": "studentrabbit-logo.png",
-          "highlight": "#1A568F",
-          "role": "Product Lead",
-          "type": "Front End Development, Branding, Product Design",
-          "product": "www.studentrabbit.com",
-          "description": "Fixing Buying and Selling Textbooks",
-          "site": "http://www.studentrabbit.com/#/",
-          "side": "left"
-        }
+        "name": "StorageCraft",
+        "slug": "storagecraft",
+        "image": "storagecraft.png",
+        "logo": "storagecraft-logo.png",
+        "highlight": "#1A568F",
+        "role": "User Experience/Visual Designer",
+        "type": "Branding, UX, Web Design, Front-End Development",
+        "product": "Brand and Marketing Website",
+        "description": "Redefining Storage Solutions",
+        "site": "https://invis.io/Z59BUUBA4",
+        "side": "left"
+      },
+      {
+        "name": "Tiny Eye",
+        "slug": "tinyeye",
+        "image": "tinyeye.png",
+        "logo": "tinyeye-logo.png",
+        "highlight": "#1A568F",
+        "role": "Product Lead",
+        "type": "Branding, Product Design, User Experience",
+        "product": "IPhone and Android App",
+        "description": "A Virtual Reality hidden object game",
+        "site": "https://invis.io/Z59BUUBA4",
+        "side": "right"
+      },
+      {
+        "name": "Student Rabbit",
+        "slug": "studentrabbit",
+        "image": "studentrabbit.png",
+        "logo": "studentrabbit-logo.png",
+        "highlight": "#1A568F",
+        "role": "Product Lead",
+        "type": "Front End Development, Branding, Product Design",
+        "product": "www.studentrabbit.com",
+        "description": "Fixing Buying and Selling Textbooks",
+        "site": "http://www.studentrabbit.com/#/",
+        "side": "left"
+      }
     ]
   },
   "about": {
