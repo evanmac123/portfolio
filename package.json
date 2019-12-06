@@ -55,7 +55,7 @@
     "browserify": "^14.0.0",
     "connect-history-api-fallback": "^1.3.0",
     "del": "^2.2.2",
-    "eslint": "^3.14.1",
+    "eslint": "^4.18.2",
     "eslint-config-starry": "^2.0.1",
     "eslint-plugin-starry": "^2.0.1",
     "gulp": "^3.9.0",
