@@ -36,6 +36,7 @@
     position: relative;
     width: 100%;
     margin: 46px 0 120px 0;
+    margin-bottom: 100px;
   }
 
   .cards {
@@ -57,19 +58,20 @@
 
   &__body {
     width: 100%;
-    opacity: 1;
     letter-spacing: 2px;
   }
 
   &__main-title {
     font-weight: 700;
-    font-size: 7em;
+    font-size: 7.5em;
     letter-spacing: 0.5px;
     font-family: 'Cardo', serif;
     mix-blend-mode: $blend-mode;
     width: 60%;
     color: $blend-color;
     padding-top: 60px;
+    width:60%;
+    float:left;
   }
 
   &__sub-title {
@@ -83,9 +85,14 @@
     font-size: 1.4em;
     letter-spacing: 0.5px;
     font-family: 'Cardo', serif;
-    mix-blend-mode: $blend-mode;
+    mix-blend-mode: difference;
     color: $blend-color;
-    margin-top: 10px;
+    margin-top: 210px;
+    padding-left: 2%;
+    width: 36%;
+    float: left;
+    line-height: 1.4;
+    border-left: 2px solid $blend-color;
   }
 
   &__about-me {

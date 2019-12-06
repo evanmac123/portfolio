@@ -4,13 +4,12 @@
       <div class="row">
         <div class="one-half column about__me">
           <div class="about__intro">
-            <div>Evan McEldowney
-            </div>
-            <div class="about__sub-title">UX Designer and Developer</div>
+            <img class="about__evan" src="/assets/images/evan.png">
           </div>
           <div class="about__freelancing">
             <span class="about__contact">
-                <span class="hire">I’m currently freelancing</span> so feel free to contact me at evanmceldowney@gmail.com
+                <span class="hire">I’m currently open to new consulting gigs so feel free to contact me at <a href="mailto:evanmceldowney@gmail.com"> evanmceldowney@gmail.com</a>
+                  </span>
                 </span>
             </span>
             <div class="about__icons">
@@ -21,8 +20,8 @@
           </div>
         </div>
         <div class="one-half column">
-          <span class="about__bio">I recently graduated from <a target="_blank" href="http://www.northeastern.edu/"> Northeastern University</a> with a degree in Interactive Media and Graphic Design and I have been working in the industry for the past five years. My most recent jobs were with <a target="_blank" href="http://yeti.co">Yeti</a> in San Francisco, <a target="_blank" href="http://www.studiogusto.com/en/#/home/">Studio Gusto</a> in Italy, and <a target="_blank" href="http://www.northeastern.edu/scout/">Scout</a> Northeastern's Student Design Firm. I am interested in digital design in journalism, interactive documentaries and visual based education systems but I also love exploring motion graphics, history puns, and art museums.
-            <br>
+          <span class="about__bio">
+            Hey I'm Evan McEldowney, a San Francisco Interaction Designer focused on developing and leveraging highly impactful brands and digital products for social good. I advise teams and founders in creating effective strategy, messaging, and products through workshops, events, and consulting. I am deeply passionate about climate change, education, and developing community to solve "wicked problems". I currently volunteer with the Sunrise Movement on digital strategy and Big Tech organizing. Formerly at @elevatedthird.com @yeti.co @gusto.io
             <a href="/assets/doc/resume.pdf" class="resume" target="_blank">Resume of past positions</a>
           </span>
         </div>

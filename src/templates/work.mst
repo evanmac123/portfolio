@@ -7,7 +7,7 @@
                         <div class="card-role">
                             {{ role }}
                         </div>
-                        <a href="{{ site }}" style="color:{{highlight}};" class="" target="_blank"> {{product}}</a>
+                        <a href="{{ site }}" style="color:{{highlight}};" class="" target="_blank"> Final Product</a>
                         <div class="card-title">
                             {{ description }}
                         </div>
@@ -101,6 +101,9 @@
                 <div class="final-title">View the Final Product</div>
                 <div class="container">
                     <a href="{{site}}" class="no-underline" target="_blank"><button style="color:{{highlight}}; border:2px solid {{highlight}}; ">{{product}} </button></a>
+                    {{#product2}}
+                    <a href="{{site2}}" class="no-underline" target="_blank"><button style="color:{{highlight}}; border:2px solid {{highlight}}; ">{{product2}} </button></a>
+                    {{/product2}}
                 </div>
             </div>
         </div>

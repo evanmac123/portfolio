@@ -714,7 +714,7 @@
       ]
     },
     "airbo": {
-      "name": "Airbo Brand Redesign",
+      "name": "Airbo",
       "slug": "airbo",
       "image": "airbo.jpg",
       "logo": "airbo-logo.png",
@@ -722,7 +722,7 @@
       "role": "Lead Designer",
       "type": "Product Design, Branding, Front-End Development",
       "product": "Marketing Site & Branding",
-      "description": "Rebranding Ease & Engagement",
+      "description": "Rebranding HR Ease & Engagement",
       "site": "https://airbo.com",
       "thesis": "How do we redefine a startup's brand to catalyze it for growth?",
       "team": [{
@@ -872,94 +872,295 @@
           }]
         }
       ]
-    }
-  },
-
-  "home": {
-    "slug": "home",
-    "title": "Home",
-    "cards": [{
-        "name": "Airbo Brand Redesign",
-        "slug": "airbo",
-        "image": "airbo.jpg",
-        "logo": "airbo-logo.png",
-        "highlight": "#40BEFF",
-        "role": "Lead Designer",
-        "type": "Product Design, Branding, Front-End Development",
-        "product": "Marketing Site & Web Application",
-        "description": "Branding Ease & Engagement",
-        "site": "https://airbo.com",
-        "side": "right"
-      },
-      {
-        "name": "Recovery Road",
-        "slug": "recovery-road",
-        "image": "recovery.jpg",
-        "logo": "recovery-logo.png",
-        "highlight": "#D3A713",
-        "role": "Dev and Outreach Lead",
-        "type": "Journalism, Product Design, Creative Development",
-        "product": "Interactive Documentary",
-        "description": "An Interactive Documentary Mapping Boston's Heroin Crisis",
-        "site": "https://www.evanmceldowney.com/recoveryroad",
-        "side": "left"
-      },
-      {
-        "name": "Kleo",
-        "slug": "kleo",
-        "image": "kleo.png",
-        "logo": "kleo-logo.png",
-        "highlight": "#6404e9",
-        "role": "User Experience Designer",
-        "type": "Branding, Museum Design, User Experience, Wayfinding",
-        "product": "Invision Prototype",
-        "description": "Accessible Museum Tours",
-        "site": "https://invis.io/Z59BUUBA4",
-        "side": "right"
-      },
-      {
-        "name": "StorageCraft",
-        "slug": "storagecraft",
-        "image": "storagecraft.png",
-        "logo": "storagecraft-logo.png",
-        "highlight": "#1A568F",
-        "role": "User Experience/Visual Designer",
-        "type": "Branding, UX, Web Design, Front-End Development",
-        "product": "Brand and Marketing Website",
-        "description": "Redefining Storage Solutions",
-        "site": "https://invis.io/Z59BUUBA4",
-        "side": "left"
-      },
-      {
-        "name": "Tiny Eye",
-        "slug": "tinyeye",
-        "image": "tinyeye.png",
-        "logo": "tinyeye-logo.png",
-        "highlight": "#1A568F",
-        "role": "Product Lead",
-        "type": "Branding, Product Design, User Experience",
-        "product": "IPhone and Android App",
-        "description": "A Virtual Reality hidden object game",
-        "site": "https://invis.io/Z59BUUBA4",
-        "side": "right"
-      },
-      {
-        "name": "Student Rabbit",
-        "slug": "studentrabbit",
-        "image": "studentrabbit.png",
-        "logo": "studentrabbit-logo.png",
-        "highlight": "#1A568F",
-        "role": "Product Lead",
-        "type": "Front End Development, Branding, Product Design",
-        "product": "www.studentrabbit.com",
-        "description": "Fixing Buying and Selling Textbooks",
-        "site": "http://www.studentrabbit.com/#/",
-        "side": "left"
+    },
+    "coprocure": {
+      "name": "CoProcure",
+      "slug": "coprocure",
+      "image": "coprocure.jpg",
+      "logo": "coprocure-logo.png",
+      "highlight": "#37A8EB",
+      "role": "Product Designer",
+      "type": "Government Tech, Service Design, Branding",
+      "product": "Civic Tech Procurement Marketplace",
+      "description": "Making Government Procurement Easy",
+      "site": "https://www.coprocure.us/",
+      "thesis": "How Do We Fix Governments Procurement?",
+      "team": [{
+        "split": {
+          "left": {
+            "title": "Evan McEldowney",
+            "description": "Product Lead"
+          },
+          "right": {
+            "title": "Mariel Reed",
+            "description": "CEO"
+          }
+        }
+      }],
+      "overview": "Coprocure is trying to drastically improve how the government operates at the most basic level; procurement.  The government purchases three trillion dollars worth of supplies and services every year on the state and national levels. This process is long and drawn out but can be expedited through things call cooperative contracts. Coprocure is a centralized marketplace for these contracts saving the government millions of dollars each year. I joined Coprocure early on to design their brand and product after seed funding. More info in the future but here are some shots of the work that has been done.",
+      "content": [{
+        "section": "Sneak Peak More to Come",
+        "section-content": [
+            {
+              "imagecontain": {
+                "src": "coprocure/styleguide.png"
+              }
+            },
+            {
+              "color": {
+                "src": "coprocure/home.png",
+                "description": "Marketing Pages"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "coprocure/product.png"
+              }
+            }
+        ]
       }
     ]
   },
-  "about": {
-    "slug": "about",
-    "title": "About"
+  "mitshift": {
+    "name": "MIT & UN Sustainability Tools",
+    "slug": "mitshift",
+    "image": "shift.jpg",
+    "logo": "shift-logo.png",
+    "highlight": "#58606a",
+    "role": "Product Designer",
+    "type": "Product Design, Sustainability, Web Application",
+    "product": "Shift Sustainability Library",
+    "description": "Searchable Sustainability Tools",
+    "site": "https://shift.tools",
+    "product2": "UN Global Compact Library",
+    "site2": "https://www.unglobalcompact.org/library",
+    "thesis": "How Can We Empower Corperations to Be More Sustainable?",
+    "team": [{
+      "split": {
+        "left": {
+          "title": "Evan McEldowney",
+          "description": "Lead Product Designer"
+        },
+        "right": {
+          "title": "Saman Baghestani",
+          "description": "Product Manager"
+        }
+      }
+    }],
+    "overview": "I care deeply about the realities of the climate crisis. I got the opportunity to work for MIT on a online platform called Shift Tools trying to help mitgate that crisis. It is an evolving community of corporate sustainability practitioners, sustainability-oriented entrepreneurs, and impact investors working together to curate and review tools to help large corperations change their behavior. I was brought on at the beginning of the project to help design the product strategy, UX/UI, and branding. This would later lead to a follow-up project to redesign the UN’s Global Compact Sustainability Library.",
+    "content": [{
+        "section": "1 Research",
+        "section-content": [{
+            "split": {
+              "left": {
+                "title": "1.1 Onboarding",
+                "description": "I came on to the project as a lead product designer to transition the functionality from a basic search to a fully-formed ecosystem hub of sustainability clients and providers. I began by conducting research with stakeholders of the project and the users that were currently on the site to get an understand of needs and an audit of the site itself."
+              },
+              "right": {
+                "src": "mitshift/2016.jpg"
+              }
+            }
+          },
+          {
+            "split": {
+              "right": {
+                "title": "1.2 UX Accessment",
+                "description": "The major takeaways were that the UI needed an overhaul, the current search function was confusing and that users needed a better way to collect and compare results in a centralized location. We built these changes iteratively over the next year constantly growing our community and testing with users."
+              },
+              "left": {
+                "src": "mitshift/sloan.png"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "section": "2 UX and UI",
+        "section-content": [{
+            "split": {
+              "left": {
+                "title": "2.1 UI",
+                "description": "I developed a UI system based on Shift’s brand colors and slick aesthetic of utility. These included new buttons, dropdowns, page layouts, icons, and color associations that better-aligned Shifts brand with its online presence."
+              },
+              "right": {
+                "src": "mitshift/UI.jpg"
+              }
+            }
+          },
+          {
+            "color": {
+              "src": "mitshift/filtering.png",
+              "description": "List Page"
+            }
+          },
+          {
+            "text": {
+              "title": "2.2 Creating Effective Navigation",
+              "description": "Search when I joined the project was confusing and hidden when I came on to the project. Users were unsure of how to access the resources they were interested in. After helping build out a taxonomy of different categories to help organize the resources across the board we split the home page into three sections. The first section was informational about what shift was and contained the direct search functionality while the second broke down different categories one could search by and the third broke down featured resources."
+            }
+          },
+
+          {
+            "color": {
+              "src": "mitshift/home.png",
+              "description": "Home Search"
+            }
+          },
+          {
+            "split": {
+              "left": {
+                "title": "2.2 Collect and Compare",
+                "description": "In our user interviews, we found that users were exploring deeply into the resources but were unable to contextualize and use the resources they found effectively. To fix this we build out an extensive bookmarking feature that allowed users to save the resources they were interested in to custom created lists."
+              },
+              "right": {
+                "title": "",
+                "description": "After testing this feature we saw that we had over 200% more retention of clients and that users were specifically organizing resources for their organizations on specific projects. We also saw the need for users to understand the major differences between many different and often comparable tools. Taking inspiration from car comparison tools, I designed out a few different versions of the tool and settled on a vertical version that allowed for six different resources to be compared at the same time."
+              }
+            }
+          },
+          {
+            "color": {
+              "src": "mitshift/currated.png",
+              "description": "List and Compare"
+            }
+          },
+          {
+            "text": {
+              "title": "2.4 Account and Provider Pages",
+              "side": "",
+              "description": "To create a more integrated network of sustainability practitioners and suppliers, we built out a personalized account feature that members could customize. Each supplier has their own home page that would help spread their tools and their message further. This allowed new search functionality while also allowing members to connect with each other more and deepen relationships."
+            }
+          },
+          {
+            "imagecontain": {
+              "src": "mitshift/client.png"
+            }
+          }
+        ]
+      },
+      {
+        "section": "3 UN Global Compact",
+        "section-content": [{
+            "text": {
+              "title": "3.1 Next Step the United Nations",
+              "side": "",
+              "description": "After a year of planning, designing, and testing we had built out the majority of the features that we had committed to in our initial audit. We were contacted by the United Nations Global Compact who was interested in the innovative approach had taken in our development of the UX and search functionality. They asked me to help redesign their sustainability library around a new taxonomy and brand they were using going forward. It was awesome to move from a national reach to international. I worked with them for two months designing a new UX/UI system for them based on the work and then implemented it on the Front End in Ruby, Javascript, and HTML/CSS."
+            }
+          },
+          {
+            "color": {
+              "src": "mitshift/UN.png",
+              "description": "United Nation Global Compact Library"
+            }
+          }
+        ]
+      }
+    ]
   }
+},
+
+"home": {
+  "slug": "home",
+  "title": "Home",
+  "cards": [{
+      "name": "MIT & UN Sustainability Tools",
+      "slug": "mitshift",
+      "image": "shift.jpg",
+      "logo": "shift-logo.png",
+      "highlight": "#58606a",
+      "role": "Product Designer",
+      "type": "Product Design, Sustainability, Web Application",
+      "product": "B2B International Sustainability Libraries",
+      "description": "Searchable Sustainability Tools",
+      "site": "https://www.evanmceldowney.com/mitshift",
+      "side": "left"
+    },
+    {
+      "name": "CoProcure",
+      "slug": "coprocure",
+      "image": "coprocure.jpg",
+      "logo": "coprocure-logo.png",
+      "highlight": "#37A8EB",
+      "role": "Product Designer",
+      "type": "Government Tech, Service Design, Branding",
+      "product": "Civic Tech Procurement Marketplace",
+      "description": "Making Government Procurement Easy",
+      "site": "https://www.evanmceldowney.com/coprocure",
+      "side": "right"
+    },
+    {
+      "name": "Recovery Road",
+      "slug": "recovery-road",
+      "image": "recovery.jpg",
+      "logo": "recovery-logo.png",
+      "highlight": "#bf8e00",
+      "role": "Producer and Developer",
+      "type": "Journalism, Product Design, Creative Development",
+      "product": "Interactive Storytelling Documentary",
+      "description": "Mapping Boston's Heroin Crisis",
+      "site": "https://www.evanmceldowney.com/recoveryroad",
+      "side": "left"
+    },
+    {
+      "name": "Airbo",
+      "slug": "airbo",
+      "image": "airbo.jpg",
+      "logo": "airbo-logo.png",
+      "highlight": "#40BEFF",
+      "role": "Lead Designer",
+      "type": "Product Design, Branding, Front-End Development",
+      "product": "B2B HR Appliation",
+      "description": "Rebranding HR Ease & Engagement",
+      "site": "https://airbo.com",
+      "side": "right"
+    },
+    {
+      "name": "Kleo",
+      "slug": "kleo",
+      "image": "kleo.png",
+      "logo": "kleo-logo.png",
+      "highlight": "#6404e9",
+      "role": "User Experience Designer",
+      "type": "Branding, Museum Design, User Experience, Wayfinding",
+      "product": "B2C Museum Tour App",
+      "description": "Innovating Museum Education",
+      "site": "https://invis.io/Z59BUUBA4",
+      "side": "left"
+    },
+    {
+      "name": "StorageCraft",
+      "slug": "storagecraft",
+      "image": "storagecraft.png",
+      "logo": "storagecraft-logo.png",
+      "highlight": "#1A568F",
+      "role": "User Experience Designer",
+      "type": "Branding, UX, Web Design, Front-End Development",
+      "product": "B2B Marketing Website",
+      "description": "Redefining Storage Solutions",
+      "site": "https://invis.io/Z59BUUBA4",
+      "side": "right"
+    },
+    {
+      "name": "Tiny Eye",
+      "slug": "tinyeye",
+      "image": "tinyeye.png",
+      "logo": "tinyeye-logo.png",
+      "highlight": "#1A568F",
+      "role": "Product Lead",
+      "type": "User Experience Design",
+      "product": "Virtual Reality App",
+      "description": "A Virtual Reality hidden object game",
+      "site": "https://invis.io/Z59BUUBA4",
+      "side": "left"
+    }
+  ]
+},
+"about": {
+  "slug": "about",
+  "title": "About"
+},
+"thoughts": {
+  "slug": "thoughts",
+  "title": "thoughts"
+}
 }

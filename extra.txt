@@ -1,3 +1,19 @@
+{
+  "name": "Student Rabbit",
+  "slug": "studentrabbit",
+  "image": "studentrabbit.png",
+  "logo": "studentrabbit-logo.png",
+  "highlight": "#1A568F",
+  "role": "Product Lead",
+  "type": "Front End Development, Branding, Product Design",
+  "product": "www.studentrabbit.com",
+  "description": "Fixing Buying and Selling Textbooks",
+  "site": "http://www.studentrabbit.com/#/",
+  "side": "left"
+}
+
+
+
 "name": "PAATH",
 "slug": "paath",
 "subtitle": "(Providing Access to Addictions Treatment, Hope and Support)",

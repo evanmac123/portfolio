@@ -23,18 +23,24 @@
     &__intro {
         font-size: 2.8em;
         margin-bottom: 40px;
+          text-align: center;
 
     }
 
+    &__evan{
+      width: 220px;
+      text-align: center;
+    }
 
 
     &__freelancing {
         font-size: 1em;
         color: $dark-grey;
         line-height: 1.8em;
+        text-align: center;
 
         .hire {
-            font-weight: 700;
+            font-weight: 600;
 
             &:after {
                 transform-origin: left;
@@ -54,6 +60,7 @@
         margin-top: 60px;
         font-family: $font-serif;
         line-height: 1.8em;
+        font-size: 1.2em;
 
         .resume {
             margin-top: 5px;
