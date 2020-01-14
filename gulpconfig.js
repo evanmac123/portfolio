@@ -113,10 +113,10 @@ module.exports = {
     },
     replace: { // replace bundle.js script tag to bundle.min.js
       src: dist+'index.html', // Location of file with script tag
-      scriptSrc: 'js/bundle.min.js', // New value of script src attribute including minified bundle
+      scriptSrc: '/js/bundle.min.js', // New value of script src attribute including minified bundle
       dest: dist // Same location as src so it replaces the original
     },
-    delete: dist+'js/bundle.js' // Delete the unminified bundle
+    delete: dist+'/js/bundle.js' // Delete the unminified bundle
   },
 
   watch: { // What to watch before triggering each specified task; if files matching the patterns below change it will trigger BrowserSync

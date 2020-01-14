@@ -1,5 +1,1097 @@
 {
   "work": {
+    "mitshift": {
+    "name": "MIT & UN Sustainability Tools",
+    "slug": "mitshift",
+    "image": "shift.jpg",
+    "logo": "shift-logo.png",
+    "highlight": "#58606a",
+    "role": "Product Designer",
+    "type": "Product Design, Sustainability, Web Application",
+    "product": "Shift Sustainability Library",
+    "description": "Searchable Sustainability Tools",
+    "site": "https://shift.tools",
+    "product2": "UN Global Compact Library",
+    "site2": "https://www.unglobalcompact.org/library",
+    "thesis": "How Can We Empower Corporations to Be More Sustainable?",
+    "team": [{
+      "split": {
+        "left": {
+          "title": "Evan McEldowney",
+          "description": "Lead Product Designer"
+        },
+        "right": {
+          "title": "Saman Baghestani",
+          "description": "Product Manager"
+        }
+      }
+    }],
+    "overview": "I believe that humanity is in the middle of a climate crisis. I had the opportunity to have a positive impact on this problem while working for MIT's Sloan School of Management on an online platform called Shift Tools. The platform is made up of an evolving community of corporate sustainability practitioners, sustainability-oriented entrepreneurs, and impact investors working together to curate and review tools to help large corporations change their behavior. I was brought on at the beginning of the project to help design the product strategy, UX/UI, and branding. This would later lead to a follow-up project to redesign the United Nations Global Compact Sustainability Library.",
+    "content": [{
+        "section": "1 Research",
+        "section-content": [{
+            "split": {
+              "left": {
+                "title": "1.1 Onboarding",
+                "description": "I joined project as a lead product designer to transition the functionality from a basic search tools to a fully-formed ecosystem hub of sustainability clients and providers. I began by conducting research with stakeholders of the project and the current site user base to get an understand of their needs and understand what value the platform was really providing."
+              },
+              "right": {
+                "src": "mitshift/2016.jpg"
+              }
+            }
+          },
+          {
+            "split": {
+              "right": {
+                "title": "1.2 UX Accessment",
+                "description": "The major takeaways were that the UI needed an overhaul, the current search function was confusing and that users needed a better way to collect and compare results in a centralized location. We built these changes iteratively over the next year constantly growing our community and testing with users."
+              },
+              "left": {
+                "src": "mitshift/sloan.png"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "section": "2 UX and UI",
+        "section-content": [{
+            "split": {
+              "left": {
+                "title": "2.1 UI",
+                "description": "I developed a UI system based on Shift’s brand colors and slick aesthetic of utility. This update added new buttons, dropdowns, page layouts, icons, and color associations that better-aligned Shift's brand with its online presence."
+              },
+              "right": {
+                "src": "mitshift/UI.jpg"
+              }
+            }
+          },
+          {
+            "color": {
+              "src": "mitshift/filtering.png",
+              "description": "List Page"
+            }
+          },
+          {
+            "text": {
+              "title": "2.2 Creating Effective Navigation",
+              "description": "When I joined the project the main search functionality was confusing and hidden. Users were unsure of how to access the resources they were interested in and had a hard time conducting new searches after finishing queries. After building out a new taxonomy of categories to help  reorganize the resources we split the home page into three sections. The first section was informational about what shift was and contained the direct search functionality while the second broke down different categories one could search by and the third showed featured resources. After instituting these changes we saw a 40% decrease in bounce rate and a 50% increase in repeat users."
+            }
+          },
+
+          {
+            "color": {
+              "src": "mitshift/home.png",
+              "description": "Home Search"
+            }
+          },
+          {
+            "split": {
+              "left": {
+                "title": "2.3 Collect and Compare",
+                "description": "In our user interviews, we found that users were exploring deeply into the resources but were unable to contextualize and use the resources they found effectively. To fix this we built out an extensive bookmarking feature that allowed users to save the resources they were interested in to custom created lists."
+              },
+              "right": {
+                "title": "",
+                "description": "After testing this feature we saw a 200% increase in retention of clients and that users were specifically organizing resources for their organizations on specific projects. We also saw the need for users to understand the major differences between many different and often comparable tools. Taking inspiration from car comparison tools, I designed out a few different versions of the tool and settled on a vertical version that allowed for six different resources to be compared at the same time."
+              }
+            }
+          },
+          {
+            "color": {
+              "src": "mitshift/currated.png",
+              "description": "List and Compare"
+            }
+          },
+          {
+            "text": {
+              "title": "2.4 Account and Provider Pages",
+              "side": "",
+              "description": "To create a more integrated network of sustainability practitioners and suppliers, we built out a personalized account feature that members could customize. Each supplier has their own home page that provides a central node for suppliers to access and share all of their tools and resources. This allowed new search functionality while also allowing members to connect with each other more and deepen relationships."
+            }
+          },
+          {
+            "imagecontain": {
+              "src": "mitshift/client.png"
+            }
+          }
+        ]
+      },
+      {
+        "section": "3 UN Global Compact",
+        "section-content": [{
+            "text": {
+              "title": "3.1 Next Step the United Nations",
+              "side": "",
+              "description": "After a year of planning, designing, and testing we had built out the majority of the features that we had committed to in our initial audit. We were contacted by the United Nations Global Compact who was interested in the innovative approach we had taken in our development of the UX and search functionality. They asked me to help redesign their sustainability library around a new taxonomy and brand they were using going forward. It was awesome to move from a national reach to international. I worked with them for two months designing a new UX/UI system for them based on the work and then implemented it on the front end in Ruby, Javascript, and HTML/CSS."
+            }
+          },
+          {
+            "color": {
+              "src": "mitshift/UN.png",
+              "description": "United Nation Global Compact Library"
+            }
+          }
+        ]
+      }
+    ]
+  },
+    "interventions": {
+      "description": "Exploring Ethical Design & Technology",
+      "slug": "interventions",
+      "image": "interventions.png",
+      "logo": "interventions-logo.png",
+      "role": "Founder and Producer",
+      "type": "Production, Concept Design, Event Management",
+
+      "thesis": "How can designers create scalable technology ethically?",
+      "highlight": "#114AA0",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Co-founder and Lead Producer"
+            },
+            "right": {
+              "title": "Nathan Hulsey",
+              "description": "Co-founder and CEO of Scout"
+            }
+          }
+          },
+          {
+          "split": {
+            "left": {
+              "title": "Jennifer Hersh",
+              "description": "Lead Designer"
+            },
+            "right": {
+              "title": "Christina Allen",
+              "description": "Operations Head"
+            }
+          }
+        }
+      ],
+      "overview": "Interventions is a one-day yearly conference I founded as the Event Director of Scout at Northeastern University in 2017. The conference was part of a larger series of events that examined the intentions and consequences of design that alters large-scale behaviors, experiences, and values. The conference hosted over 400 students, teachers, and professionals from across the country and featured speakers from Airbnb, MIT, Twitter, among many others. The conference has continued onwards into its third year to continue to talk about the intersection of design, technology, and society.",
+      "content": [{
+          "section": "Idea to Reality",
+          "section-content": [
+            {
+              "split": {
+                "left": {
+                  "title": "The Leadup",
+                  "description": "In the Fall of 2016, I was curious about how design was being used in different contexts to influence brands, organizations, and people to iteratively improve different aspects of society. As the Events Director of Scout I brought in different speakers and workshops from around the country to talk about their process, ideas, and insights to help inform Northeastern’s community of the power that design had on the world. These events inspired me to ask what considerations and values were designers using as a basis to determine the validity of their choices on systems."  },
+                "right": {
+                  "title": "",
+                  "description":""
+                }
+              }
+            },
+            {
+              "color": {
+                "src": "interventions/event.jpg",
+                "description": "Promotional Posters for the initial event series"
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "The Concept",
+                  "description": "This idea inspired me to want to create a conference that would bring together creative thinkers across disciplines and industries to discuss the role of designers, engineers, and entrepreneurs in developing brands, products, and services that shift societal norms in an age of rapid technological advancement. Through a series of lectures and workshops, our guests will share the impact of their successes, failures, and accidents in transforming the perceptions of everyday experiences through design. I would successfully pitch this idea of heads of Scout and the College of Arts, Media, and Design and we would settle on the name Interventions to quantify design’s ability and responsibility in creating change."
+                    },
+                "left": {
+                  "title": "",
+                  "description":""
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "interventions/posters.png"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "Speakers",
+                  "description": "We sourced speakers for the conference from companies and organizations such as Lyft, Airbnb, Github, Hillary for America, Twitter, Adobe, The Boston Globe, IDEO and MIT to give us a wide range of experiences of the impacts of technology design at scale on social, economic and political life. These speakers brought personal stories and frameworks that they had used in the field along with questions and concerns that the industry would eventually have to answer on the scalable impact of technology."    },
+                "right": {
+                  "title": "",
+                  "description":""
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "interventions/speakers.png"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "",
+                  "description": ""
+                },
+                "right": {
+                  "title": "Branding",
+                  "description":"To attract people to the conference we built out a brand and production team to create marketing, signage, websites, and day-of materials for the conference. I acted as a project manager during this process giving feedback, direction, and critiques to keep the project align with the original concept while running smoothly."}
+              }
+            },
+            {
+              "color": {
+                "src": "interventions/brand.png",
+                "description": ""
+
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "interventions/panel.png"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "The Conference",
+                  "description": "We hosted the conference in the Spring of 2018 and had a sold-out attendance of 400 students, teachers, and professionals from the Boston area. The event featured screen printing, workshops, speakers, and opportunities to connect with companies for future employment. We heard from attendees that they appreciated the diversity of the concepts explored and insights given on designer’s ethical implications. With the success of this conference, we were given the opportunity to continue with a second Interventions conference on storytelling and a third premiering in the third the Spring of 2020. "},
+                "right": {
+                  "title": "",
+                  "description":""
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "interventions/photos.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "coprocure": {
+      "name": "CoProcure",
+      "slug": "coprocure",
+      "image": "coprocure.jpg",
+      "logo": "coprocure-logo.png",
+      "highlight": "#37A8EB",
+      "role": "Product Designer",
+      "type": "Government Tech, Service Design, Branding",
+      "product": "Civic Tech Procurement Marketplace",
+      "description": "Making Government Procurement Easy",
+      "site": "https://www.coprocure.us/",
+      "thesis": "How Might We Improve Government Procurement?",
+      "team": [{
+        "split": {
+          "left": {
+            "title": "Evan McEldowney",
+            "description": "Product Lead"
+          },
+          "right": {
+            "title": "Mariel Reed",
+            "description": "CEO"
+          }
+        }
+      }],
+      "overview": "Coprocure is trying to drastically improve how the government operates at the most basic level: procurement.  The government purchases three trillion dollars worth of supplies and services every year on the state and national levels. This process is long and drawn out but can be expedited through things call cooperative contracts. Coprocure is a centralized marketplace for these contracts saving the government millions of dollars each year. I joined Coprocure early on to design their brand and product after seed funding. I am currently still working on the project and current work is under an NDA but here are some of the work that has been publically released.",
+      "content": [{
+        "section": "Sneak Peak More to Come",
+        "section-content": [
+            {
+              "imagecontain": {
+                "src": "coprocure/styleguide.png"
+              }
+            },
+            {
+              "color": {
+                "src": "coprocure/home.png",
+                "description": "Marketing Pages"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "coprocure/product.png"
+              }
+            }
+        ]
+      }
+    ]
+  },
+    "sunrise": {
+      "description": "Tech, Policy, Activism, Equity",
+      "slug": "sunrise",
+      "image": "sunrise.png",
+      "logo": "sunrise-logo.png",
+      "role": "Activist",
+      "type": "Activim, Education, Photography, Videogaphy",
+      "product": "",
+      "site": "",
+      "thesis": "How can we align tech, policy, activism for an equitable climate future?",
+      "highlight": "#023501",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Organizer, Producer, and Educator"
+            },
+            "right": {
+              "title": "Tyler Wakefield",
+              "description": "Online Training Education Co-lead"
+            }
+          }
+          },
+          {
+          "split": {
+            "left": {
+              "title": "Emerson Skufca",
+              "description": "Summit Operations Lead"
+            },
+            "right": {
+              "title": "Gershon Bialer",
+              "description": "Big Tech Co-lead"
+            }
+          }
+        }
+      ],
+      "overview": "2019 was the year that I was called to take direct political action to address the severity of the climate crisis. After understanding the serious existential realities of systematically not addressing this crisis I felt called to volunteer my time and efforts. I spent the year learning, organizing, creating and educating as a member of the Sunrise Movement, a national organization of young people fighting to instigate local and national political change to fight fossil fuel corruption and create a livable carbon zero future.",
+      "content": [{
+          "section": "Initiatives",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "Organizing the Western Summit",
+                "description": "One of my first actions with the Sunrise Movement in the Bay Area was being asked to become a lead coordinator for their Western Summit in Berekely. The summit gathered over 400 activists from all over the Western United States to come together for training, connection, and political actions. Working with a team of three other people we provided logistics, housing, food, and training to all members that attended."
+              }
+            },
+            {
+              "color": {
+                "src": "sunrise/summitall.jpg",
+                "description": "Western Summit"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "Photography",
+                  "description": "The Summit coincided with the DNC’s Convention and Resolutions Committee vote to consider a climate debate in the ongoing presidential primary cycle. I was a primary photographer of the social media team helping cover our actions during the week. I would continue this role as a photographer at the majority of other actions launching me to become one of the primary sources of movement photography for Sunrise. My photos have been featured in presidential endorsements, newspapers, and social media across the country."
+                },
+                "right": {
+                  "title": "",
+                  "description":""
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "sunrise/photo.png"
+              }
+            },
+            {
+              "text": {
+                "title": "Video",
+                "side": "offset-by-one-half",
+                "description": "After the summit, I noticed that our social media team wasn’t using video to frame our actions effectively. Working with the Creative Director from National I helped create video content for actions, political elections, and climate emergencies. Using this experience I then helped lead and train a team in the Bay Area to carry on our initiatives."
+              }
+            },
+            {
+              "code": {
+                "snippit":"<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>🔒LOCK THEM OUT: What happened when we asked for a <a href='https://twitter.com/hashtag/GreenNewDeal?src=hash&amp;ref_src=twsrc%5Etfw'>#GreenNewDeal</a> for Public Housing from <a href='https://twitter.com/SpeakerPelosi?ref_src=twsrc%5Etfw'>@SpeakerPelosi</a><br><br>Thread Below 👉<a href='https://t.co/hJxl8ZTnDQ'>https://t.co/hJxl8ZTnDQ</a> <a href='https://t.co/RcMB82ADcW'>pic.twitter.com/RcMB82ADcW</a></p>&mdash; Sunrise Bay Area 🌅 (@sunrisebayarea) <a href='https://twitter.com/sunrisebayarea/status/1199733245400666113?ref_src=twsrc%5Etfw'>November 27, 2019</a></blockquote> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>'"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "sunrise/video.png"
+              }
+            },
+            {
+              "text": {
+                "title": "Online Political, Educational, and Activist Training ",
+                "side": "left",
+                "description": "After learning about the severity of the crisis from the IPCC report in the Spring of 2019 I committed myself to learn all I could about the reality of the crisis. After five months of studying, I created an online training curriculum with a colleague Tyler Wakefield to give Sunrisers a greater understanding of the systematic nature of the climate crisis and a greater in-depth look at concepts such as the Green New Deal, systems thinking, and modern economic theory. We hope to challenge Sunrisers to take a more critical, thoughtful, and effective approach to their organizing, one that we hope better aligns beliefs, actions, and habits with those necessary to create the truly transformative and just change for an equitable and safe future."
+              }
+            },
+            {
+              "color": {
+                "src": "sunrise/education.png",
+                "description": "Educational CMS for Weekly Training sessions"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "Big Tech",
+                  "description": "The majority of my efforts in Sunrise revolved around my leadership of the Big Tech team. Living in the Bay Area was a huge opportunity to influence some of the largest tech companies in the world to take more radical steps on climate change. Our team focuses on finding and coaching sympathetic networks of workers within large tech companies such as Facebook, Google, and Twitter to organize internally around achieve more radical climate change policies within their companies. We are hoping to pressure these companies to take direct action in pushing their technology and investment out of the fossil fuel industry all while creating a public national narrative that progressive companies are instituting values bases change. My effort on this team directly led to large participation in the September 20th strike, presentations at Google and other tech companies, a hundred thousand dollars in donation and an educational futurist workshop and panel on the alignment of tech, activism, and policy to address the climate crisis."
+                },
+                "right": {
+                  "src": "sunrise/article.png"
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "sunrise/slides.png"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "sunrise/examples.png"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "sunrise/paper.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "kleo": {
+      "description": "Accessible Museum Tours",
+      "slug": "kleo",
+      "image": "kleo.png",
+      "logo": "kleo-logo.png",
+      "role": "User Experience Designer",
+      "type": "Branding, Product Design, App Design",
+      "product": "Invision Prototype",
+      "site": "https://invis.io/Z59BUUBA4",
+      "thesis": "How can we create a meaningful experience between art and museum visitors?",
+      "highlight": "#6118D4",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Product Designer"
+            },
+            "right": {
+              "title": "Alice Young",
+              "description": "Developer"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Beatrice Huang",
+              "description": "Developer"
+            },
+            "right": {
+              "title": "Emily O'Brien",
+              "description": "Product Designer"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Amanda Pinsker",
+              "description": "Product Designer"
+            },
+            "right": {
+              "title": "",
+              "description": ""
+            }
+          }
+        }
+      ],
+      "overview": "My Northeastern Interaction Senior Capstone team built Kleo to create a memorable and accessible experience that creates interest and conversations between novice visitors and the museum itself. We bridged physical and digital tools to provide a smart phone tour application that allows for customization, contextualization, and easy navigation in a user’s museum experience.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "1.1 Interviews and Academic Research",
+                "description": "We began our efforts by taking a month to dig into past research that had been done on museum design  and attendance while also conducting in person interviews of visitors and employees at museums. After looking at practices and research the some of the major issues with traditional museum visitor experiences became clearer to us. Our major goals for the project became creating context for visitors,  simplifying wayfinding, and making the art in the museum accessible."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "kleo/research.png"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "1.2 Looking with Empathy",
+                  "description": "We then created empathy maps to understand and organize some of the findings obtained from our interviews and step into the mind of tourists, museum staff, curators, educators, and students who visited the museum."
+                },
+                "right": {
+                  "src": "kleo/empathy.png"
+                }
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "src": "kleo/brainstorming.png"
+                },
+                "right": {
+                  "title": "1.3 Framing the Problem",
+                  "description": "We decided to focus on the novice museum goer as our main audience and distilled their maps into specific questions that would be answer by the features of our product. We then brainstormed different ways we could use physical or digital tools to solve these questions for our audience."
+                }
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "src": "kleo/howmightwe.png"
+                },
+                "left": {
+                  "title": "1.4 How Might We",
+                  "description": "<ul><li>bridge the gap between physical and digital?</li><li>support different interests of different visitors?</li><li>support flexible decision making?</li><li>create emotional/personal connections?<li>add context to the content?</li></li><li>encourage sharing</li></ul>"
+                }
+              }
+            },
+            {
+              "text": {
+                "title": "1.5 Finding a Partnership",
+                "side": "",
+                "description": "We had meetings with the MFA, ICA, Harvard Art Museum, Design Museum Boston, PEM, and Northeastern's Gallery 360. At this point in our process, we were considering many formats for a product that could be a solution to these problems. We were originally interested in the Boston Museum of Fine Art due to its proximity, large collection, and initiative for accessibility but after talking with the MFA we found that working them would be not be viable due to their current initiatives and the museum’s long production timeline."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "kleo/partner.png"
+              }
+            },
+            {
+              "text": {
+                "title": "1.6 Harvard Art Museum + Mobile Tour App",
+                "side": "offset-by-one-half",
+                "description": "Without control over a physical space we decided to pursue a mobile application. An application gave us flexibility in creating an experience we wanted that could be introduced flexibly in more than one museum. We were selected by Harvard Art Museum as a partner and they granted us access to their API and a museums space to test our application. With this partnership we decided to create a museum tour application that allowed for customization, contextualization, and easy navigation in a user’s museum experience."
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "split": {
+                "left": {
+                  "title": "2.1 Designing Features",
+                  "description": "Our team began to design the features and functionality of the application directly from the research and the exercises we had conducted at the beginning of the project and used our How Might We statements to frame each decision in the context of our audience."
+                },
+                "right": {
+                  "title": "",
+                  "description": "<ul><li>Time Flexible Tours</li><li>Feature, Mood, Color and User Generated Tours</li><li>Timeline of activity at Museum</li><li>Turn by turn photo navigation<li>Visual and audio context</li></li><li>Distraction Free Wander Mode</li></ul>"
+                }
+              }
+            },
+            {
+              "color": {
+                "src": "kleo/sitemap.png",
+                "description": "Sitemap of App"
+              }
+            },
+            {
+              "color": {
+                "src": "kleo/wireframes.png",
+                "description": "Wireframes the apps major features"
+              }
+            },
+            {
+              "text": {
+                "side": "",
+                "title": "2.2 Creating a Invision Prototype",
+                "description": "After testing and iterating on our wireframes we finalized our features and built out a fully fleshed out prototype on Invision to test with visitors and to help our developers in creating the application."
+              }
+            },
+            {
+              "embed": {
+                "src": "//invis.io/XF9CGTCG5"
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "2.3 Wander Mode",
+                  "description": "Wander Mode was my brain child and it came to me after testing the app repeatedly and seeing the amount of time visitors were looking at their phone. I became interested in how we could create the same experience and information without the phone detracting from the art itself."
+                },
+                "right": {
+                  "title": "",
+                  "description": "Using IBeacon technology Wander  Mode gives the user the chance to move around a museum freely while giving them audio context to each gallery they enter and each piece they want to hear more about. When entering into a gallery the user is read the museums room description and immersed in music from the time period. If a user chooses they can walk up to a piece and use voice commands to hear more about a piece or save in their collection. The content is pulled directly from the API and would need minimal curation from the museum itself."
+                }
+              }
+            },
+            {
+              "video": {
+                "src": "218838157"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+              "text": {
+                "title": "3.1 Testing the App in the Museum",
+                "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself."
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "src": "kleo/award.png"
+                },
+                "right": {
+                  "title": "3.2 Awards and Future",
+                  "description": "We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities. Please contact directly with questions about the project!"
+                }
+              }
+            },
+            {
+              "video": {
+                "src": "218838292"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "recovery-road": {
+      "name": "Recovery Road",
+      "slug": "recovery-road",
+      "image": "recovery.jpg",
+      "logo": "recovery-logo.png",
+      "role": "Producer and Lead Dev",
+      "type": "Production, Design, Development",
+      "description": "Exploring Boston's Heroin Crisis",
+      "highlight": "#D3A713",
+      "thesis": "How do we help to destigmatize heroin addiction?",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Producer and Lead Dev"
+            },
+            "right": {
+              "title": "Mike Wagenheim",
+              "description": "Dev"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Jennifer Heintz",
+              "description": "Designer"
+            },
+            "right": {
+              "title": "Suma Hussien",
+              "description": "Designer and Videographer"
+            }
+          }
+        }
+      ],
+      "overview": "Recovery Road is an interactive documentary made through Northeastern University’s Storylab focused on telling the story of active and recovering heroin addicts on Boston's Methadone mile to destigmatize heroin addiction and those who suffer from it. Using personal interviews, 360 video, and illustrated storylines we hope to change the perception of addiction from a moral failure to a disease that affects the mind.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "",
+                "description": "The opioid epidemic in the United States is currently worse than it has ever been. Massachusetts has one of the highest rates of overdose deaths in the country, with nearly 2,000 people dying from overdoses in 2016 alone. The epidemic can easily be observed at what is commonly called Boston’s “Methadone Mile” — what we prefer to call “Recovery Road.” This refuge and haven for those with substance use disorder, at the edge of Boston’s South End, Roxbury, and Dorchester neighborhoods, is a walking distance from Northeastern University. Because of this we decided to create a project to help family, friends, and the public understand the struggle of those suffering through addiction."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "recovery/photos.jpg"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "1.1 Finding Interviews",
+                "description": "Our team of designer, developers, and journalists conducted interviews with police officers, medical professionals, social workers, and outreach programs. After our team had trouble finding real stories of addiction on Methadone Mile, I began to attending NA meetings, conducting interviews on Mass Ave, and meeting with community volunteers to help expand our network. I eventually met Paul who became the center storyline of the prototype and helped me understand what real addiction looked and felt like. "
+              }
+            },
+            {
+              "video": {
+                "src": "215324021"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "1.2 User Journey",
+                "description": "The site is organized for the user to explore one story at a time through interactive maps, documentary clips, and 360 videos. The user is then directed to the resources we gathered throughout the project or to Join the Movement by lending their voice to share the project."
+              }
+            },
+            {
+              "color": {
+                "src": "recovery/sitemap.png",
+                "description": "UI for the 2D interface"
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "2.1 Design and Development",
+                "description": "I was the lead developer on the project but I also ended up designing the user interface of the site along with finding sources for interviews. The designs and illustrations were done by Jennifer Heintz and the videography would be done by Suma Hussien. Mike Wagenheim and I would use a JavaScript animation framework called Biggie based off of Bigwheel to put together a functional prototype of the project."
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab0.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab1.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab2.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab3.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab4.mp4"
+              }
+            },
+            {
+              "gif": {
+                "src": "recovery/storylab5.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+            "text": {
+              "title": "The Future of Recovery Road",
+              "side": "",
+              "description": "Recovery Road was funded and deployed throughout 2017 but due to the team spliting up after school we decided retire the project after the summer of 2018. For more information please contact me directly."}
+          }]
+        }
+      ]
+    },
+    "airbo": {
+      "name": "Airbo",
+      "slug": "airbo",
+      "image": "airbo.jpg",
+      "logo": "airbo-logo.png",
+      "highlight": "#40BEFF",
+      "role": "Lead Designer",
+      "type": "Product Design, Branding, Front-End Development",
+      "product": "Marketing Site & Branding",
+      "description": "Rebranding HR Ease & Engagement",
+      "site": "https://airbo.com",
+      "thesis": "How do we redefine a startup's brand to catalyze it for growth?",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Lead Designer & Front-End Dev"
+            },
+            "right": {
+              "title": "Vlad Gyster",
+              "description": "Founder"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Ryan Workman",
+              "description": "Senior Developer"
+            }
+          }
+        }
+      ],
+      "overview": "For over eight years, Airbo has been at the forefront of adapting concepts from Silicon Valley to drive engagement in benefits, wellness, and other HR programs. Their platform takes concepts from gamification, mobile, and social media and adapts them to the realities of complex benefit messaging. As they prepared to take a large leap in size they needed to redefine their brand and create a new marketing site to capture new clients and to match the growth of their technology and influence.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "1.1 Where The Brand Was",
+                "description": "I started off with a deep dive of the history of Airbo as a company and as a brand. I wanted to understand its past so that I could reflect its future. The company had pulled a lot of brand elements along with it through different iterations and lacked a central language. After talking with the founder, I also learned that the business was reliant on some huge partnerships with their longtime clients. Because of this, I didn't want to alter the brand too drastically and confuse returning users to the system. I focused on simplifying and elevating their brand by standardizing and refreshing while adding a few new concepts that spoke to the core of the company."
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "airbo/oldsite.jpg"
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "1.2 Illustrations",
+                  "description": "Airbo's brand when I approached it was light and airy and cushioned in cartoony custom illustrations that had been created for use within the companies software. Though these were skillfully rendered they didn't fit the main elements of Airbo's brand such as its typeface and imagery."
+                },
+                "left": {
+                  "src": "airbo/old-illustration1.jpg"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Branding",
+          "section-content": [{
+              "split": {
+                "left": {
+                  "title": "",
+                  "description": "To reconcile this I created new line illustrations that referenced previous brand elements such as hot air balloons and clouds that could be used more flexibly across the site. They ended up being great tools for concept explanation and micro-interactions."
+                },
+                "right": {
+                  "src": "airbo/style.jpg"
+                }
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "2.1 Brand Palette",
+                  "description": "Airbo's color palette was based around a central light blue and included a few more tones and accent colors. Out of these I strategically picked two blues to use across the site and created two gradient patterns out of the other colors to create a sense of movement and calm. Because their product was based around HR I wanted to transition Airbo from being something outgoing and cute to something soothing and engaging. That way their users and clients could trust the experience and reliability of the product."
+                },
+                "left": {
+                  "src": "airbo/color_palette.jpg"
+                }
+              }
+            },
+            {
+              "split": {
+                "left": {
+                  "title": "2.2 Waves",
+                  "description": "After learning Airbo was created in Venice, CA and the founder loved to surf I decided to introduce a branded wave pattern that would reflect the companies passion and roots. This element would also help transition sections, introduce products, and play with space in interesting ways."
+                },
+                "right": {
+                  "src": "airbo/curve2.jpg"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Design",
+          "section-content": [{
+              "text": {
+                "title": "3.1 Outline",
+                "side": "",
+                "description": "For the design of the website, I wanted something fresh and light using the new brand elements that would help explain their product easily. Employee benefits communication is not exactly the hottest concept in town but I wanted to shake up their market and introduce some new elements of web design that would put them far in front of their competitors."
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "3.2 Wireframes",
+                  "description": "I sketched and wireframes a basic concept of the site and went through revision rounds with the founder to really nail down how to talk about his product correctly. He was hesitant that people visiting the site wouldn't get the interactive gamification that Airbo brings to its users and requested I make animations to show the accessibility and sense of accomplishment that Airbo brings."
+                },
+                "left": {
+                  "src": "airbo/wireframes.jpg"
+                }
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "airbo/homepage.jpg"
+              }
+            },
+            {
+              "color": {
+                "src": "airbo/demo.jpg",
+                "description": "Demo Page"
+              }
+            },
+            {
+              "imagecontain": {
+                "src": "airbo/broker.jpg"
+              }
+            },
+            {
+              "text": {
+                "title": "3.3 Animations",
+                "side": "",
+                "description": "To explain the product I first abstracted the concept of Airbo's tile system into simplified playful cards. I then animated them to show the process of how Airbo's users answer and learn information and implemented that into a looping HTML video that would seamlessly play on the homepage. I also added CSS animations to the balloon and cloud illustrations to give the website a sense of motion and joy."
+              }
+            },
+            {
+              "gif": {
+                "src": "airbo/screen.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "section": "4 Development",
+          "section-content": [{
+            "text": {
+              "title": "4.1 Sprints and Rails",
+              "side": "",
+              "description": "The marketing pages were each created in two-week sprints where the first week would be the design and the second week would be the development. The site was deployed on Rails and I had to do a good amount of poking around to understand where and how the partials and architecture worked. Using HTML, Javascript, and SASS I was able to streamline the development and create a fully responsive site marketing in eight total weeks."
+            }
+          }]
+        }
+      ]
+    },
+    "tinyeye": {
+      "description": "A virtual reality hidden object game",
+      "image": "tinyeye.png",
+      "slug": "tinyeye",
+      "logo": "tinyeye-logo.png",
+      "highlight": "#F06F36",
+      "type": "Front End Development, Branding, Web Design, UX",
+      "site": "http://tinyeyeapp.com",
+      "product": "Mobile VR App",
+      "thesis": "How do we design accessible and immersive experiences in Virtual Reality?",
+      "team": [{
+          "split": {
+            "left": {
+              "title": "Evan McEldowney",
+              "description": "Product Designer"
+            },
+            "right": {
+              "title": "Geoff House",
+              "description": "Project Manager"
+            }
+          }
+        },
+        {
+          "split": {
+            "left": {
+              "title": "Ruddy Mutter",
+              "description": "Developer"
+            },
+            "right": {
+              "title": "Mike Godlewski",
+              "description": "Product Designer"
+            }
+          }
+        }
+      ],
+      "overview": "In the Spring of 2016 I worked at a mobile app development company called Yeti in sweet and beautiful San Francisco. Yeti was interested in exploring the realm of Virtual Reality but didn’t have experience in the field and wanted to understand the basics of design and development in VR. They tasked me on making a VR game inspired off of the classic “ISpy” game from the 90’s with a developer who wanted to learn Unity.",
+      "content": [{
+          "section": "1 Research",
+          "section-content": [{
+              "text": {
+                "side": "",
+                "title": "",
+                "description": "I started looking into the current state of VR phone applications on the market and the primary value they offered. In 2016 the market was pretty barren with the majority of content being based around 360 video or thriller experiences. One of the best resources I found was the Design for Google Cardboard app and site developed by Google. Their walkthroughs and my own research taught me how to design for motion sickness, rendering 2D in 3d spaces, user control, and entering and exiting UI patterns."
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/research.png"
+              }
+            },
+            {
+              "text": {
+                "side": "offset-by-one-half",
+                "title": "1.1 Prototyping and Designing in VR",
+                "description": "I began prototyping different versions of what our version of ISpy could look like by creating basic interfaces on top of the 360 photos. I found that prototyping in VR was difficult because of the lack of translation from 2d to 3d. To remedy this, I used VR Framer.js plugin to develop live clickable prototypes in 360 that I could hand off to my developer. These prototypes helped me understand scene transitions, menu location, motion interaction in VR that would become important in the final app itself. "
+              }
+            },
+            {
+              "color": {
+                "src": "tinyeye/prototypes.png",
+                "description": "Early Designs of VR interfaces"
+              }
+            },
+            {
+              "text": {
+                "title": "1.2 Creating Immersive Content",
+                "side": "offset-by-one-half",
+                "description": "After my research into the field it became clear to me quickly that content was king in VR and that we had to create immersive environments to keep engagement. We started to develop in Unity but found that progress was slow because of our developer’s lack of experience. We bought a basic Ricoh 360 camera and I began to look around San Francisco for content. The depth of field of the camera and lack of stable environment in the real world led us to create our own worlds of toys and found objects just like in the books."
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/concept.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "section": "2 Create",
+          "section-content": [{
+              "split": {
+                "left": {
+                  "title": "2.1 Testing the Concept",
+                  "description": "I worked with the developer to create a basic prototype of the game in Unity that used simplified wireframes to understand game mechanics and UI functionality. "
+                },
+                "right": {
+                  "src": "tinyeye/snowtown.png"
+                }
+              }
+            },
+            {
+              "video": {
+                "src": "219439365"
+              }
+            },
+            {
+              "split": {
+                "right": {
+                  "title": "2.2 Branding a New ISpy",
+                  "description": "With the concept tested I built out a brand, logo, and UI set could be used across the app. Geoff and Mike, the creative director and the senior designer at Yeti helped me with refining these into a cohesive system that worked and reinforced the playful nature of the app."
+                },
+                "left": {
+                  "src": "tinyeye/brand.png"
+                }
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/brandexercises.png"
+              }
+            },
+            {
+              "text": {
+                "title": "2.3 Understanding 360 Degree Environments",
+                "side": "",
+                "description": "To flesh out the content Geoff, Mike and I took 3 days and a huge amount of left over toys and let our inner kids go crazy. We built 9 complete worlds with 10 hidden objects in each world. The biggest takeaway from this phase of the project were the challenges was learning to deal with the difficulties of directing and shooting with a 360 camera because of the lack of control and directionality."
+              }
+            },
+            {
+              "image": {
+                "src": "tinyeye/settingup.jpg"
+              }
+            },
+            {
+              "text": {
+                "title": "2.4 Designing for the App Store",
+                "side": "offset-by-one-half",
+                "description": "After showing it to my CEO he was interested in launching it on the app store but to do this we would need polish the UI and move menus out of VR so we could introduce a pay to play system for sets of levels. We scrapped a good amount of the original in VR design and restarted in 2D with branding I had done earlier. We added icons for all the hidden objects and added sound to each environment to increase the immersive nature of the app."
+              }
+            },
+            {
+              "color": {
+                "src": "tinyeye/ui.png",
+                "description": "UI for the 2D interface"
+              }
+            }
+          ]
+        },
+        {
+          "section": "3 Implementation",
+          "section-content": [{
+              "text": {
+                "title": "Live on the App Store",
+                "side": "",
+                "description": "After a code binge by our developer Rudy we launched on the app store in the middle of May and pushed out marketing material and a promotional website to different publications.  I learned more than I could imagine from the project and it gave me a deep dive into the challenges of designing in VR, the new medium of 360 video and images, and the realities of app development in Unity. "
+              }
+            },
+            {
+              "video": {
+                "src": "219754890"
+              }
+            }
+          ]
+        }
+      ]
+    },
     "storagecraft": {
       "description": "Redefining Storage Solutions",
       "slug": "storagecraft",
@@ -223,840 +1315,7 @@
           ]
         }
       ]
-    },
-    "kleo": {
-      "description": "Accessible Museum Tours",
-      "slug": "kleo",
-      "image": "kleo.png",
-      "logo": "kleo-logo.png",
-      "role": "User Experience Designer",
-      "type": "Branding, Product Design, App Design",
-      "product": "Invision Prototype",
-      "site": "https://invis.io/Z59BUUBA4",
-      "thesis": "How can we create a meaningful experience between art and museum visitors?",
-      "highlight": "#6118D4",
-      "team": [{
-          "split": {
-            "left": {
-              "title": "Evan McEldowney",
-              "description": "Product Designer"
-            },
-            "right": {
-              "title": "Alice Young",
-              "description": "Developer"
-            }
-          }
-        },
-        {
-          "split": {
-            "left": {
-              "title": "Beatrice Huang",
-              "description": "Developer"
-            },
-            "right": {
-              "title": "Emily O'Brien",
-              "description": "Product Designer"
-            }
-          }
-        },
-        {
-          "split": {
-            "left": {
-              "title": "Amanda Pinsker",
-              "description": "Product Designer"
-            },
-            "right": {
-              "title": "",
-              "description": ""
-            }
-          }
-        }
-      ],
-      "overview": "My Northeastern Interaction Senior Capstone team built Kleo to create a memorable and accessible experience that creates interest and conversations between novice visitors and the museum itself. We bridged physical and digital tools to provide a smart phone tour application that allows for customization, contextualization, and easy navigation in a user’s museum experience.",
-      "content": [{
-          "section": "1 Research",
-          "section-content": [{
-              "text": {
-                "side": "",
-                "title": "1.1 Interviews and Academic Research",
-                "description": "We began our efforts by taking a month to dig into past research that had been done on museum design  and attendance while also conducting in person interviews of visitors and employees at museums. After looking at practices and research the some of the major issues with traditional museum visitor experiences became clearer to us. Our major goals for the project became creating context for visitors,  simplifying wayfinding, and making the art in the museum accessible."
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "kleo/research.png"
-              }
-            },
-            {
-              "split": {
-                "left": {
-                  "title": "1.2 Looking with Empathy",
-                  "description": "We then created empathy maps to understand and organize some of the findings obtained from our interviews and step into the mind of tourists, museum staff, curators, educators, and students who visited the museum."
-                },
-                "right": {
-                  "src": "kleo/empathy.png"
-                }
-              }
-            },
-            {
-              "split": {
-                "left": {
-                  "src": "kleo/brainstorming.png"
-                },
-                "right": {
-                  "title": "1.3 Framing the Problem",
-                  "description": "We decided to focus on the novice museum goer as our main audience and distilled their maps into specific questions that would be answer by the features of our product. We then brainstormed different ways we could use physical or digital tools to solve these questions for our audience."
-                }
-              }
-            },
-            {
-              "split": {
-                "right": {
-                  "src": "kleo/howmightwe.png"
-                },
-                "left": {
-                  "title": "1.4 How Might We",
-                  "description": "<ul><li>bridge the gap between physical and digital?</li><li>support different interests of different visitors?</li><li>support flexible decision making?</li><li>create emotional/personal connections?<li>add context to the content?</li></li><li>encourage sharing</li></ul>"
-                }
-              }
-            },
-            {
-              "text": {
-                "title": "1.5 Finding a Partnership",
-                "side": "",
-                "description": "We had meetings with the MFA, ICA, Harvard Art Museum, Design Museum Boston, PEM, and Northeastern's Gallery 360. At this point in our process, we were considering many formats for a product that could be a solution to these problems. We were originally interested in the Boston Museum of Fine Art due to its proximity, large collection, and initiative for accessibility but after talking with the MFA we found that working them would be not be viable due to their current initiatives and the museum’s long production timeline."
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "kleo/partner.png"
-              }
-            },
-            {
-              "text": {
-                "title": "1.6 Harvard Art Museum + Mobile Tour App",
-                "side": "offset-by-one-half",
-                "description": "Without control over a physical space we decided to pursue a mobile application. An application gave us flexibility in creating an experience we wanted that could be introduced flexibly in more than one museum. We were selected by Harvard Art Museum as a partner and they granted us access to their API and a museums space to test our application. With this partnership we decided to create a museum tour application that allowed for customization, contextualization, and easy navigation in a user’s museum experience."
-              }
-            }
-          ]
-        },
-        {
-          "section": "2 Create",
-          "section-content": [{
-              "split": {
-                "left": {
-                  "title": "2.1 Designing Features",
-                  "description": "Our team began to design the features and functionality of the application directly from the research and the exercises we had conducted at the beginning of the project and used our How Might We statements to frame each decision in the context of our audience."
-                },
-                "right": {
-                  "title": "",
-                  "description": "<ul><li>Time Flexible Tours</li><li>Feature, Mood, Color and User Generated Tours</li><li>Timeline of activity at Museum</li><li>Turn by turn photo navigation<li>Visual and audio context</li></li><li>Distraction Free Wander Mode</li></ul>"
-                }
-              }
-            },
-            {
-              "color": {
-                "src": "kleo/sitemap.png",
-                "description": "Sitemap of App"
-              }
-            },
-            {
-              "color": {
-                "src": "kleo/wireframes.png",
-                "description": "Wireframes the apps major features"
-              }
-            },
-            {
-              "text": {
-                "side": "",
-                "title": "2.2 Creating a Invision Prototype",
-                "description": "After testing and iterating on our wireframes we finalized our features and built out a fully fleshed out prototype on Invision to test with visitors and to help our developers in creating the application."
-              }
-            },
-            {
-              "embed": {
-                "src": "//invis.io/XF9CGTCG5"
-              }
-            },
-            {
-              "split": {
-                "left": {
-                  "title": "2.3 Wander Mode",
-                  "description": "Wander Mode was my brain child and it came to me after testing the app repeatedly and seeing the amount of time visitors were looking at their phone. I became interested in how we could create the same experience and information without the phone detracting from the art itself."
-                },
-                "right": {
-                  "title": "",
-                  "description": "Using IBeacon technology Wander  Mode gives the user the chance to move around a museum freely while giving them audio context to each gallery they enter and each piece they want to hear more about. When entering into a gallery the user is read the museums room description and immersed in music from the time period. If a user chooses they can walk up to a piece and use voice commands to hear more about a piece or save in their collection. The content is pulled directly from the API and would need minimal curation from the museum itself."
-                }
-              }
-            },
-            {
-              "video": {
-                "src": "218838157"
-              }
-            }
-          ]
-        },
-        {
-          "section": "3 Implementation",
-          "section-content": [{
-              "text": {
-                "title": "3.1 Testing the App in the Museum",
-                "description": "Working with our designs and the Harvard API our development team created a fully functioning app using web React.js, Firebase, and Redux. We also secured location aware IBeacons from the Harvard Art Museum that allowed us to test out the location dependent functionality of the app in the museum itself."
-              }
-            },
-            {
-              "split": {
-                "left": {
-                  "src": "kleo/award.png"
-                },
-                "right": {
-                  "title": "3.2 Awards and Future",
-                  "description": "We continued to iterate on design by testing with users in the museum and entered Northeastern’s Research, Innovation, and Science Exposition(RISE) and ended up winning first prize in the humanities. Please contact directly with questions about the project!"
-                }
-              }
-            },
-            {
-              "video": {
-                "src": "218838292"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "tinyeye": {
-      "description": "A virtual reality hidden object game",
-      "image": "tinyeye.png",
-      "slug": "tinyeye",
-      "logo": "tinyeye-logo.png",
-      "highlight": "#F06F36",
-      "type": "Front End Development, Branding, Web Design, UX",
-      "site": "http://tinyeyeapp.com",
-      "product": "Mobile VR App",
-      "thesis": "How do we design accessible and immersive experiences in Virtual Reality?",
-      "team": [{
-          "split": {
-            "left": {
-              "title": "Evan McEldowney",
-              "description": "Product Designer"
-            },
-            "right": {
-              "title": "Geoff House",
-              "description": "Project Manager"
-            }
-          }
-        },
-        {
-          "split": {
-            "left": {
-              "title": "Ruddy Mutter",
-              "description": "Developer"
-            },
-            "right": {
-              "title": "Mike Godlewski",
-              "description": "Product Designer"
-            }
-          }
-        }
-      ],
-      "overview": "In the Spring of 2016 I worked at a mobile app development company called Yeti in sweet and beautiful San Francisco. Yeti was interested in exploring the realm of Virtual Reality but didn’t have experience in the field and wanted to understand the basics of design and development in VR. They tasked me on making a VR game inspired off of the classic “ISpy” game from the 90’s with a developer who wanted to learn Unity.",
-      "content": [{
-          "section": "1 Research",
-          "section-content": [{
-              "text": {
-                "side": "",
-                "title": "",
-                "description": "I started looking into the current state of VR phone applications on the market and the primary value they offered. In 2016 the market was pretty barren with the majority of content being based around 360 video or thriller experiences. One of the best resources I found was the Design for Google Cardboard app and site developed by Google. Their walkthroughs and my own research taught me how to design for motion sickness, rendering 2D in 3d spaces, user control, and entering and exiting UI patterns."
-              }
-            },
-            {
-              "image": {
-                "src": "tinyeye/research.png"
-              }
-            },
-            {
-              "text": {
-                "side": "offset-by-one-half",
-                "title": "1.1 Prototyping and Designing in VR",
-                "description": "I began prototyping different versions of what our version of ISpy could look like by creating basic interfaces on top of the 360 photos. I found that prototyping in VR was difficult because of the lack of translation from 2d to 3d. To remedy this, I used VR Framer.js plugin to develop live clickable prototypes in 360 that I could hand off to my developer. These prototypes helped me understand scene transitions, menu location, motion interaction in VR that would become important in the final app itself. "
-              }
-            },
-            {
-              "color": {
-                "src": "tinyeye/prototypes.png",
-                "description": "Early Designs of VR interfaces"
-              }
-            },
-            {
-              "text": {
-                "title": "1.2 Creating Immersive Content",
-                "side": "offset-by-one-half",
-                "description": "After my research into the field it became clear to me quickly that content was king in VR and that we had to create immersive environments to keep engagement. We started to develop in Unity but found that progress was slow because of our developer’s lack of experience. We bought a basic Ricoh 360 camera and I began to look around San Francisco for content. The depth of field of the camera and lack of stable environment in the real world led us to create our own worlds of toys and found objects just like in the books."
-              }
-            },
-            {
-              "image": {
-                "src": "tinyeye/concept.jpg"
-              }
-            }
-          ]
-        },
-        {
-          "section": "2 Create",
-          "section-content": [{
-              "split": {
-                "left": {
-                  "title": "2.1 Testing the Concept",
-                  "description": "I worked with the developer to create a basic prototype of the game in Unity that used simplified wireframes to understand game mechanics and UI functionality. "
-                },
-                "right": {
-                  "src": "tinyeye/snowtown.png"
-                }
-              }
-            },
-            {
-              "video": {
-                "src": "219439365"
-              }
-            },
-            {
-              "split": {
-                "right": {
-                  "title": "2.2 Branding a New ISpy",
-                  "description": "With the concept tested I built out a brand, logo, and UI set could be used across the app. Geoff and Mike, the creative director and the senior designer at Yeti helped me with refining these into a cohesive system that worked and reinforced the playful nature of the app."
-                },
-                "left": {
-                  "src": "tinyeye/brand.png"
-                }
-              }
-            },
-            {
-              "image": {
-                "src": "tinyeye/brandexercises.png"
-              }
-            },
-            {
-              "text": {
-                "title": "2.3 Understanding 360 Degree Environments",
-                "side": "",
-                "description": "To flesh out the content Geoff, Mike and I took 3 days and a huge amount of left over toys and let our inner kids go crazy. We built 9 complete worlds with 10 hidden objects in each world. The biggest takeaway from this phase of the project were the challenges was learning to deal with the difficulties of directing and shooting with a 360 camera because of the lack of control and directionality."
-              }
-            },
-            {
-              "image": {
-                "src": "tinyeye/settingup.jpg"
-              }
-            },
-            {
-              "text": {
-                "title": "2.4 Designing for the App Store",
-                "side": "offset-by-one-half",
-                "description": "After showing it to my CEO he was interested in launching it on the app store but to do this we would need polish the UI and move menus out of VR so we could introduce a pay to play system for sets of levels. We scrapped a good amount of the original in VR design and restarted in 2D with branding I had done earlier. We added icons for all the hidden objects and added sound to each environment to increase the immersive nature of the app."
-              }
-            },
-            {
-              "color": {
-                "src": "tinyeye/ui.png",
-                "description": "UI for the 2D interface"
-              }
-            }
-          ]
-        },
-        {
-          "section": "3 Implementation",
-          "section-content": [{
-              "text": {
-                "title": "Live on the App Store",
-                "side": "",
-                "description": "After a code binge by our developer Rudy we launched on the app store in the middle of May and pushed out marketing material and a promotional website to different publications.  I learned more than I could imagine from the project and it gave me a deep dive into the challenges of designing in VR, the new medium of 360 video and images, and the realities of app development in Unity. "
-              }
-            },
-            {
-              "video": {
-                "src": "219754890"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "recovery-road": {
-      "name": "Recovery Road",
-      "slug": "recovery-road",
-      "image": "recovery.jpg",
-      "logo": "recovery-logo.png",
-      "role": "Producer and Lead Dev",
-      "type": "Production, Design, Development",
-      "product": "Interactive Documentary",
-      "description": "Exploring Boston's Heroin Crisis",
-      "highlight": "#D3A713",
-      "thesis": "How do we help to destigmatize heroin addiction?",
-      "team": [{
-          "split": {
-            "left": {
-              "title": "Evan McEldowney",
-              "description": "Producer and Lead Dev"
-            },
-            "right": {
-              "title": "Mike Wagenheim",
-              "description": "Dev"
-            }
-          }
-        },
-        {
-          "split": {
-            "left": {
-              "title": "Jennifer Heintz",
-              "description": "Designer"
-            },
-            "right": {
-              "title": "Suma Hussien",
-              "description": "Designer and Videographer"
-            }
-          }
-        }
-      ],
-      "overview": "Recovery Road is an interactive documentary made through Northeastern University’s Storylab focused on telling the story of active and recovering heroin addicts on Boston's Methadone mile to destigmatize heroin addiction and those who suffer from it. Using personal interviews, 360 video, and illustrated storylines we hope to change the perception of addiction from a moral failure to a disease that affects the mind.",
-      "content": [{
-          "section": "1 Research",
-          "section-content": [{
-              "text": {
-                "side": "",
-                "title": "",
-                "description": "The opioid epidemic in the United States is currently worse than it has ever been. Massachusetts has one of the highest rates of overdose deaths in the country, with nearly 2,000 people dying from overdoses in 2016 alone. The epidemic can easily be observed at what is commonly called Boston’s “Methadone Mile” — what we prefer to call “Recovery Road.” This refuge and haven for those with substance use disorder, at the edge of Boston’s South End, Roxbury, and Dorchester neighborhoods, is a walking distance from Northeastern University. Because of this we decided to create a project to help family, friends, and the public understand the struggle of those suffering through addiction."
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "recovery/photos.jpg"
-              }
-            },
-            {
-              "text": {
-                "side": "offset-by-one-half",
-                "title": "1.1 Finding Interviews",
-                "description": "Our team of designer, developers, and journalists conducted interviews with police officers, medical professionals, social workers, and outreach programs. After our team had trouble finding real stories of addiction on Methadone Mile, I began to attending NA meetings, conducting interviews on Mass Ave, and meeting with community volunteers to help expand our network. I eventually met Paul who became the center storyline of the prototype and helped me understand what real addiction looked and felt like. "
-              }
-            },
-            {
-              "video": {
-                "src": "215324021"
-              }
-            },
-            {
-              "text": {
-                "side": "offset-by-one-half",
-                "title": "1.2 User Journey",
-                "description": "The site is organized for the user to explore one story at a time through interactive maps, documentary clips, and 360 videos. The user is then directed to the resources we gathered throughout the project or to Join the Movement by lending their voice to share the project."
-              }
-            },
-            {
-              "color": {
-                "src": "recovery/sitemap.png",
-                "description": "UI for the 2D interface"
-              }
-            }
-          ]
-        },
-        {
-          "section": "2 Create",
-          "section-content": [{
-              "text": {
-                "side": "offset-by-one-half",
-                "title": "2.1 Design and Development",
-                "description": "I was the lead developer on the project but I also ended up designing the user interface of the site along with finding sources for interviews. The designs and illustrations were done by Jennifer Heintz and the videography would be done by Suma Hussien. Mike Wagenheim and I would use a JavaScript animation framework called Biggie based off of Bigwheel to put together a functional prototype of the project."
-              }
-            },
-            {
-              "gif": {
-                "src": "recovery/storylab0.mp4"
-              }
-            },
-            {
-              "gif": {
-                "src": "recovery/storylab1.mp4"
-              }
-            },
-            {
-              "gif": {
-                "src": "recovery/storylab2.mp4"
-              }
-            },
-            {
-              "gif": {
-                "src": "recovery/storylab3.mp4"
-              }
-            },
-            {
-              "gif": {
-                "src": "recovery/storylab4.mp4"
-              }
-            },
-            {
-              "gif": {
-                "src": "recovery/storylab5.mp4"
-              }
-            }
-          ]
-        },
-        {
-          "section": "3 Implementation",
-          "section-content": [{
-            "text": {
-              "title": "The Future of Recovery Road",
-              "side": "",
-              "description": "The project currently features a fully functional web prototype that goes through the path of one addict in recovery but we are in the process of collecting and implementing more in the coming weeks. We are currently looking for partners that share our goals and will help with the production, funding and distribution of the project. If you are interested, please reach out to me directly."
-            }
-          }]
-        }
-      ]
-    },
-    "airbo": {
-      "name": "Airbo",
-      "slug": "airbo",
-      "image": "airbo.jpg",
-      "logo": "airbo-logo.png",
-      "highlight": "#40BEFF",
-      "role": "Lead Designer",
-      "type": "Product Design, Branding, Front-End Development",
-      "product": "Marketing Site & Branding",
-      "description": "Rebranding HR Ease & Engagement",
-      "site": "https://airbo.com",
-      "thesis": "How do we redefine a startup's brand to catalyze it for growth?",
-      "team": [{
-          "split": {
-            "left": {
-              "title": "Evan McEldowney",
-              "description": "Lead Designer & Front-End Dev"
-            },
-            "right": {
-              "title": "Vlad Gyster",
-              "description": "Founder"
-            }
-          }
-        },
-        {
-          "split": {
-            "left": {
-              "title": "Ryan Workman",
-              "description": "Senior Developer"
-            }
-          }
-        }
-      ],
-      "overview": "For over eight years, Airbo has been at the forefront of adapting concepts from Silicon Valley to drive engagement in benefits, wellness, and other HR programs. Their platform takes concepts from gamification, mobile, and social media and adapts them to the realities of complex benefit messaging. As they prepared to take a large leap in size they needed to redefine their brand and create a new marketing site to capture new clients and to match the growth of their technology and influence.",
-      "content": [{
-          "section": "1 Research",
-          "section-content": [{
-              "text": {
-                "side": "",
-                "title": "1.1 Where The Brand Was",
-                "description": "I started off with a deep dive of the history of Airbo as a company and as a brand. I wanted to understand its past so that I could reflect its future. The company had pulled a lot of brand elements along with it through different iterations and lacked a central language. After talking with the founder, I also learned that the business was reliant on some huge partnerships with their longtime clients. Because of this, I didn't want to alter the brand too drastically and confuse returning users to the system. I focused on simplifying and elevating their brand by standardizing and refreshing while adding a few new concepts that spoke to the core of the company."
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "airbo/oldsite.jpg"
-              }
-            },
-            {
-              "split": {
-                "right": {
-                  "title": "1.2 Illustrations",
-                  "description": "Airbo's brand when I approached it was light and airy and cushioned in cartoony custom illustrations that had been created for use within the companies software. Though these were skillfully rendered they didn't fit the main elements of Airbo's brand such as its typeface and imagery."
-                },
-                "left": {
-                  "src": "airbo/old-illustration1.jpg"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "section": "2 Branding",
-          "section-content": [{
-              "split": {
-                "left": {
-                  "title": "",
-                  "description": "To reconcile this I created new line illustrations that referenced previous brand elements such as hot air balloons and clouds that could be used more flexibly across the site. They ended up being great tools for concept explanation and micro-interactions."
-                },
-                "right": {
-                  "src": "airbo/style.jpg"
-                }
-              }
-            },
-            {
-              "split": {
-                "right": {
-                  "title": "2.1 Brand Palette",
-                  "description": "Airbo's color palette was based around a central light blue and included a few more tones and accent colors. Out of these I strategically picked two blues to use across the site and created two gradient patterns out of the other colors to create a sense of movement and calm. Because their product was based around HR I wanted to transition Airbo from being something outgoing and cute to something soothing and engaging. That way their users and clients could trust the experience and reliability of the product."
-                },
-                "left": {
-                  "src": "airbo/color_palette.jpg"
-                }
-              }
-            },
-            {
-              "split": {
-                "left": {
-                  "title": "2.2 Waves",
-                  "description": "After learning Airbo was created in Venice, CA and the founder loved to surf I decided to introduce a branded wave pattern that would reflect the companies passion and roots. This element would also help transition sections, introduce products, and play with space in interesting ways."
-                },
-                "right": {
-                  "src": "airbo/curve2.jpg"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "section": "3 Design",
-          "section-content": [{
-              "text": {
-                "title": "3.1 Outline",
-                "side": "",
-                "description": "For the design of the website, I wanted something fresh and light using the new brand elements that would help explain their product easily. Employee benefits communication is not exactly the hottest concept in town but I wanted to shake up their market and introduce some new elements of web design that would put them far in front of their competitors."
-              }
-            },
-            {
-              "split": {
-                "right": {
-                  "title": "3.2 Wireframes",
-                  "description": "I sketched and wireframes a basic concept of the site and went through revision rounds with the founder to really nail down how to talk about his product correctly. He was hesitant that people visiting the site wouldn't get the interactive gamification that Airbo brings to its users and requested I make animations to show the accessibility and sense of accomplishment that Airbo brings."
-                },
-                "left": {
-                  "src": "airbo/wireframes.jpg"
-                }
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "airbo/homepage.jpg"
-              }
-            },
-            {
-              "color": {
-                "src": "airbo/demo.jpg",
-                "description": "Demo Page"
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "airbo/broker.jpg"
-              }
-            },
-            {
-              "text": {
-                "title": "3.3 Animations",
-                "side": "",
-                "description": "To explain the product I first abstracted the concept of Airbo's tile system into simplified playful cards. I then animated them to show the process of how Airbo's users answer and learn information and implemented that into a looping HTML video that would seamlessly play on the homepage. I also added CSS animations to the balloon and cloud illustrations to give the website a sense of motion and joy."
-              }
-            },
-            {
-              "gif": {
-                "src": "airbo/screen.mp4"
-              }
-            }
-          ]
-        },
-        {
-          "section": "4 Development",
-          "section-content": [{
-            "text": {
-              "title": "4.1 Sprints and Rails",
-              "side": "",
-              "description": "The marketing pages were each created in two-week sprints where the first week would be the design and the second week would be the development. The site was deployed on Rails and I had to do a good amount of poking around to understand where and how the partials and architecture worked. Using HTML, Javascript, and SASS I was able to streamline the development and create a fully responsive site marketing in eight total weeks."
-            }
-          }]
-        }
-      ]
-    },
-    "coprocure": {
-      "name": "CoProcure",
-      "slug": "coprocure",
-      "image": "coprocure.jpg",
-      "logo": "coprocure-logo.png",
-      "highlight": "#37A8EB",
-      "role": "Product Designer",
-      "type": "Government Tech, Service Design, Branding",
-      "product": "Civic Tech Procurement Marketplace",
-      "description": "Making Government Procurement Easy",
-      "site": "https://www.coprocure.us/",
-      "thesis": "How Do We Fix Governments Procurement?",
-      "team": [{
-        "split": {
-          "left": {
-            "title": "Evan McEldowney",
-            "description": "Product Lead"
-          },
-          "right": {
-            "title": "Mariel Reed",
-            "description": "CEO"
-          }
-        }
-      }],
-      "overview": "Coprocure is trying to drastically improve how the government operates at the most basic level; procurement.  The government purchases three trillion dollars worth of supplies and services every year on the state and national levels. This process is long and drawn out but can be expedited through things call cooperative contracts. Coprocure is a centralized marketplace for these contracts saving the government millions of dollars each year. I joined Coprocure early on to design their brand and product after seed funding. More info in the future but here are some shots of the work that has been done.",
-      "content": [{
-        "section": "Sneak Peak More to Come",
-        "section-content": [
-            {
-              "imagecontain": {
-                "src": "coprocure/styleguide.png"
-              }
-            },
-            {
-              "color": {
-                "src": "coprocure/home.png",
-                "description": "Marketing Pages"
-              }
-            },
-            {
-              "imagecontain": {
-                "src": "coprocure/product.png"
-              }
-            }
-        ]
-      }
-    ]
-  },
-  "mitshift": {
-    "name": "MIT & UN Sustainability Tools",
-    "slug": "mitshift",
-    "image": "shift.jpg",
-    "logo": "shift-logo.png",
-    "highlight": "#58606a",
-    "role": "Product Designer",
-    "type": "Product Design, Sustainability, Web Application",
-    "product": "Shift Sustainability Library",
-    "description": "Searchable Sustainability Tools",
-    "site": "https://shift.tools",
-    "product2": "UN Global Compact Library",
-    "site2": "https://www.unglobalcompact.org/library",
-    "thesis": "How Can We Empower Corperations to Be More Sustainable?",
-    "team": [{
-      "split": {
-        "left": {
-          "title": "Evan McEldowney",
-          "description": "Lead Product Designer"
-        },
-        "right": {
-          "title": "Saman Baghestani",
-          "description": "Product Manager"
-        }
-      }
-    }],
-    "overview": "I care deeply about the realities of the climate crisis. I got the opportunity to work for MIT on a online platform called Shift Tools trying to help mitgate that crisis. It is an evolving community of corporate sustainability practitioners, sustainability-oriented entrepreneurs, and impact investors working together to curate and review tools to help large corperations change their behavior. I was brought on at the beginning of the project to help design the product strategy, UX/UI, and branding. This would later lead to a follow-up project to redesign the UN’s Global Compact Sustainability Library.",
-    "content": [{
-        "section": "1 Research",
-        "section-content": [{
-            "split": {
-              "left": {
-                "title": "1.1 Onboarding",
-                "description": "I came on to the project as a lead product designer to transition the functionality from a basic search to a fully-formed ecosystem hub of sustainability clients and providers. I began by conducting research with stakeholders of the project and the users that were currently on the site to get an understand of needs and an audit of the site itself."
-              },
-              "right": {
-                "src": "mitshift/2016.jpg"
-              }
-            }
-          },
-          {
-            "split": {
-              "right": {
-                "title": "1.2 UX Accessment",
-                "description": "The major takeaways were that the UI needed an overhaul, the current search function was confusing and that users needed a better way to collect and compare results in a centralized location. We built these changes iteratively over the next year constantly growing our community and testing with users."
-              },
-              "left": {
-                "src": "mitshift/sloan.png"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "section": "2 UX and UI",
-        "section-content": [{
-            "split": {
-              "left": {
-                "title": "2.1 UI",
-                "description": "I developed a UI system based on Shift’s brand colors and slick aesthetic of utility. These included new buttons, dropdowns, page layouts, icons, and color associations that better-aligned Shifts brand with its online presence."
-              },
-              "right": {
-                "src": "mitshift/UI.jpg"
-              }
-            }
-          },
-          {
-            "color": {
-              "src": "mitshift/filtering.png",
-              "description": "List Page"
-            }
-          },
-          {
-            "text": {
-              "title": "2.2 Creating Effective Navigation",
-              "description": "Search when I joined the project was confusing and hidden when I came on to the project. Users were unsure of how to access the resources they were interested in. After helping build out a taxonomy of different categories to help organize the resources across the board we split the home page into three sections. The first section was informational about what shift was and contained the direct search functionality while the second broke down different categories one could search by and the third broke down featured resources."
-            }
-          },
-
-          {
-            "color": {
-              "src": "mitshift/home.png",
-              "description": "Home Search"
-            }
-          },
-          {
-            "split": {
-              "left": {
-                "title": "2.2 Collect and Compare",
-                "description": "In our user interviews, we found that users were exploring deeply into the resources but were unable to contextualize and use the resources they found effectively. To fix this we build out an extensive bookmarking feature that allowed users to save the resources they were interested in to custom created lists."
-              },
-              "right": {
-                "title": "",
-                "description": "After testing this feature we saw that we had over 200% more retention of clients and that users were specifically organizing resources for their organizations on specific projects. We also saw the need for users to understand the major differences between many different and often comparable tools. Taking inspiration from car comparison tools, I designed out a few different versions of the tool and settled on a vertical version that allowed for six different resources to be compared at the same time."
-              }
-            }
-          },
-          {
-            "color": {
-              "src": "mitshift/currated.png",
-              "description": "List and Compare"
-            }
-          },
-          {
-            "text": {
-              "title": "2.4 Account and Provider Pages",
-              "side": "",
-              "description": "To create a more integrated network of sustainability practitioners and suppliers, we built out a personalized account feature that members could customize. Each supplier has their own home page that would help spread their tools and their message further. This allowed new search functionality while also allowing members to connect with each other more and deepen relationships."
-            }
-          },
-          {
-            "imagecontain": {
-              "src": "mitshift/client.png"
-            }
-          }
-        ]
-      },
-      {
-        "section": "3 UN Global Compact",
-        "section-content": [{
-            "text": {
-              "title": "3.1 Next Step the United Nations",
-              "side": "",
-              "description": "After a year of planning, designing, and testing we had built out the majority of the features that we had committed to in our initial audit. We were contacted by the United Nations Global Compact who was interested in the innovative approach had taken in our development of the UX and search functionality. They asked me to help redesign their sustainability library around a new taxonomy and brand they were using going forward. It was awesome to move from a national reach to international. I worked with them for two months designing a new UX/UI system for them based on the work and then implemented it on the Front End in Ruby, Javascript, and HTML/CSS."
-            }
-          },
-          {
-            "color": {
-              "src": "mitshift/UN.png",
-              "description": "United Nation Global Compact Library"
-            }
-          }
-        ]
-      }
-    ]
-  }
+    }
 },
 
 "home": {
@@ -1089,29 +1348,29 @@
       "side": "right"
     },
     {
-      "name": "Recovery Road",
-      "slug": "recovery-road",
-      "image": "recovery.jpg",
-      "logo": "recovery-logo.png",
-      "highlight": "#bf8e00",
-      "role": "Producer and Developer",
-      "type": "Journalism, Product Design, Creative Development",
-      "product": "Interactive Storytelling Documentary",
-      "description": "Mapping Boston's Heroin Crisis",
-      "site": "https://www.evanmceldowney.com/recoveryroad",
+      "name": "Interventions",
+      "slug": "interventions",
+      "image": "interventions.png",
+      "logo": "interventions-logo.png",
+      "highlight": "#114AA0",
+      "role": "Founder and Producer",
+      "type": "Production, Concept Design, Event Management",
+      "product": "Conference",
+      "description": "Exploring Ethical Design & Technology",
+      "site": "",
       "side": "left"
     },
     {
-      "name": "Airbo",
-      "slug": "airbo",
-      "image": "airbo.jpg",
-      "logo": "airbo-logo.png",
-      "highlight": "#40BEFF",
-      "role": "Lead Designer",
-      "type": "Product Design, Branding, Front-End Development",
-      "product": "B2B HR Appliation",
-      "description": "Rebranding HR Ease & Engagement",
-      "site": "https://airbo.com",
+      "name": "Activating the Sunrise Movement",
+      "slug": "sunrise",
+      "image": "sunrise.png",
+      "logo": "sunrise-logo.png",
+      "highlight": "#023501",
+      "role": "Team Lead",
+      "type": "Activism, Communication Media, Organizing",
+      "product": "Climate Activism",
+      "description": "Tech, Policy, Activism, Equity",
+      "site": "",
       "side": "right"
     },
     {
@@ -1125,6 +1384,32 @@
       "product": "B2C Museum Tour App",
       "description": "Innovating Museum Education",
       "site": "https://invis.io/Z59BUUBA4",
+      "side": "left"
+    },
+    {
+      "name": "Recovery Road",
+      "slug": "recovery-road",
+      "image": "recovery.jpg",
+      "logo": "recovery-logo.png",
+      "highlight": "#bf8e00",
+      "role": "Producer and Developer",
+      "type": "Journalism, Product Design, Creative Development",
+      "product": "Interactive Storytelling Documentary",
+      "description": "Mapping Boston's Heroin Crisis",
+      "site": "https://www.evanmceldowney.com/recoveryroad",
+      "side": "right"
+    },
+    {
+      "name": "Airbo",
+      "slug": "airbo",
+      "image": "airbo.jpg",
+      "logo": "airbo-logo.png",
+      "highlight": "#40BEFF",
+      "role": "Lead Designer",
+      "type": "Product Design, Branding, Front-End Development",
+      "product": "B2B HR Appliation",
+      "description": "Rebranding HR Ease & Engagement",
+      "site": "https://airbo.com",
       "side": "left"
     },
     {

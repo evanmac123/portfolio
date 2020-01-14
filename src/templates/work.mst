@@ -1,135 +1,138 @@
 <div class="work" id="top">
-    <div class="work__header" style="color:{{highlight}}; ">
-        <div class="section">
-            <div class="container">
-                <div class="card left">
-                    <div class="card-info ">
-                        <div class="card-role">
-                            {{ role }}
-                        </div>
-                        <a href="{{ site }}" style="color:{{highlight}};" class="" target="_blank"> Final Product</a>
-                        <div class="card-title">
-                            {{ description }}
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <figure>
-                            <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
-                            <figcaption>
-                                <img class="card-logo" src="/assets/images/cards/{{logo}}">
+  <div class="work__header" style="color:{{highlight}}; ">
+    <div class="section">
+      <div class="container">
+        <div class="card left">
+          <div class="card-info ">
+            <div class="card-role">
+              {{ role }}
+            </div>
+            <a href="{{ site }}" style="color:{{highlight}};" class="" target="_blank"> Final Product</a>
+            <div class="card-title">
+              {{ description }}
+            </div>
+          </div>
+          <div class="grid">
+            <figure>
+              <img class="card-back" src="/assets/images/cards/{{image}}" alt="img01">
+              <figcaption>
+                <img class="card-logo" src="/assets/images/cards/{{logo}}">
 
                             </figcaption>
-                        </figure>
-                    </div>
-                    <div class="card-type">
-                        {{ type }}
-                    </div>
-                </div>
-            </div>
+            </figure>
+          </div>
+          <div class="card-type">
+            {{ type }}
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="work__content">
+    <div class="section">
+      <div class="container">
+        <div class="work__overview ">
+          <div class="work__overview-problem row">
+            <div class="work__overview-label" style="color:{{highlight}};">
+              Problem
+            </div>
+            <div class="work__overview-thesis">
+              {{ thesis }}
+            </div>
+          </div>
+          <div class="row">
+            <div class="work__overview-team column one-half">
+              <div class="work__overview-label" style="color:{{highlight}};">
+                Team
+              </div>
+              {{#team}} {{#split}} {{> split_part}} {{/split}} {{/team}}
+
+            </div>
+            <div class="work__overview-summary column one-half">
+              <div class="work__overview-label" style="color:{{highlight}};">
+                Overview
+              </div>
+              <div class="content">
+                {{ overview }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="work__content">
-        <div class="section">
-            <div class="container">
-                <div class="work__overview ">
-                    <div class="work__overview-problem row">
-                        <div class="work__overview-label" style="color:{{highlight}};">
-                            Problem
-                        </div>
-                        <div class="work__overview-thesis">
-                            {{ thesis }}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="work__overview-team column one-half">
-                            <div class="work__overview-label" style="color:{{highlight}};">
-                                Team
-                            </div>
-                            {{#team}} {{#split}} {{> split_part}} {{/split}} {{/team}}
-
-                        </div>
-                        <div class="work__overview-summary column one-half">
-                            <div class="work__overview-label" style="color:{{highlight}};">
-                                Overview
-                            </div>
-                            <div class="content">
-                                {{ overview }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="section ">
+      {{#content}}
+        <div class="container">
+          <div class="work__show-header" style="border-bottom: 1.5px solid {{highlight}};">
+            {{section}}
+          </div>
         </div>
+        {{#section-content}}
 
-        <div class="section ">
-            {{#content}}
+          <div class="work__block">
+
+            {{#text}}
             <div class="container">
-                <div class="work__show-header" style="border-bottom: 1.5px solid {{highlight}};">
-                    {{section}}
+              <div class="row work__show-content ">
+                <div class="one-half text {{side}} column">
+                  {{> text_part}}
                 </div>
+              </div>
             </div>
-            {{#section-content}}
-
-            <div class="work__block">
-
-                {{#text}}
+            {{/text}} {{#color}}
+              <div class="work__show-color" style="background-color:{{highlight}};">
                 <div class="container">
-                    <div class="row work__show-content ">
-                        <div class="one-half text {{side}} column">
-                            {{> text_part}}
-                        </div>
-                    </div>
+                  {{> color_part}}
                 </div>
-                {{/text}} {{#color}}
-                <div class="work__show-color" style="background-color:{{highlight}};">
-                    <div class="container">
-                        {{> color_part}}
-                    </div>
-                </div>
-                {{/color}} {{#imagecontain}} {{> imagecontain_part}} {{/imagecontain}} {{#split}}
-                <div class="container">
-                    {{> split_part}}
-                </div>
-                {{/split}} {{#image}} {{#src}} {{> image_part}} {{/src}} {{/image}} {{#embed}} {{> embed_part}} {{/embed}} {{#video}} {{> video_part}} {{/video}} {{#gif}} {{> gif_part}} {{/gif}}
+              </div>
+            {{/color}} {{#imagecontain}} {{> imagecontain_part}} {{/imagecontain}} {{#split}}
+              <div class="container">
+                {{> split_part}}
+              </div>
+            {{/split}} {{#image}} {{#src}} {{> image_part}} {{/src}} {{/image}} {{#embed}} {{> embed_part}} {{/embed}} {{#video}} {{> video_part}} {{/video}} {{#gif}} {{> gif_part}} {{/gif}}
 
-            </div>
-            {{/section-content}} {{/content}}
-
-            <div class="work__final">
-
-                <div class="final-title">View the Final Product</div>
-                <div class="container">
-                    <a href="{{site}}" class="no-underline" target="_blank"><button style="color:{{highlight}}; border:2px solid {{highlight}}; ">{{product}} </button></a>
-                    {{#product2}}
-                    <a href="{{site2}}" class="no-underline" target="_blank"><button style="color:{{highlight}}; border:2px solid {{highlight}}; ">{{product2}} </button></a>
-                    {{/product2}}
-                </div>
-            </div>
+          </div>
+        {{/section-content}}
+      {{/content}}
+      <div class="work__final">
+        {{#product}}
+          <div class="final-title">View the Final Product</div>
+        {{/product}}
+        <div class="container">
+          {{#product}}
+            <a href="{{site}}" class="no-underline" target="_blank"><button style="color:{{highlight}}; border:2px solid {{highlight}}; ">{{product}} </button></a>
+          {{/product}}
+          {{#product2}}
+            <a href="{{site2}}" class="no-underline" target="_blank"><button style="color:{{highlight}}; border:2px solid {{highlight}}; ">{{product2}} </button></a>
+          {{/product2}}
         </div>
+      </div>
     </div>
+  </div>
 
 
-    <div class="project-nav row">
+  <div class="project-nav row">
 
-        <figure class="effect-roxy bottom-nav-left">
-            <a class=" js-project-nav-link " data-direction="previous" href="/work/{{ prev.slug }}">
+    <figure class="effect-roxy bottom-nav-left">
+      <a class=" js-project-nav-link " data-direction="previous" href="/work/{{ prev.slug }}">
                 <img class=" card-back project-nav__img project-nav__img--prev js-previous-project" src="/assets/images/cards/{{ prev.hero }}">
                 <figcaption>
                     <img class="card-logo" src="/assets/images/cards/{{prev.logo}}">
                     <p> {{prev.description}}</p>
                 </figcaption>
             </a>
-        </figure>
+    </figure>
 
-        <figure class="effect-roxy bottom-nav-right">
-            <a class=" js-project-nav-link " data-direction="next" href="/work/{{ next.slug }}">
+    <figure class="effect-roxy bottom-nav-right">
+      <a class=" js-project-nav-link " data-direction="next" href="/work/{{ next.slug }}">
                 <img class=" card-back project-nav__img project-nav__img--prev js-next-project" src="/assets/images/cards/{{ next.hero }}">
                 <figcaption>
                     <img class="card-logo" src="/assets/images/cards/{{next.logo}}">
                     <p> {{next.description}}</p>
                 </figcaption>
             </a>
-        </figure>
+    </figure>
 
-    </div>
+  </div>
