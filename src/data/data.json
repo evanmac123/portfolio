@@ -55,10 +55,27 @@
       },
       {
         "section": "2 UX and UI",
-        "section-content": [{
+        "section-content": [
+          {
             "split": {
               "left": {
-                "title": "2.1 UI",
+                "title": "2.1 Wireframes",
+                "description": "After getting an assessment of where the site was at I put together a sitemap that outlined what we were looking to build, re-design and restructure. I created a realistic product roadmap in Asana with my developers and stakeholders that were based on quarterly sprints broken up into specific feature sprints. I continued by sketching and creating basic wireframes of the functionality that had not been built yet and redesigning the necessary parts of the ones that had. I spent a few weeks iterating and testing these until we had actionable UX patterns that we felt comfortable with."
+              },
+              "right": {
+                "src": "mitshift/map.png"
+              }
+            }
+          },
+          {
+            "imagecontain": {
+              "src": "mitshift/wireframe.png"
+            }
+          },
+          {
+            "split": {
+              "left": {
+                "title": "2.2 UI",
                 "description": "I developed a UI system based on Shift’s brand colors and slick aesthetic of utility. This update added new buttons, dropdowns, page layouts, icons, and color associations that better-aligned Shift's brand with its online presence."
               },
               "right": {
@@ -74,7 +91,7 @@
           },
           {
             "text": {
-              "title": "2.2 Creating Effective Navigation",
+              "title": "2.3 Creating Effective Navigation",
               "description": "When I joined the project the main search functionality was confusing and hidden. Users were unsure of how to access the resources they were interested in and had a hard time conducting new searches after finishing queries. After building out a new taxonomy of categories to help  reorganize the resources we split the home page into three sections. The first section was informational about what shift was and contained the direct search functionality while the second broke down different categories one could search by and the third showed featured resources. After instituting these changes we saw a 40% decrease in bounce rate and a 50% increase in repeat users."
             }
           },
@@ -88,7 +105,7 @@
           {
             "split": {
               "left": {
-                "title": "2.3 Collect and Compare",
+                "title": "2.4 Collect and Compare",
                 "description": "In our user interviews, we found that users were exploring deeply into the resources but were unable to contextualize and use the resources they found effectively. To fix this we built out an extensive bookmarking feature that allowed users to save the resources they were interested in to custom created lists."
               },
               "right": {
@@ -105,7 +122,7 @@
           },
           {
             "text": {
-              "title": "2.4 Account and Provider Pages",
+              "title": "2.5 Account and Provider Pages",
               "side": "",
               "description": "To create a more integrated network of sustainability practitioners and suppliers, we built out a personalized account feature that members could customize. Each supplier has their own home page that provides a central node for suppliers to access and share all of their tools and resources. This allowed new search functionality while also allowing members to connect with each other more and deepen relationships."
             }
@@ -119,7 +136,8 @@
       },
       {
         "section": "3 UN Global Compact",
-        "section-content": [{
+        "section-content": [
+          {
             "text": {
               "title": "3.1 Next Step the United Nations",
               "side": "",
@@ -127,8 +145,13 @@
             }
           },
           {
+            "imagecontain": {
+              "src": "mitshift/wireframes2.png"
+            }
+          },
+          {
             "color": {
-              "src": "mitshift/UN.png",
+              "src": "mitshift/ungc.png",
               "description": "United Nation Global Compact Library"
             }
           }
@@ -412,7 +435,7 @@
             {
               "color": {
                 "src": "sunrise/education.png",
-                "description": "Educational CMS for Weekly Training sessions"
+                "description": "Educational CMS for Weekly Training s"
               }
             },
             {
