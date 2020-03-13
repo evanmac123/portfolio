@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.0.1",
-    "acorn": "^6.0.4",
+    "acorn": "^6.4.1",
     "aos": "^3.0.0-beta.6",
     "bigwheel": "3.0.0",
     "bw-router": "^2.0.6",
