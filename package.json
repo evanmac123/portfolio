@@ -38,7 +38,7 @@
     "dom-create-element": "^1.0.2",
     "dom-event": "^1.0.0",
     "dom-select": "^1.0.0",
-    "gsap": "^1.19.0",
+    "gsap": "^3.6.0",
     "kaleidoscopejs": "^1.0.13",
     "mustache": "^2.3.0",
     "please-ajax": "^2.0.2",
